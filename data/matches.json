@@ -740,13 +740,13 @@
         "tla": "CIV",
         "flag": "ci"
       },
-      "home_score": null,
-      "away_score": null,
-      "winner": null,
+      "home_score": 0,
+      "away_score": 1,
+      "winner": "away",
       "date": "2026-06-20T20:00:00Z",
       "venue": null,
       "city": null,
-      "status": "pending"
+      "status": "live"
     },
     {
       "id": 537354,

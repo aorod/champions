@@ -227,29 +227,29 @@
     "E": {
       "teams": [
         {
-          "id": "GER",
-          "name": "Alemanha",
-          "flag": "de",
-          "played": 1,
-          "won": 1,
-          "drawn": 0,
-          "lost": 0,
-          "gf": 7,
-          "ga": 1,
-          "gd": 6,
-          "points": 3
-        },
-        {
           "id": "CIV",
           "name": "Costa do Marfim",
           "flag": "ci",
-          "played": 1,
-          "won": 1,
+          "played": 2,
+          "won": 2,
           "drawn": 0,
           "lost": 0,
-          "gf": 1,
+          "gf": 2,
           "ga": 0,
-          "gd": 1,
+          "gd": 2,
+          "points": 6
+        },
+        {
+          "id": "GER",
+          "name": "Alemanha",
+          "flag": "de",
+          "played": 2,
+          "won": 1,
+          "drawn": 0,
+          "lost": 1,
+          "gf": 7,
+          "ga": 2,
+          "gd": 5,
           "points": 3
         },
         {
