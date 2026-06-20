@@ -115,6 +115,32 @@
   animation: pulse-dot 2.5s ease infinite;
 }
 
+/* ── Refresh Button ──────────────────────────────── */
+.refresh-btn {
+  display: flex;
+  align-items: center;
+  gap: var(--s2);
+  padding: var(--s2) var(--s4);
+  border-radius: var(--r-full);
+  font-size: 0.75rem;
+  font-weight: var(--fw-semibold);
+  color: var(--gold);
+  border: 1px solid var(--gold-dim);
+  background: var(--gold-dim);
+  transition: background var(--ease-fast), opacity var(--ease-fast), transform var(--ease-spring);
+  white-space: nowrap;
+}
+
+.refresh-btn:hover:not(:disabled) {
+  background: rgba(240, 180, 41, 0.22);
+  transform: scale(1.04);
+}
+
+.refresh-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
 /* ── Theme Toggle ────────────────────────────────── */
 .theme-toggle {
   width: 38px;
