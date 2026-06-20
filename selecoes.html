@@ -44,7 +44,18 @@
         </div>
         <button class="refresh-btn" id="refreshBtn" type="button" title="Buscar dados atualizados agora">↻ Atualizar</button>
         <button class="theme-toggle" id="themeToggle" type="button">☀️</button>
+        <button class="nav__hamburger" id="navHamburger" type="button" aria-label="Menu" aria-expanded="false" aria-controls="navMobile">
+          <span class="nav__hamburger-bar"></span>
+          <span class="nav__hamburger-bar"></span>
+          <span class="nav__hamburger-bar"></span>
+        </button>
       </div>
+    </div>
+
+    <div class="nav__mobile" id="navMobile" role="dialog" aria-label="Menu de navegação">
+      <a href="selecoes.html"  class="nav__mobile-link active">Seleções</a>
+      <a href="grupos.html"    class="nav__mobile-link">Fase de Grupos</a>
+      <a href="mata-mata.html" class="nav__mobile-link">Mata-Mata</a>
     </div>
   </nav>
 
@@ -107,6 +118,7 @@
 
   <script src="js/core/data-loader.js"></script>
   <script src="js/core/updater.js"></script>
+  <script src="js/core/nav.js"></script>
   <script src="js/pages/selecoes.js"></script>
 </body>
 </html>
