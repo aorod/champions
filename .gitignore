@@ -24,3 +24,6 @@ npm-debug.log*
 # Temp
 *.tmp
 *.temp
+
+# Dev scripts locais
+dev.bat

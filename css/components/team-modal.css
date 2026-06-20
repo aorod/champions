@@ -181,7 +181,7 @@
 .modal__table thead th {
   position: sticky;
   top: 0;
-  background: var(--bg-card);
+  background: var(--bg-raised);
   color: var(--text-muted);
   font-weight: 600;
   font-size: 0.72rem;

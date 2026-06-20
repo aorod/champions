@@ -2,11 +2,14 @@ name: Atualizar dados (dia de jogo)
 
 on:
   schedule:
-    # Roda a cada 10 minutos entre 12h e 23h UTC (cobre todos os horários de jogo)
-    # Ajuste os horários conforme a tabela de jogos da Copa 2026
-    - cron: '*/10 12-23 11 6 *'   # Jun 11 — abertura
-    - cron: '*/10 12-23 12-30 6 *' # Jun 12-30 — fase de grupos
-    - cron: '*/10 12-23 1-19 7 *'  # Jul 1-19 — mata-mata até a final
+    # Cada 10 min — tarde/noite UTC (jogos do Centro/Leste EUA, México, Canadá)
+    - cron: '*/10 12-23 11 6 *'    # Jun 11 — abertura
+    - cron: '*/10 12-23 12-30 6 *' # Jun 12-30 — fase de grupos + oitavas
+    - cron: '*/10 12-23 1-20 7 *'  # Jul 1-20 — mata-mata até pós-final
+    # Cada 10 min — madrugada UTC (jogos da Costa Oeste EUA / Pacífico)
+    # Obs: ~28 jogos do grupo iniciam entre 00h-04h UTC — janela antes descoberta
+    - cron: '*/10 0-6 12-30 6 *'   # Jun 12-30 madrugada
+    - cron: '*/10 0-6 1-20 7 *'    # Jul 1-20 madrugada
   workflow_dispatch:  # permite rodar manualmente pelo GitHub UI
 
 permissions:

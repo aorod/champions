@@ -1,6 +1,15 @@
 {
   "scorers": [
     {
+      "player": "Deniz Undav",
+      "team": "GER",
+      "team_name": "Alemanha",
+      "flag_code": "de",
+      "goals": 3,
+      "assists": 2,
+      "matches": 2
+    },
+    {
       "player": "Lionel Messi",
       "team": "ARG",
       "team_name": "Argentina",
@@ -61,7 +70,7 @@
       "flag_code": "de",
       "goals": 2,
       "assists": 0,
-      "matches": 1
+      "matches": 2
     },
     {
       "player": "Yasin Ayari",
@@ -70,7 +79,7 @@
       "flag_code": "se",
       "goals": 2,
       "assists": 0,
-      "matches": 1
+      "matches": 2
     },
     {
       "player": "Elijah Just",
@@ -124,6 +133,24 @@
       "flag_code": "br",
       "goals": 2,
       "assists": 0,
+      "matches": 2
+    },
+    {
+      "player": "Brian Brobbey",
+      "team": "NED",
+      "team_name": "Países Baixos",
+      "flag_code": "nl",
+      "goals": 2,
+      "assists": 0,
+      "matches": 2
+    },
+    {
+      "player": "Cody Gakpo",
+      "team": "NED",
+      "team_name": "Países Baixos",
+      "flag_code": "nl",
+      "goals": 2,
+      "assists": 2,
       "matches": 2
     },
     {
@@ -242,41 +269,32 @@
       "goals": 1,
       "assists": 0,
       "matches": 2
-    },
-    {
-      "player": "Felix Kalu Nmecha",
-      "team": "GER",
-      "team_name": "Alemanha",
-      "flag_code": "de",
-      "goals": 1,
-      "assists": 0,
-      "matches": 1
-    },
-    {
-      "player": "Livano Comenencia",
-      "team": "CUW",
-      "team_name": "Curaçao",
-      "flag_code": "cw",
-      "goals": 1,
-      "assists": 0,
-      "matches": 1
-    },
-    {
-      "player": "Nico Schlotterbeck",
-      "team": "GER",
-      "team_name": "Alemanha",
-      "flag_code": "de",
-      "goals": 1,
-      "assists": 0,
-      "matches": 1
     }
   ],
   "assists": [
+    {
+      "player": "Deniz Undav",
+      "team": "GER",
+      "team_name": "Alemanha",
+      "flag_code": "de",
+      "goals": 3,
+      "assists": 2,
+      "matches": 2
+    },
     {
       "player": "Vinicius Junior",
       "team": "BRA",
       "team_name": "Brasil",
       "flag_code": "br",
+      "goals": 2,
+      "assists": 2,
+      "matches": 2
+    },
+    {
+      "player": "Cody Gakpo",
+      "team": "NED",
+      "team_name": "Países Baixos",
+      "flag_code": "nl",
       "goals": 2,
       "assists": 2,
       "matches": 2

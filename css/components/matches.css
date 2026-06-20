@@ -1,9 +1,52 @@
-/* ── Matches filter ──────────────────────────────── */
+/* ── Matches filter bar ──────────────────────────── */
 .matches-filter {
   display: flex;
-  gap: var(--s2);
+  gap: var(--s3);
   flex-wrap: wrap;
+  align-items: flex-end;
   margin-bottom: var(--s6);
+}
+
+.matches-filter__group {
+  display: flex;
+  flex-direction: column;
+  gap: var(--s1);
+}
+
+.matches-filter__label {
+  font-size: 0.65rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-muted);
+}
+
+.matches-select {
+  appearance: none;
+  background: var(--bg-raised);
+  border: 1px solid var(--border);
+  border-radius: var(--r-md);
+  color: var(--text-primary);
+  font-size: 0.82rem;
+  font-family: inherit;
+  padding: 0.45rem 2rem 0.45rem 0.75rem;
+  cursor: pointer;
+  min-width: 140px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%23888' stroke-width='2.5'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 0.6rem center;
+  transition: border-color 150ms;
+}
+
+.matches-select:hover,
+.matches-select:focus {
+  border-color: var(--gold);
+  outline: none;
+}
+
+.matches-select option {
+  background: var(--bg-raised);
+  color: var(--text-primary);
 }
 
 /* ── Day group ───────────────────────────────────── */

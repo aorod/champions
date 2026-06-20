@@ -347,40 +347,93 @@ function buildScorersJSON(scorersResp, flagMap) {
   return { scorers, assists };
 }
 
-const VENUE_CITIES = {
-  'AT&T Stadium':            'Arlington, TX',
-  'Rose Bowl Stadium':       'Pasadena, CA',
-  'SoFi Stadium':            'Inglewood, CA',
-  "Levi's Stadium":          'Santa Clara, CA',
-  'MetLife Stadium':         'East Rutherford, NJ',
-  'Lincoln Financial Field': 'Filadélfia, PA',
-  'Arrowhead Stadium':       'Kansas City, MO',
-  'Soldier Field':           'Chicago, IL',
-  'State Farm Stadium':      'Glendale, AZ',
-  'NRG Stadium':             'Houston, TX',
-  'Hard Rock Stadium':       'Miami, FL',
-  'BC Place':                'Vancouver, BC',
-  'BMO Field':               'Toronto, ON',
-  'Estadio Akron':           'Guadalajara',
-  'Estadio BBVA':            'Monterrey',
-  'Estadio Azteca':          'Cidade do México',
+// Tradução de cidades ESPN → português (formato "Cidade, Estado")
+const CITY_PT = {
+  'Mexico City':                  'Cidade do México',
+  'Guadalajara':                  'Guadalajara',
+  'Guadalupe':                    'Monterrey',
+  'Philadelphia, Pennsylvania':   'Filadélfia, PA',
+  'East Rutherford, New Jersey':  'Nova York / Nova Jersey',
+  'Inglewood, California':        'Los Angeles, CA',
+  'Santa Clara, California':      'San Jose / Bay Area, CA',
+  'Glendale, Arizona':            'Phoenix, AZ',
+  'Kansas City, Missouri':        'Kansas City, MO',
+  'Chicago, Illinois':            'Chicago, IL',
+  'Houston, Texas':               'Houston, TX',
+  'Miami Gardens, Florida':       'Miami, FL',
+  'Arlington, Texas':             'Dallas, TX',
+  'Atlanta, Georgia':             'Atlanta, GA',
+  'Foxborough, Massachusetts':    'Boston, MA',
+  'Seattle, Washington':          'Seattle, WA',
+  'Vancouver':                    'Vancouver, BC',
+  'Toronto':                      'Toronto, ON',
 };
 
-function buildGroupMatchesJSON(matchesResp, flagMap) {
+// Normalização de TLAs que diferem entre football-data.org e ESPN
+const ESPN_TLA_MAP = {
+  'URY': 'URU',  // Uruguai
+  'GRN': 'GRE',  // Grécia (se aparecer)
+};
+
+async function buildVenueMap(matchDates) {
+  const venueMap = {};
+  const unique = [...new Set(matchDates)].sort();
+
+  // Agrupa em chunks de 7 dias para minimizar requests
+  const chunks = [];
+  for (let i = 0; i < unique.length; i += 7) chunks.push(unique.slice(i, i + 7));
+
+  for (const chunk of chunks) {
+    const from = chunk[0].replace(/-/g, '');
+    const to   = chunk[chunk.length - 1].replace(/-/g, '');
+    const range = from === to ? from : `${from}-${to}`;
+
+    try {
+      const data = await espnGet(`/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=${range}`);
+      for (const event of data.events ?? []) {
+        const comp = event.competitions?.[0];
+        const home = comp?.competitors?.find(c => c.homeAway === 'home');
+        const away = comp?.competitors?.find(c => c.homeAway === 'away');
+        if (!home?.team?.abbreviation || !away?.team?.abbreviation) continue;
+
+        const normTLA = tla => ESPN_TLA_MAP[tla] ?? tla;
+        const homeTLA = normTLA(home.team.abbreviation);
+        const awayTLA = normTLA(away.team.abbreviation);
+
+        const venueName = comp?.venue?.fullName ?? null;
+        const rawCity   = comp?.venue?.address?.city ?? null;
+        const city      = rawCity ? (CITY_PT[rawCity] ?? rawCity) : null;
+
+        venueMap[`${homeTLA}|${awayTLA}`] = { venue: venueName, city };
+      }
+    } catch (e) {
+      console.warn(`  Aviso: venues ESPN falhou (${range}): ${e.message}`);
+    }
+    await new Promise(r => setTimeout(r, 200));
+  }
+
+  console.log(`  Venues ESPN: ${Object.keys(venueMap).length} partidas mapeadas`);
+  return venueMap;
+}
+
+function buildGroupMatchesJSON(matchesResp, flagMap, venueMap = {}) {
   const groupMatches = (matchesResp.matches ?? [])
     .filter(m => m.stage === 'GROUP_STAGE')
     .map(match => {
-      const group = (match.group ?? '').replace(/^(GROUP_|Group\s+)/i, '').trim();
-      const venue = match.venue ?? null;
+      const group    = (match.group ?? '').replace(/^(GROUP_|Group\s+)/i, '').trim();
+      const homeTLA  = match.homeTeam?.tla;
+      const awayTLA  = match.awayTeam?.tla;
+      const venueKey = `${homeTLA}|${awayTLA}`;
+      const venueData = venueMap[venueKey] ?? {};
       return {
         id:         match.id,
         group:      group || '?',
         matchday:   match.matchday ?? null,
         home:       match.homeTeam?.name
-                      ? { name: TEAM_NAMES_PT[match.homeTeam.tla] ?? match.homeTeam.name, tla: match.homeTeam.tla, flag: flagMap[match.homeTeam.tla] ?? null }
+                      ? { name: TEAM_NAMES_PT[homeTLA] ?? match.homeTeam.name, tla: homeTLA, flag: flagMap[homeTLA] ?? null }
                       : null,
         away:       match.awayTeam?.name
-                      ? { name: TEAM_NAMES_PT[match.awayTeam.tla] ?? match.awayTeam.name, tla: match.awayTeam.tla, flag: flagMap[match.awayTeam.tla] ?? null }
+                      ? { name: TEAM_NAMES_PT[awayTLA] ?? match.awayTeam.name, tla: awayTLA, flag: flagMap[awayTLA] ?? null }
                       : null,
         home_score: match.score?.fullTime?.home ?? null,
         away_score: match.score?.fullTime?.away ?? null,
@@ -389,8 +442,8 @@ function buildGroupMatchesJSON(matchesResp, flagMap) {
                   : match.score?.winner === 'DRAW'      ? 'draw'
                   : null,
         date:       match.utcDate ?? null,
-        venue:      venue,
-        city:       venue ? (VENUE_CITIES[venue] ?? null) : null,
+        venue:      venueData.venue ?? null,
+        city:       venueData.city  ?? null,
         status:     match.status === 'IN_PLAY'  ? 'live'
                   : match.status === 'FINISHED'  ? 'finished'
                   : 'pending',
@@ -426,15 +479,13 @@ function buildBracketJSON(matchesResp, flagMap) {
 
     knockout[key].matches.push({
       id:         match.id,
-      home:       match.homeTeam?.name ? { name: TEAM_NAMES_PT[match.homeTeam.tla] ?? match.homeTeam.name, flag: flagMap[match.homeTeam.tla] ?? null } : null,
-      away:       match.awayTeam?.name ? { name: TEAM_NAMES_PT[match.awayTeam.tla] ?? match.awayTeam.name, flag: flagMap[match.awayTeam.tla] ?? null } : null,
+      home:       match.homeTeam?.name ? { name: TEAM_NAMES_PT[match.homeTeam.tla] ?? match.homeTeam.name, tla: match.homeTeam.tla, flag: flagMap[match.homeTeam.tla] ?? null } : null,
+      away:       match.awayTeam?.name ? { name: TEAM_NAMES_PT[match.awayTeam.tla] ?? match.awayTeam.name, tla: match.awayTeam.tla, flag: flagMap[match.awayTeam.tla] ?? null } : null,
       home_score: match.score?.fullTime?.home ?? null,
       away_score: match.score?.fullTime?.away ?? null,
-      winner:     match.score?.winner === 'HOME_TEAM'
-                    ? (TEAM_NAMES_PT[match.homeTeam?.tla] ?? match.homeTeam?.name)
-                    : match.score?.winner === 'AWAY_TEAM'
-                    ? (TEAM_NAMES_PT[match.awayTeam?.tla] ?? match.awayTeam?.name)
-                    : null,
+      winner:     match.score?.winner === 'HOME_TEAM' ? 'home'
+                : match.score?.winner === 'AWAY_TEAM' ? 'away'
+                : null,
       date:       match.utcDate ?? null,
       status:     match.status === 'IN_PLAY' ? 'live'
                 : match.status === 'FINISHED'  ? 'finished'
@@ -470,7 +521,15 @@ async function main() {
     saveJSON('groups.json',  buildGroupsJSON(standings, flagMap));
     saveJSON('scorers.json', buildScorersJSON(scorers, flagMap));
     saveJSON('bracket.json', buildBracketJSON(matches, flagMap));
-    saveJSON('matches.json', buildGroupMatchesJSON(matches, flagMap));
+
+    const matchDates = [...new Set(
+      (matches.matches ?? [])
+        .filter(m => m.stage === 'GROUP_STAGE' && m.utcDate)
+        .map(m => m.utcDate.slice(0, 10))
+    )];
+    console.log(`Buscando venues ESPN para ${matchDates.length} datas...`);
+    const venueMap = await buildVenueMap(matchDates);
+    saveJSON('matches.json', buildGroupMatchesJSON(matches, flagMap, venueMap));
 
     if (squadNeedsUpdate()) {
       const tlas = teamsJSON.teams.map(t => t.id);

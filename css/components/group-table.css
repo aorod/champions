@@ -1,8 +1,8 @@
 /* ── Groups Grid ─────────────────────────────────── */
 .groups-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-  gap: var(--s5);
+  grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+  gap: var(--s4);
 }
 
 /* ── Group Block ─────────────────────────────────── */
@@ -59,24 +59,33 @@
   color: var(--text-3);
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  padding: var(--s2) var(--s5);
+  padding: var(--s2) var(--s2);
   text-align: right;
+  white-space: nowrap;
 }
+
+.group-table th:first-child { padding-left: var(--s4); }
+.group-table th:last-child  { padding-right: var(--s4); }
 
 .group-table th:first-child,
 .group-table th:nth-child(2) { text-align: left; }
-.group-table th:nth-child(2) { width: 100%; }
+.group-table th:nth-child(2) { width: 100%; padding-left: var(--s3); }
 
 .group-table td {
-  padding: var(--s3) var(--s5);
-  font-size: 0.825rem;
+  padding: var(--s3) var(--s2);
+  font-size: 0.8rem;
   color: var(--text-1);
   text-align: right;
   border-top: 1px solid var(--border);
+  white-space: nowrap;
 }
+
+.group-table td:first-child { padding-left: var(--s4); }
+.group-table td:last-child  { padding-right: var(--s4); }
 
 .group-table td:first-child,
 .group-table td:nth-child(2) { text-align: left; }
+.group-table td:nth-child(2) { padding-left: var(--s3); }
 
 /* ── Row states ──────────────────────────────────── */
 .group-table tr.qualified td:first-child::before {

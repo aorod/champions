@@ -18,8 +18,8 @@
       "away_score": 0,
       "winner": "home",
       "date": "2026-06-11T19:00:00Z",
-      "venue": null,
-      "city": null,
+      "venue": "Estadio Banorte",
+      "city": "Cidade do México",
       "status": "finished"
     },
     {
@@ -40,8 +40,8 @@
       "away_score": 1,
       "winner": "home",
       "date": "2026-06-12T02:00:00Z",
-      "venue": null,
-      "city": null,
+      "venue": "Estadio Akron",
+      "city": "Guadalajara",
       "status": "finished"
     },
     {
@@ -62,8 +62,8 @@
       "away_score": 1,
       "winner": "draw",
       "date": "2026-06-12T19:00:00Z",
-      "venue": null,
-      "city": null,
+      "venue": "BMO Field",
+      "city": "Toronto, ON",
       "status": "finished"
     },
     {
@@ -84,8 +84,8 @@
       "away_score": 1,
       "winner": "home",
       "date": "2026-06-13T01:00:00Z",
-      "venue": null,
-      "city": null,
+      "venue": "SoFi Stadium",
+      "city": "Los Angeles, CA",
       "status": "finished"
     },
     {
@@ -106,8 +106,8 @@
       "away_score": 1,
       "winner": "draw",
       "date": "2026-06-13T19:00:00Z",
-      "venue": null,
-      "city": null,
+      "venue": "Levi's Stadium",
+      "city": "San Jose / Bay Area, CA",
       "status": "finished"
     },
     {
@@ -128,8 +128,8 @@
       "away_score": 1,
       "winner": "draw",
       "date": "2026-06-13T22:00:00Z",
-      "venue": null,
-      "city": null,
+      "venue": "MetLife Stadium",
+      "city": "Nova York / Nova Jersey",
       "status": "finished"
     },
     {
@@ -150,8 +150,8 @@
       "away_score": 1,
       "winner": "away",
       "date": "2026-06-14T01:00:00Z",
-      "venue": null,
-      "city": null,
+      "venue": "Gillette Stadium",
+      "city": "Boston, MA",
       "status": "finished"
     },
     {
@@ -172,8 +172,8 @@
       "away_score": 0,
       "winner": "home",
       "date": "2026-06-14T04:00:00Z",
-      "venue": null,
-      "city": null,
+      "venue": "BC Place",
+      "city": "Vancouver, BC",
       "status": "finished"
     },
     {
@@ -194,8 +194,8 @@
       "away_score": 1,
       "winner": "home",
       "date": "2026-06-14T17:00:00Z",
-      "venue": null,
-      "city": null,
+      "venue": "NRG Stadium",
+      "city": "Houston, TX",
       "status": "finished"
     },
     {
@@ -216,8 +216,8 @@
       "away_score": 2,
       "winner": "draw",
       "date": "2026-06-14T20:00:00Z",
-      "venue": null,
-      "city": null,
+      "venue": "AT&T Stadium",
+      "city": "Dallas, TX",
       "status": "finished"
     },
     {
@@ -238,8 +238,8 @@
       "away_score": 0,
       "winner": "home",
       "date": "2026-06-14T23:00:00Z",
-      "venue": null,
-      "city": null,
+      "venue": "Lincoln Financial Field",
+      "city": "Filadélfia, PA",
       "status": "finished"
     },
     {
@@ -260,8 +260,8 @@
       "away_score": 1,
       "winner": "home",
       "date": "2026-06-15T02:00:00Z",
-      "venue": null,
-      "city": null,
+      "venue": "Estadio BBVA",
+      "city": "Monterrey",
       "status": "finished"
     },
     {
@@ -282,8 +282,8 @@
       "away_score": 0,
       "winner": "draw",
       "date": "2026-06-15T16:00:00Z",
-      "venue": null,
-      "city": null,
+      "venue": "Mercedes-Benz Stadium",
+      "city": "Atlanta, GA",
       "status": "finished"
     },
     {
@@ -304,8 +304,8 @@
       "away_score": 1,
       "winner": "draw",
       "date": "2026-06-15T19:00:00Z",
-      "venue": null,
-      "city": null,
+      "venue": "Lumen Field",
+      "city": "Seattle, WA",
       "status": "finished"
     },
     {
@@ -326,8 +326,8 @@
       "away_score": 1,
       "winner": "draw",
       "date": "2026-06-15T22:00:00Z",
-      "venue": null,
-      "city": null,
+      "venue": "Hard Rock Stadium",
+      "city": "Miami, FL",
       "status": "finished"
     },
     {
@@ -348,8 +348,8 @@
       "away_score": 2,
       "winner": "draw",
       "date": "2026-06-16T01:00:00Z",
-      "venue": null,
-      "city": null,
+      "venue": "SoFi Stadium",
+      "city": "Los Angeles, CA",
       "status": "finished"
     },
     {
@@ -370,8 +370,8 @@
       "away_score": 1,
       "winner": "home",
       "date": "2026-06-16T19:00:00Z",
-      "venue": null,
-      "city": null,
+      "venue": "MetLife Stadium",
+      "city": "Nova York / Nova Jersey",
       "status": "finished"
     },
     {
@@ -392,8 +392,8 @@
       "away_score": 4,
       "winner": "away",
       "date": "2026-06-16T22:00:00Z",
-      "venue": null,
-      "city": null,
+      "venue": "Gillette Stadium",
+      "city": "Boston, MA",
       "status": "finished"
     },
     {
@@ -414,8 +414,8 @@
       "away_score": 0,
       "winner": "home",
       "date": "2026-06-17T01:00:00Z",
-      "venue": null,
-      "city": null,
+      "venue": "GEHA Field at Arrowhead Stadium",
+      "city": "Kansas City, MO",
       "status": "finished"
     },
     {
@@ -436,8 +436,8 @@
       "away_score": 1,
       "winner": "home",
       "date": "2026-06-17T04:00:00Z",
-      "venue": null,
-      "city": null,
+      "venue": "Levi's Stadium",
+      "city": "San Jose / Bay Area, CA",
       "status": "finished"
     },
     {
@@ -458,8 +458,8 @@
       "away_score": 1,
       "winner": "draw",
       "date": "2026-06-17T17:00:00Z",
-      "venue": null,
-      "city": null,
+      "venue": "NRG Stadium",
+      "city": "Houston, TX",
       "status": "finished"
     },
     {
@@ -480,8 +480,8 @@
       "away_score": 2,
       "winner": "home",
       "date": "2026-06-17T20:00:00Z",
-      "venue": null,
-      "city": null,
+      "venue": "AT&T Stadium",
+      "city": "Dallas, TX",
       "status": "finished"
     },
     {
@@ -502,8 +502,8 @@
       "away_score": 0,
       "winner": "home",
       "date": "2026-06-17T23:00:00Z",
-      "venue": null,
-      "city": null,
+      "venue": "BMO Field",
+      "city": "Toronto, ON",
       "status": "finished"
     },
     {
@@ -524,8 +524,8 @@
       "away_score": 3,
       "winner": "away",
       "date": "2026-06-18T02:00:00Z",
-      "venue": null,
-      "city": null,
+      "venue": "Estadio Banorte",
+      "city": "Cidade do México",
       "status": "finished"
     },
     {
@@ -546,8 +546,8 @@
       "away_score": 1,
       "winner": "draw",
       "date": "2026-06-18T16:00:00Z",
-      "venue": null,
-      "city": null,
+      "venue": "Mercedes-Benz Stadium",
+      "city": "Atlanta, GA",
       "status": "finished"
     },
     {
@@ -568,8 +568,8 @@
       "away_score": 1,
       "winner": "home",
       "date": "2026-06-18T19:00:00Z",
-      "venue": null,
-      "city": null,
+      "venue": "SoFi Stadium",
+      "city": "Los Angeles, CA",
       "status": "finished"
     },
     {
@@ -590,8 +590,8 @@
       "away_score": 0,
       "winner": "home",
       "date": "2026-06-18T22:00:00Z",
-      "venue": null,
-      "city": null,
+      "venue": "BC Place",
+      "city": "Vancouver, BC",
       "status": "finished"
     },
     {
@@ -612,8 +612,8 @@
       "away_score": 0,
       "winner": "home",
       "date": "2026-06-19T01:00:00Z",
-      "venue": null,
-      "city": null,
+      "venue": "Estadio Akron",
+      "city": "Guadalajara",
       "status": "finished"
     },
     {
@@ -634,8 +634,8 @@
       "away_score": 0,
       "winner": "home",
       "date": "2026-06-19T19:00:00Z",
-      "venue": null,
-      "city": null,
+      "venue": "Lumen Field",
+      "city": "Seattle, WA",
       "status": "finished"
     },
     {
@@ -656,8 +656,8 @@
       "away_score": 1,
       "winner": "away",
       "date": "2026-06-19T22:00:00Z",
-      "venue": null,
-      "city": null,
+      "venue": "Gillette Stadium",
+      "city": "Boston, MA",
       "status": "finished"
     },
     {
@@ -678,8 +678,8 @@
       "away_score": 0,
       "winner": "home",
       "date": "2026-06-20T00:30:00Z",
-      "venue": null,
-      "city": null,
+      "venue": "Lincoln Financial Field",
+      "city": "Filadélfia, PA",
       "status": "finished"
     },
     {
@@ -700,8 +700,8 @@
       "away_score": 1,
       "winner": "away",
       "date": "2026-06-20T03:00:00Z",
-      "venue": null,
-      "city": null,
+      "venue": "Levi's Stadium",
+      "city": "San Jose / Bay Area, CA",
       "status": "finished"
     },
     {
@@ -718,13 +718,13 @@
         "tla": "SWE",
         "flag": "se"
       },
-      "home_score": null,
-      "away_score": null,
-      "winner": null,
+      "home_score": 5,
+      "away_score": 1,
+      "winner": "home",
       "date": "2026-06-20T17:00:00Z",
-      "venue": null,
-      "city": null,
-      "status": "pending"
+      "venue": "NRG Stadium",
+      "city": "Houston, TX",
+      "status": "finished"
     },
     {
       "id": 537353,
@@ -740,13 +740,13 @@
         "tla": "CIV",
         "flag": "ci"
       },
-      "home_score": null,
-      "away_score": null,
-      "winner": null,
+      "home_score": 2,
+      "away_score": 1,
+      "winner": "home",
       "date": "2026-06-20T20:00:00Z",
-      "venue": null,
-      "city": null,
-      "status": "pending"
+      "venue": "BMO Field",
+      "city": "Toronto, ON",
+      "status": "finished"
     },
     {
       "id": 537354,
@@ -766,8 +766,8 @@
       "away_score": null,
       "winner": null,
       "date": "2026-06-21T00:00:00Z",
-      "venue": null,
-      "city": null,
+      "venue": "GEHA Field at Arrowhead Stadium",
+      "city": "Kansas City, MO",
       "status": "pending"
     },
     {
@@ -788,8 +788,8 @@
       "away_score": null,
       "winner": null,
       "date": "2026-06-21T04:00:00Z",
-      "venue": null,
-      "city": null,
+      "venue": "Estadio BBVA",
+      "city": "Monterrey",
       "status": "pending"
     },
     {
@@ -810,8 +810,8 @@
       "away_score": null,
       "winner": null,
       "date": "2026-06-21T16:00:00Z",
-      "venue": null,
-      "city": null,
+      "venue": "Mercedes-Benz Stadium",
+      "city": "Atlanta, GA",
       "status": "pending"
     },
     {
@@ -832,8 +832,8 @@
       "away_score": null,
       "winner": null,
       "date": "2026-06-21T19:00:00Z",
-      "venue": null,
-      "city": null,
+      "venue": "SoFi Stadium",
+      "city": "Los Angeles, CA",
       "status": "pending"
     },
     {
@@ -854,8 +854,8 @@
       "away_score": null,
       "winner": null,
       "date": "2026-06-21T22:00:00Z",
-      "venue": null,
-      "city": null,
+      "venue": "Hard Rock Stadium",
+      "city": "Miami, FL",
       "status": "pending"
     },
     {
@@ -876,8 +876,8 @@
       "away_score": null,
       "winner": null,
       "date": "2026-06-22T01:00:00Z",
-      "venue": null,
-      "city": null,
+      "venue": "BC Place",
+      "city": "Vancouver, BC",
       "status": "pending"
     },
     {
@@ -898,8 +898,8 @@
       "away_score": null,
       "winner": null,
       "date": "2026-06-22T17:00:00Z",
-      "venue": null,
-      "city": null,
+      "venue": "AT&T Stadium",
+      "city": "Dallas, TX",
       "status": "pending"
     },
     {
@@ -920,8 +920,8 @@
       "away_score": null,
       "winner": null,
       "date": "2026-06-22T21:00:00Z",
-      "venue": null,
-      "city": null,
+      "venue": "Lincoln Financial Field",
+      "city": "Filadélfia, PA",
       "status": "pending"
     },
     {
@@ -942,8 +942,8 @@
       "away_score": null,
       "winner": null,
       "date": "2026-06-23T00:00:00Z",
-      "venue": null,
-      "city": null,
+      "venue": "MetLife Stadium",
+      "city": "Nova York / Nova Jersey",
       "status": "pending"
     },
     {
@@ -964,8 +964,8 @@
       "away_score": null,
       "winner": null,
       "date": "2026-06-23T03:00:00Z",
-      "venue": null,
-      "city": null,
+      "venue": "Levi's Stadium",
+      "city": "San Jose / Bay Area, CA",
       "status": "pending"
     },
     {
@@ -986,8 +986,8 @@
       "away_score": null,
       "winner": null,
       "date": "2026-06-23T17:00:00Z",
-      "venue": null,
-      "city": null,
+      "venue": "NRG Stadium",
+      "city": "Houston, TX",
       "status": "pending"
     },
     {
@@ -1008,8 +1008,8 @@
       "away_score": null,
       "winner": null,
       "date": "2026-06-23T20:00:00Z",
-      "venue": null,
-      "city": null,
+      "venue": "Gillette Stadium",
+      "city": "Boston, MA",
       "status": "pending"
     },
     {
@@ -1030,8 +1030,8 @@
       "away_score": null,
       "winner": null,
       "date": "2026-06-23T23:00:00Z",
-      "venue": null,
-      "city": null,
+      "venue": "BMO Field",
+      "city": "Toronto, ON",
       "status": "pending"
     },
     {
@@ -1052,8 +1052,8 @@
       "away_score": null,
       "winner": null,
       "date": "2026-06-24T02:00:00Z",
-      "venue": null,
-      "city": null,
+      "venue": "Estadio Akron",
+      "city": "Guadalajara",
       "status": "pending"
     },
     {
@@ -1074,8 +1074,8 @@
       "away_score": null,
       "winner": null,
       "date": "2026-06-24T19:00:00Z",
-      "venue": null,
-      "city": null,
+      "venue": "BC Place",
+      "city": "Vancouver, BC",
       "status": "pending"
     },
     {
@@ -1096,8 +1096,8 @@
       "away_score": null,
       "winner": null,
       "date": "2026-06-24T19:00:00Z",
-      "venue": null,
-      "city": null,
+      "venue": "Lumen Field",
+      "city": "Seattle, WA",
       "status": "pending"
     },
     {
@@ -1118,8 +1118,8 @@
       "away_score": null,
       "winner": null,
       "date": "2026-06-24T22:00:00Z",
-      "venue": null,
-      "city": null,
+      "venue": "Mercedes-Benz Stadium",
+      "city": "Atlanta, GA",
       "status": "pending"
     },
     {
@@ -1140,8 +1140,8 @@
       "away_score": null,
       "winner": null,
       "date": "2026-06-24T22:00:00Z",
-      "venue": null,
-      "city": null,
+      "venue": "Hard Rock Stadium",
+      "city": "Miami, FL",
       "status": "pending"
     },
     {
@@ -1162,8 +1162,8 @@
       "away_score": null,
       "winner": null,
       "date": "2026-06-25T01:00:00Z",
-      "venue": null,
-      "city": null,
+      "venue": "Estadio Banorte",
+      "city": "Cidade do México",
       "status": "pending"
     },
     {
@@ -1184,8 +1184,8 @@
       "away_score": null,
       "winner": null,
       "date": "2026-06-25T01:00:00Z",
-      "venue": null,
-      "city": null,
+      "venue": "Estadio BBVA",
+      "city": "Monterrey",
       "status": "pending"
     },
     {
@@ -1206,8 +1206,8 @@
       "away_score": null,
       "winner": null,
       "date": "2026-06-25T20:00:00Z",
-      "venue": null,
-      "city": null,
+      "venue": "MetLife Stadium",
+      "city": "Nova York / Nova Jersey",
       "status": "pending"
     },
     {
@@ -1228,8 +1228,8 @@
       "away_score": null,
       "winner": null,
       "date": "2026-06-25T20:00:00Z",
-      "venue": null,
-      "city": null,
+      "venue": "Lincoln Financial Field",
+      "city": "Filadélfia, PA",
       "status": "pending"
     },
     {
@@ -1250,8 +1250,8 @@
       "away_score": null,
       "winner": null,
       "date": "2026-06-25T23:00:00Z",
-      "venue": null,
-      "city": null,
+      "venue": "GEHA Field at Arrowhead Stadium",
+      "city": "Kansas City, MO",
       "status": "pending"
     },
     {
@@ -1272,8 +1272,8 @@
       "away_score": null,
       "winner": null,
       "date": "2026-06-25T23:00:00Z",
-      "venue": null,
-      "city": null,
+      "venue": "AT&T Stadium",
+      "city": "Dallas, TX",
       "status": "pending"
     },
     {
@@ -1294,8 +1294,8 @@
       "away_score": null,
       "winner": null,
       "date": "2026-06-26T02:00:00Z",
-      "venue": null,
-      "city": null,
+      "venue": "SoFi Stadium",
+      "city": "Los Angeles, CA",
       "status": "pending"
     },
     {
@@ -1316,8 +1316,8 @@
       "away_score": null,
       "winner": null,
       "date": "2026-06-26T02:00:00Z",
-      "venue": null,
-      "city": null,
+      "venue": "Levi's Stadium",
+      "city": "San Jose / Bay Area, CA",
       "status": "pending"
     },
     {
@@ -1338,8 +1338,8 @@
       "away_score": null,
       "winner": null,
       "date": "2026-06-26T19:00:00Z",
-      "venue": null,
-      "city": null,
+      "venue": "Gillette Stadium",
+      "city": "Boston, MA",
       "status": "pending"
     },
     {
@@ -1360,8 +1360,8 @@
       "away_score": null,
       "winner": null,
       "date": "2026-06-26T19:00:00Z",
-      "venue": null,
-      "city": null,
+      "venue": "BMO Field",
+      "city": "Toronto, ON",
       "status": "pending"
     },
     {
@@ -1382,8 +1382,8 @@
       "away_score": null,
       "winner": null,
       "date": "2026-06-27T00:00:00Z",
-      "venue": null,
-      "city": null,
+      "venue": "Estadio Akron",
+      "city": "Guadalajara",
       "status": "pending"
     },
     {
@@ -1404,8 +1404,8 @@
       "away_score": null,
       "winner": null,
       "date": "2026-06-27T00:00:00Z",
-      "venue": null,
-      "city": null,
+      "venue": "NRG Stadium",
+      "city": "Houston, TX",
       "status": "pending"
     },
     {
@@ -1426,8 +1426,8 @@
       "away_score": null,
       "winner": null,
       "date": "2026-06-27T03:00:00Z",
-      "venue": null,
-      "city": null,
+      "venue": "BC Place",
+      "city": "Vancouver, BC",
       "status": "pending"
     },
     {
@@ -1448,8 +1448,8 @@
       "away_score": null,
       "winner": null,
       "date": "2026-06-27T03:00:00Z",
-      "venue": null,
-      "city": null,
+      "venue": "Lumen Field",
+      "city": "Seattle, WA",
       "status": "pending"
     },
     {
@@ -1470,8 +1470,8 @@
       "away_score": null,
       "winner": null,
       "date": "2026-06-27T21:00:00Z",
-      "venue": null,
-      "city": null,
+      "venue": "MetLife Stadium",
+      "city": "Nova York / Nova Jersey",
       "status": "pending"
     },
     {
@@ -1492,8 +1492,8 @@
       "away_score": null,
       "winner": null,
       "date": "2026-06-27T21:00:00Z",
-      "venue": null,
-      "city": null,
+      "venue": "Lincoln Financial Field",
+      "city": "Filadélfia, PA",
       "status": "pending"
     },
     {
@@ -1514,8 +1514,8 @@
       "away_score": null,
       "winner": null,
       "date": "2026-06-27T23:30:00Z",
-      "venue": null,
-      "city": null,
+      "venue": "Hard Rock Stadium",
+      "city": "Miami, FL",
       "status": "pending"
     },
     {
@@ -1536,8 +1536,8 @@
       "away_score": null,
       "winner": null,
       "date": "2026-06-27T23:30:00Z",
-      "venue": null,
-      "city": null,
+      "venue": "Mercedes-Benz Stadium",
+      "city": "Atlanta, GA",
       "status": "pending"
     },
     {
@@ -1558,8 +1558,8 @@
       "away_score": null,
       "winner": null,
       "date": "2026-06-28T02:00:00Z",
-      "venue": null,
-      "city": null,
+      "venue": "AT&T Stadium",
+      "city": "Dallas, TX",
       "status": "pending"
     },
     {
@@ -1580,8 +1580,8 @@
       "away_score": null,
       "winner": null,
       "date": "2026-06-28T02:00:00Z",
-      "venue": null,
-      "city": null,
+      "venue": "GEHA Field at Arrowhead Stadium",
+      "city": "Kansas City, MO",
       "status": "pending"
     }
   ]
