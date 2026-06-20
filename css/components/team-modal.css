@@ -1,0 +1,304 @@
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+  background: rgba(5, 9, 26, 0.85);
+  backdrop-filter: blur(4px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 200ms;
+}
+
+.modal-overlay.modal--open {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.modal {
+  background: var(--bg-card);
+  border: 1px solid var(--border-gold);
+  border-radius: 14px;
+  width: 100%;
+  max-width: 680px;
+  max-height: 88vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  transform: translateY(16px) scale(0.98);
+  transition: transform 220ms ease;
+  position: relative;
+}
+
+.modal-overlay.modal--open .modal {
+  transform: translateY(0) scale(1);
+}
+
+/* ── Close ── */
+.modal__close {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: transparent;
+  border: 1px solid var(--border-gold);
+  color: var(--text-muted);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  font-size: 1rem;
+  line-height: 1;
+  cursor: pointer;
+  transition: color 150ms, border-color 150ms, background 150ms;
+  z-index: 2;
+}
+.modal__close:hover {
+  color: var(--gold);
+  border-color: var(--gold);
+  background: var(--gold-dim);
+}
+
+/* ── Header ── */
+.modal__header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.25rem 1.25rem 1rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.modal__flag {
+  width: 64px;
+  height: auto;
+  border-radius: 4px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.modal__team-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.modal__name {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin: 0 0 0.25rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.modal__meta {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  margin: 0;
+  line-height: 1.5;
+}
+
+.modal__meta strong {
+  color: var(--gold);
+  font-weight: 600;
+}
+
+/* ── Primary mode bar ── */
+.modal__mode-bar {
+  display: flex;
+  border-bottom: 1px solid var(--border);
+}
+
+.modal__mode-btn {
+  flex: 1;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid transparent;
+  color: var(--text-muted);
+  font-size: 0.78rem;
+  font-weight: 600;
+  padding: 0.65rem 0.5rem;
+  cursor: pointer;
+  transition: color 150ms, border-color 150ms;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+.modal__mode-btn:hover {
+  color: var(--text-primary);
+}
+
+.modal__mode-btn.active {
+  color: var(--gold);
+  border-bottom-color: var(--gold);
+}
+
+/* ── Sub-filter bar ── */
+.modal__sub-bar {
+  display: flex;
+  gap: 0.4rem;
+  padding: 0.6rem 1.25rem;
+  flex-wrap: wrap;
+  border-bottom: 1px solid var(--border);
+}
+
+.modal__filter {
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  border-radius: 20px;
+  padding: 0.2rem 0.65rem;
+  font-size: 0.72rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 150ms;
+}
+
+.modal__filter:hover {
+  border-color: var(--gold);
+  color: var(--text-primary);
+}
+
+.modal__filter.active {
+  background: var(--gold-dim);
+  border-color: var(--gold);
+  color: var(--gold);
+}
+
+/* ── Table ── */
+.modal__table-wrap {
+  overflow-y: auto;
+  flex: 1;
+}
+
+.modal__table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.82rem;
+}
+
+.modal__table thead th {
+  position: sticky;
+  top: 0;
+  background: var(--bg-card);
+  color: var(--text-muted);
+  font-weight: 600;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 0.6rem 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid var(--border);
+  white-space: nowrap;
+}
+
+.modal__table thead th:not(:first-child):not(:nth-child(2)) {
+  text-align: center;
+}
+
+.modal__table tbody tr {
+  border-bottom: 1px solid var(--border);
+  transition: background 120ms;
+}
+
+.modal__table tbody tr:last-child {
+  border-bottom: none;
+}
+
+.modal__table tbody tr:hover {
+  background: var(--gold-dim);
+}
+
+.modal__table td {
+  padding: 0.55rem 0.75rem;
+  color: var(--text-primary);
+  white-space: nowrap;
+}
+
+.modal__table td:not(:first-child):not(:nth-child(2)):not(:nth-child(3)) {
+  text-align: center;
+}
+
+.modal__jersey {
+  color: var(--text-muted);
+  font-variant-numeric: tabular-nums;
+  min-width: 1.6rem;
+  display: inline-block;
+}
+
+.modal__pos-badge {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 600;
+  padding: 0.1rem 0.45rem;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+
+.modal__pos-badge--G { background: rgba(59, 130, 246, 0.15); color: #60a5fa; }
+.modal__pos-badge--D { background: rgba(34, 197, 94, 0.15);  color: #4ade80; }
+.modal__pos-badge--M { background: rgba(240, 180, 41, 0.15); color: var(--gold); }
+.modal__pos-badge--F { background: rgba(239, 68, 68, 0.15);  color: #f87171; }
+
+.modal__stat { font-variant-numeric: tabular-nums; }
+.modal__stat--gold { color: var(--gold); font-weight: 600; }
+
+.modal__yc { color: #facc15; font-weight: 600; }
+.modal__rc { color: #ef4444; font-weight: 600; }
+
+/* ── Group headers (titulares / banco) ── */
+.modal__group-hdr td {
+  padding: 0.35rem 0.75rem;
+  font-size: 0.68rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-muted);
+  background: var(--bg-body);
+}
+
+/* ── Footer ── */
+.modal__footer {
+  padding: 0.6rem 1.25rem;
+  border-top: 1px solid var(--border);
+  font-size: 0.7rem;
+  color: var(--text-muted);
+  text-align: right;
+}
+
+/* ── Loading / empty state ── */
+.modal__state {
+  padding: 2rem;
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+/* ── Mobile ── */
+@media (max-width: 480px) {
+  .modal {
+    max-height: 92vh;
+    border-radius: 12px 12px 0 0;
+  }
+  .modal-overlay {
+    align-items: flex-end;
+    padding: 0;
+  }
+  .modal__header {
+    padding: 1rem;
+  }
+  .modal__flag {
+    width: 48px;
+  }
+  .modal__filters {
+    padding: 0.6rem 1rem;
+  }
+  .modal__table {
+    font-size: 0.8rem;
+  }
+  .modal__table td,
+  .modal__table thead th {
+    padding: 0.5rem 0.5rem;
+  }
+}

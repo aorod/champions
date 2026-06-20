@@ -17,7 +17,7 @@
     transform var(--ease-base),
     box-shadow var(--ease-base),
     border-color var(--ease-base);
-  cursor: default;
+  cursor: pointer;
 }
 
 .team-card:hover {

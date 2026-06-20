@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(cd \"C:\\\\Users\\\\olive\\\\Documents\\\\Projeto\\\\champions\"; docker run --rm -v \"${PWD}:/app\" -w /app -e API_SPORTS_KEY=2d97f71890571261d529d02ed3ed326e node:20-alpine node scripts/test-apisports.js)",
+      "PowerShell(cd \"C:\\\\Users\\\\olive\\\\Documents\\\\Projeto\\\\champions\"; docker run --rm -v \"${PWD}:/app\" -w /app node:20-alpine node scripts/test-espn.js)"
+    ]
+  }
+}

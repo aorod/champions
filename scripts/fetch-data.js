@@ -13,8 +13,20 @@ const path  = require('path');
 
 const API_KEY    = process.env.FOOTBALL_DATA_API_KEY;
 const BASE_URL   = 'api.football-data.org';
+const ESPN_HOST  = 'site.api.espn.com';
 const WC_CODE    = 'WC';
 const DATA_DIR   = path.join(__dirname, '..', 'data');
+
+// TLA → ESPN team ID (Copa do Mundo 2026, mapeamento fixo)
+const ESPN_TEAM_IDS = {
+  ALG:624,  ARG:202,  AUS:628,  AUT:474,  BEL:459,  BIH:452,  BRA:205,
+  CAN:206,  CIV:4789, COD:2850, COL:208,  CPV:2597, CRO:477,  CUW:11678,
+  CZE:450,  ECU:209,  EGY:2620, ENG:448,  ESP:164,  FRA:478,  GER:481,
+  GHA:4469, HAI:2654, IRN:469,  IRQ:4375, JOR:2917, JPN:627,  KOR:451,
+  KSA:655,  MAR:2869, MEX:203,  NED:449,  NOR:464,  NZL:2666, PAN:2659,
+  PAR:210,  POR:482,  QAT:4398, RSA:467,  SCO:580,  SEN:654,  SUI:475,
+  SWE:466,  TUN:659,  TUR:465,  URU:212,  USA:660,  UZB:2570,
+};
 
 // Mapeamento completo TLA → código ISO para flagcdn.com
 const KNOWN_FLAGS = {
@@ -36,6 +48,7 @@ const KNOWN_FLAGS = {
   MAR: 'ma', SEN: 'sn', CMR: 'cm', EGY: 'eg', RSA: 'za', ALG: 'dz',
   TUN: 'tn', CIV: 'ci', COD: 'cd', NGA: 'ng', GHA: 'gh', MLI: 'ml',
   GUI: 'gn', COG: 'cg', MOZ: 'mz', ZIM: 'zw', UGA: 'ug', TAN: 'tz',
+  CPV: 'cv',
   // AFC
   JPN: 'jp', KOR: 'kr', AUS: 'au', KSA: 'sa', IRN: 'ir', IRQ: 'iq',
   UZB: 'uz', JOR: 'jo', QAT: 'qa', CHN: 'cn', UAE: 'ae', KUW: 'kw',
@@ -71,6 +84,7 @@ const TEAM_NAMES_PT = {
   AZE: 'Azerbaijão',   FIN: 'Finlândia',      ISL: 'Islândia',
   IRL: 'Irlanda',
   // CAF
+  CPV: 'Cabo Verde',
   MAR: 'Marrocos',     SEN: 'Senegal',        CMR: 'Camarões',
   EGY: 'Egito',        RSA: 'África do Sul',  ALG: 'Argélia',
   TUN: 'Tunísia',      CIV: 'Costa do Marfim',COD: 'RD Congo',
@@ -84,6 +98,25 @@ const TEAM_NAMES_PT = {
   CHN: 'China',        UAE: 'Emirados Árabes Unidos', KUW: 'Kuwait',
   // OFC
   NZL: 'Nova Zelândia',
+};
+
+// Confederação por TLA
+const TEAM_CONF = {
+  ARG:'CONMEBOL',BRA:'CONMEBOL',COL:'CONMEBOL',ECU:'CONMEBOL',URU:'CONMEBOL',
+  VEN:'CONMEBOL',PAR:'CONMEBOL',BOL:'CONMEBOL',PER:'CONMEBOL',CHL:'CONMEBOL',CHI:'CONMEBOL',
+  USA:'CONCACAF',CAN:'CONCACAF',MEX:'CONCACAF',PAN:'CONCACAF',HND:'CONCACAF',HON:'CONCACAF',
+  JAM:'CONCACAF',CRC:'CONCACAF',SLV:'CONCACAF',HAI:'CONCACAF',TRI:'CONCACAF',CUW:'CONCACAF',
+  FRA:'UEFA',ESP:'UEFA',GER:'UEFA',ENG:'UEFA',POR:'UEFA',ITA:'UEFA',NED:'UEFA',BEL:'UEFA',
+  CRO:'UEFA',POL:'UEFA',CZE:'UEFA',SRB:'UEFA',TUR:'UEFA',UKR:'UEFA',SUI:'UEFA',DEN:'UEFA',
+  SWE:'UEFA',NOR:'UEFA',SCO:'UEFA',WAL:'UEFA',NIR:'UEFA',AUT:'UEFA',ROM:'UEFA',ROU:'UEFA',
+  HUN:'UEFA',SVK:'UEFA',SVN:'UEFA',GRE:'UEFA',ALB:'UEFA',MNE:'UEFA',BIH:'UEFA',MKD:'UEFA',
+  KOS:'UEFA',GEO:'UEFA',ARM:'UEFA',AZE:'UEFA',FIN:'UEFA',ISL:'UEFA',IRL:'UEFA',
+  MAR:'CAF',SEN:'CAF',CMR:'CAF',EGY:'CAF',RSA:'CAF',ALG:'CAF',TUN:'CAF',CIV:'CAF',
+  COD:'CAF',NGA:'CAF',GHA:'CAF',MLI:'CAF',GUI:'CAF',COG:'CAF',MOZ:'CAF',ZIM:'CAF',
+  UGA:'CAF',TAN:'CAF',CPV:'CAF',
+  JPN:'AFC',KOR:'AFC',AUS:'AFC',KSA:'AFC',IRN:'AFC',IRQ:'AFC',UZB:'AFC',JOR:'AFC',
+  QAT:'AFC',CHN:'AFC',UAE:'AFC',KUW:'AFC',
+  NZL:'OFC',
 };
 
 // Combina KNOWN_FLAGS com teams.json para máxima cobertura
@@ -133,7 +166,140 @@ function saveJSON(filename, data) {
   console.log(`✓ Salvo: ${filename}`);
 }
 
+function espnGet(urlPath) {
+  return new Promise((resolve, reject) => {
+    const req = https.get(
+      { hostname: ESPN_HOST, path: urlPath, headers: { 'User-Agent': 'Mozilla/5.0' } },
+      res => {
+        let body = '';
+        res.on('data', c => { body += c; });
+        res.on('end', () => {
+          try { resolve(JSON.parse(body)); }
+          catch (e) { reject(new Error(`JSON inválido de ${urlPath}`)); }
+        });
+      }
+    );
+    req.on('error', reject);
+    req.setTimeout(10000, () => req.destroy(new Error('ESPN timeout')));
+  });
+}
+
+function squadNeedsUpdate() {
+  try {
+    const f = path.join(DATA_DIR, 'squads.json');
+    if (!fs.existsSync(f)) return true;
+    const { updated } = JSON.parse(fs.readFileSync(f, 'utf8'));
+    return (Date.now() - new Date(updated).getTime()) > 12 * 3600 * 1000;
+  } catch { return true; }
+}
+
+// Cache de summaries por eventId para não buscar o mesmo jogo duas vezes
+const summaryCache = new Map();
+
+async function getStarterIds(eventId, espnTeamId) {
+  if (!summaryCache.has(eventId)) {
+    const summary = await espnGet(`/apis/site/v2/sports/soccer/fifa.world/summary?event=${eventId}`);
+    const byTeam = new Map();
+    for (const r of summary.rosters ?? []) {
+      const tid = String(r.team?.id);
+      const starters = new Set(
+        (r.roster ?? []).filter(p => p.starter).map(p => String(p.athlete?.id))
+      );
+      const bench = new Set(
+        (r.roster ?? []).filter(p => !p.starter).map(p => String(p.athlete?.id))
+      );
+      byTeam.set(tid, { starters, bench });
+    }
+    summaryCache.set(eventId, byTeam);
+  }
+  const entry = summaryCache.get(eventId)?.get(String(espnTeamId));
+  return entry ?? null;
+}
+
+async function buildSquadsJSON(tlas) {
+  const squads = {};
+  for (const tla of tlas) {
+    const id = ESPN_TEAM_IDS[tla];
+    if (!id) { squads[tla] = []; continue; }
+    try {
+      const [rosterData, schedData] = await Promise.all([
+        espnGet(`/apis/site/v2/sports/soccer/fifa.world/teams/${id}/roster`),
+        espnGet(`/apis/site/v2/sports/soccer/fifa.world/teams/${id}/schedule`),
+      ]);
+
+      // Último jogo finalizado
+      const lastEvent = [...(schedData.events ?? [])]
+        .filter(e => e.competitions?.[0]?.status?.type?.completed)
+        .sort((a, b) => new Date(b.date) - new Date(a.date))[0] ?? null;
+
+      let starterEntry = null;
+      if (lastEvent) {
+        starterEntry = await getStarterIds(lastEvent.id, id);
+      }
+
+      const players = (rosterData.athletes ?? []).map(a => {
+        const statMap = {};
+        for (const cat of a.statistics?.splits?.categories ?? [])
+          for (const s of cat.stats ?? []) statMap[s.name] = s.value ?? 0;
+
+        const espnId = String(a.id);
+        let lastMatchStarter = null;
+        if (starterEntry) {
+          if (starterEntry.starters.has(espnId))     lastMatchStarter = true;
+          else if (starterEntry.bench.has(espnId))   lastMatchStarter = false;
+          // null = não estava na lista dos 23 do jogo
+        }
+
+        return {
+          espnId,
+          name:             a.displayName,
+          jersey:           a.jersey ? parseInt(a.jersey, 10) : null,
+          position:         a.position?.abbreviation ?? null,
+          goals:            statMap.totalGoals    ?? 0,
+          assists:          statMap.goalAssists   ?? 0,
+          yellowCards:      statMap.yellowCards   ?? 0,
+          redCards:         statMap.redCards      ?? 0,
+          appearances:      statMap.appearances   ?? 0,
+          lastMatchStarter,
+        };
+      });
+      players.sort((a, b) => (a.jersey ?? 99) - (b.jersey ?? 99));
+      squads[tla] = players;
+      process.stdout.write('.');
+    } catch (e) {
+      console.warn(`\n  Aviso: squad ${tla} falhou: ${e.message}`);
+      squads[tla] = [];
+    }
+    await new Promise(r => setTimeout(r, 150));
+  }
+  console.log();
+  return { updated: new Date().toISOString(), squads };
+}
+
 // ── Transformers ──────────────────────────────────────────────────────────────
+
+function buildTeamsJSON(standingsResp, flagMap) {
+  const teams = [];
+
+  for (const standing of standingsResp.standings) {
+    if (standing.type !== 'TOTAL') continue;
+    const group = (standing.group ?? '').replace(/^(GROUP_|Group\s+)/i, '').trim() || '?';
+
+    for (const entry of standing.table) {
+      const tla = entry.team.tla;
+      teams.push({
+        id:            tla,
+        name:          TEAM_NAMES_PT[tla] ?? entry.team.name,
+        flag:          flagMap[tla] ?? tla.toLowerCase().slice(0, 2),
+        confederation: TEAM_CONF[tla] ?? 'OTHER',
+        group,
+      });
+    }
+  }
+
+  teams.sort((a, b) => a.name.localeCompare(b.name, 'pt-BR'));
+  return { teams };
+}
 
 function buildGroupsJSON(standingsResp, flagMap) {
   const groups = {};
@@ -299,10 +465,21 @@ async function main() {
       apiGet('matches'),
     ]);
 
+    const teamsJSON = buildTeamsJSON(standings, flagMap);
+    saveJSON('teams.json',   teamsJSON);
     saveJSON('groups.json',  buildGroupsJSON(standings, flagMap));
     saveJSON('scorers.json', buildScorersJSON(scorers, flagMap));
     saveJSON('bracket.json', buildBracketJSON(matches, flagMap));
     saveJSON('matches.json', buildGroupMatchesJSON(matches, flagMap));
+
+    if (squadNeedsUpdate()) {
+      const tlas = teamsJSON.teams.map(t => t.id);
+      console.log(`Buscando elencos ESPN para ${tlas.length} times...`);
+      const squadsData = await buildSquadsJSON(tlas);
+      saveJSON('squads.json', squadsData);
+    } else {
+      console.log('  squads.json recente, sem atualização.');
+    }
 
     saveJSON('meta.json', {
       last_updated:    new Date().toISOString(),

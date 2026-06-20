@@ -39,6 +39,9 @@ document.addEventListener('DOMContentLoaded', async () => {
       card.dataset.conf = team.confederation;
       card.dataset.group = team.group;
       card.style.animationDelay = `${Math.min(i * 30, 500)}ms`;
+      card.setAttribute('role', 'button');
+      card.setAttribute('tabindex', '0');
+      card.setAttribute('aria-label', `Ver elenco de ${team.name}`);
 
       card.innerHTML = `
         <div class="team-card__flag">
@@ -55,6 +58,11 @@ document.addEventListener('DOMContentLoaded', async () => {
           </div>
           <h3 class="team-card__name">${team.name}</h3>
         </div>`;
+
+      card.addEventListener('click', () => TeamModal.open(team));
+      card.addEventListener('keydown', e => {
+        if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); TeamModal.open(team); }
+      });
 
       grid.appendChild(card);
     });

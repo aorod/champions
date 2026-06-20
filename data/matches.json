@@ -274,9 +274,9 @@
         "flag": "es"
       },
       "away": {
-        "name": "Cape Verde Islands",
+        "name": "Cabo Verde",
         "tla": "CPV",
-        "flag": null
+        "flag": "cv"
       },
       "home_score": 0,
       "away_score": 0,
@@ -846,9 +846,9 @@
         "flag": "uy"
       },
       "away": {
-        "name": "Cape Verde Islands",
+        "name": "Cabo Verde",
         "tla": "CPV",
-        "flag": null
+        "flag": "cv"
       },
       "home_score": null,
       "away_score": null,
@@ -1391,9 +1391,9 @@
       "group": "H",
       "matchday": 3,
       "home": {
-        "name": "Cape Verde Islands",
+        "name": "Cabo Verde",
         "tla": "CPV",
-        "flag": null
+        "flag": "cv"
       },
       "away": {
         "name": "Arábia Saudita",

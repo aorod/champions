@@ -435,8 +435,8 @@
         },
         {
           "id": "CPV",
-          "name": "Cape Verde Islands",
-          "flag": "cp",
+          "name": "Cabo Verde",
+          "flag": "cv",
           "played": 1,
           "won": 0,
           "drawn": 1,
