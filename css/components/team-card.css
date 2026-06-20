@@ -1,7 +1,7 @@
 /* ── Teams Grid ──────────────────────────────────── */
 .teams-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
   gap: var(--s4);
 }
 
@@ -11,31 +11,27 @@
   border: 1px solid var(--border);
   border-radius: var(--r-lg);
   overflow: hidden;
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
   transition:
     transform var(--ease-base),
     box-shadow var(--ease-base),
-    border-color var(--ease-base),
-    background var(--ease-base);
+    border-color var(--ease-base);
   cursor: default;
-  animation: fade-up var(--ease-slow) both;
 }
 
 .team-card:hover {
-  transform: translateY(-5px);
-  background: var(--bg-card-hover);
-  border-color: var(--gold);
+  transform: translateY(-3px);
+  border-color: var(--border-gold);
   box-shadow: var(--shadow-card), var(--shadow-glow);
 }
 
 /* ── Flag ────────────────────────────────────────── */
 .team-card__flag {
   width: 100%;
-  aspect-ratio: 3 / 2;
+  aspect-ratio: 5 / 3;
   overflow: hidden;
   background: var(--bg-raised);
-  position: relative;
 }
 
 .team-card__flag img {
@@ -43,15 +39,16 @@
   height: 100%;
   object-fit: cover;
   transition: transform var(--ease-slow);
+  display: block;
 }
 
 .team-card:hover .team-card__flag img {
-  transform: scale(1.06);
+  transform: scale(1.04);
 }
 
 /* ── Body ────────────────────────────────────────── */
 .team-card__body {
-  padding: var(--s4) var(--s4) var(--s5);
+  padding: var(--s3) var(--s4) var(--s4);
 }
 
 .team-card__top {
@@ -62,18 +59,18 @@
 }
 
 .team-card__group {
-  font-size: 0.68rem;
+  font-size: 0.65rem;
   font-weight: var(--fw-bold);
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--gold);
   background: var(--gold-dim);
-  padding: 2px 8px;
+  padding: 2px 7px;
   border-radius: var(--r-full);
 }
 
 .team-card__conf {
-  font-size: 0.65rem;
+  font-size: 0.62rem;
   font-weight: var(--fw-semibold);
   color: var(--text-3);
   text-transform: uppercase;
@@ -81,30 +78,27 @@
 }
 
 .team-card__name {
-  font-size: 0.95rem;
-  font-weight: var(--fw-bold);
+  font-size: 0.875rem;
+  font-weight: var(--fw-semibold);
   color: var(--text-1);
-  line-height: 1.25;
-  margin-top: var(--s1);
+  line-height: 1.3;
 }
 
 /* ── Confederation color accents ─────────────────── */
 .team-card[data-conf="UEFA"]     .team-card__conf { color: #74c0fc; }
-.team-card[data-conf="CONMEBOL"] .team-card__conf { color: #a9e34b; }
+.team-card[data-conf="CONMEBOL"] .team-card__conf { color: #8ce99a; }
 .team-card[data-conf="CONCACAF"] .team-card__conf { color: #ffa94d; }
 .team-card[data-conf="CAF"]      .team-card__conf { color: #f783ac; }
 .team-card[data-conf="AFC"]      .team-card__conf { color: #da77f2; }
 .team-card[data-conf="OFC"]      .team-card__conf { color: #63e6be; }
 
 /* ── Hidden state (filter) ───────────────────────── */
-.team-card.hidden {
-  display: none;
-}
+.team-card.hidden { display: none; }
 
 /* ── Responsive ──────────────────────────────────── */
 @media (max-width: 480px) {
   .teams-grid {
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(145px, 1fr));
     gap: var(--s3);
   }
 }

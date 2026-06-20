@@ -1,8 +1,8 @@
 /* ── Groups Grid ─────────────────────────────────── */
 .groups-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(420px, 1fr));
-  gap: var(--s6);
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: var(--s5);
 }
 
 /* ── Group Block ─────────────────────────────────── */
@@ -11,9 +11,8 @@
   border: 1px solid var(--border);
   border-radius: var(--r-lg);
   overflow: hidden;
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  animation: fade-up var(--ease-slow) both;
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
   transition: border-color var(--ease-base), box-shadow var(--ease-base);
 }
 
@@ -27,25 +26,25 @@
   display: flex;
   align-items: center;
   gap: var(--s3);
-  padding: var(--s4) var(--s5);
+  padding: var(--s3) var(--s5);
   border-bottom: 1px solid var(--border);
-  background: linear-gradient(135deg, var(--gold-dim), transparent);
+  background: linear-gradient(100deg, var(--gold-dim), transparent 60%);
 }
 
 .group-block__letter {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-weight: var(--fw-black);
   color: var(--gold);
   line-height: 1;
-  min-width: 1.8ch;
+  min-width: 1.6ch;
 }
 
 .group-block__label {
-  font-size: 0.8rem;
+  font-size: 0.72rem;
   font-weight: var(--fw-semibold);
-  color: var(--text-2);
+  color: var(--text-3);
   text-transform: uppercase;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.1em;
 }
 
 /* ── Table ───────────────────────────────────────── */
@@ -55,43 +54,36 @@
 }
 
 .group-table th {
-  font-size: 0.68rem;
-  font-weight: var(--fw-semibold);
+  font-size: 0.62rem;
+  font-weight: var(--fw-bold);
   color: var(--text-3);
   text-transform: uppercase;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.1em;
   padding: var(--s2) var(--s5);
   text-align: right;
 }
 
 .group-table th:first-child,
-.group-table th:nth-child(2) {
-  text-align: left;
-}
-
-.group-table th:nth-child(2) {
-  width: 100%;
-}
+.group-table th:nth-child(2) { text-align: left; }
+.group-table th:nth-child(2) { width: 100%; }
 
 .group-table td {
   padding: var(--s3) var(--s5);
-  font-size: 0.875rem;
+  font-size: 0.825rem;
   color: var(--text-1);
   text-align: right;
   border-top: 1px solid var(--border);
 }
 
 .group-table td:first-child,
-.group-table td:nth-child(2) {
-  text-align: left;
-}
+.group-table td:nth-child(2) { text-align: left; }
 
 /* ── Row states ──────────────────────────────────── */
 .group-table tr.qualified td:first-child::before {
   content: '';
   display: inline-block;
-  width: 3px;
-  height: 0.85em;
+  width: 2px;
+  height: 0.8em;
   background: var(--green);
   border-radius: var(--r-full);
   margin-right: var(--s2);
@@ -101,8 +93,8 @@
 .group-table tr.playoff td:first-child::before {
   content: '';
   display: inline-block;
-  width: 3px;
-  height: 0.85em;
+  width: 2px;
+  height: 0.8em;
   background: var(--cobalt);
   border-radius: var(--r-full);
   margin-right: var(--s2);
@@ -117,8 +109,8 @@
 }
 
 .group-table__flag {
-  width: 24px;
-  height: 16px;
+  width: 22px;
+  height: 15px;
   object-fit: cover;
   border-radius: 2px;
   flex-shrink: 0;
@@ -128,6 +120,7 @@
   font-weight: var(--fw-medium);
   color: var(--text-1);
   white-space: nowrap;
+  font-size: 0.825rem;
 }
 
 /* ── Points cell ─────────────────────────────────── */
@@ -137,23 +130,23 @@
 }
 
 /* ── GD color coding ─────────────────────────────── */
-.gd-pos { color: var(--green); }
-.gd-neg { color: var(--red); }
+.gd-pos  { color: var(--green); }
+.gd-neg  { color: var(--red);   }
 .gd-zero { color: var(--text-3); }
 
 /* ── Rank number ─────────────────────────────────── */
 .rank {
-  font-size: 0.75rem;
+  font-size: 0.7rem;
   font-weight: var(--fw-bold);
   color: var(--text-3);
   min-width: 1.2ch;
 }
 
-/* ── Scorers table ───────────────────────────────── */
+/* ── Scorers ─────────────────────────────────────── */
 .scorers-list {
   display: flex;
   flex-direction: column;
-  gap: var(--s3);
+  gap: var(--s2);
 }
 
 .scorer-row {
@@ -161,14 +154,13 @@
   grid-template-columns: 2rem 2rem 1fr auto auto;
   align-items: center;
   gap: var(--s3);
-  padding: var(--s3) var(--s5);
+  padding: var(--s3) var(--s4);
   background: var(--bg-card);
   border: 1px solid var(--border);
   border-radius: var(--r-md);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
   transition: background var(--ease-fast), border-color var(--ease-fast);
-  animation: fade-up var(--ease-slow) both;
 }
 
 .scorer-row:hover {
@@ -177,7 +169,7 @@
 }
 
 .scorer-rank {
-  font-size: 0.8rem;
+  font-size: 0.75rem;
   font-weight: var(--fw-black);
   color: var(--text-3);
   text-align: center;
@@ -186,8 +178,8 @@
 .scorer-rank.top { color: var(--gold); }
 
 .scorer-flag {
-  width: 28px;
-  height: 19px;
+  width: 26px;
+  height: 17px;
   object-fit: cover;
   border-radius: 2px;
 }
@@ -195,7 +187,7 @@
 .scorer-info { min-width: 0; }
 
 .scorer-name {
-  font-size: 0.9rem;
+  font-size: 0.875rem;
   font-weight: var(--fw-semibold);
   color: var(--text-1);
   white-space: nowrap;
@@ -204,35 +196,33 @@
 }
 
 .scorer-team {
-  font-size: 0.75rem;
-  color: var(--text-2);
+  font-size: 0.72rem;
+  color: var(--text-3);
 }
 
-.scorer-stat {
-  text-align: right;
-}
+.scorer-stat { text-align: right; }
 
 .scorer-stat__value {
-  font-size: 1.1rem;
+  font-size: 1.05rem;
   font-weight: var(--fw-black);
   color: var(--gold);
   line-height: 1;
 }
 
 .scorer-stat__label {
-  font-size: 0.65rem;
+  font-size: 0.6rem;
   color: var(--text-3);
   text-transform: uppercase;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.06em;
 }
 
 /* ── Legend ──────────────────────────────────────── */
 .group-legend {
   display: flex;
   gap: var(--s5);
-  margin-top: var(--s6);
-  font-size: 0.75rem;
-  color: var(--text-2);
+  margin-top: var(--s5);
+  font-size: 0.72rem;
+  color: var(--text-3);
   flex-wrap: wrap;
 }
 
@@ -243,8 +233,8 @@
 }
 
 .legend-dot {
-  width: 3px;
-  height: 14px;
+  width: 2px;
+  height: 12px;
   border-radius: var(--r-full);
   flex-shrink: 0;
 }
@@ -255,6 +245,7 @@
 }
 
 @media (max-width: 480px) {
-  .group-table th, .group-table td { padding: var(--s2) var(--s3); }
-  .scorer-row { grid-template-columns: 1.5rem 1.8rem 1fr auto auto; gap: var(--s2); padding: var(--s3); }
+  .group-table th,
+  .group-table td   { padding: var(--s2) var(--s3); }
+  .scorer-row       { grid-template-columns: 1.5rem 1.8rem 1fr auto auto; gap: var(--s2); padding: var(--s2) var(--s3); }
 }

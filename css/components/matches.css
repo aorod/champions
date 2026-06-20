@@ -8,20 +8,20 @@
 
 /* ── Day group ───────────────────────────────────── */
 .matches-day {
-  margin-bottom: var(--s8);
+  margin-bottom: var(--s6);
 }
 
 .matches-day__header {
   display: flex;
   align-items: center;
   gap: var(--s3);
-  margin-bottom: var(--s4);
-  padding-bottom: var(--s3);
+  margin-bottom: var(--s3);
+  padding-bottom: var(--s2);
   border-bottom: 1px solid var(--border);
 }
 
 .matches-day__title {
-  font-size: 0.8rem;
+  font-size: 0.72rem;
   font-weight: var(--fw-bold);
   letter-spacing: 0.1em;
   text-transform: uppercase;
@@ -29,18 +29,18 @@
 }
 
 .matches-day__count {
-  font-size: 0.72rem;
+  font-size: 0.68rem;
   color: var(--text-3);
   background: var(--bg-raised);
   border: 1px solid var(--border);
   border-radius: var(--r-full);
-  padding: 1px 8px;
+  padding: 1px 7px;
 }
 
 .matches-day__list {
   display: flex;
   flex-direction: column;
-  gap: var(--s3);
+  gap: var(--s2);
 }
 
 /* ── Match card ──────────────────────────────────── */
@@ -48,7 +48,7 @@
   background: var(--bg-card);
   border: 1px solid var(--border);
   border-radius: var(--r-lg);
-  padding: var(--s4) var(--s5);
+  padding: var(--s3) var(--s5);
   transition: border-color var(--ease-fast), background var(--ease-fast);
 }
 
@@ -58,11 +58,10 @@
 }
 
 .match-card--live {
-  border-color: var(--green);
-  box-shadow: 0 0 0 1px var(--green);
+  border-color: rgba(47, 158, 68, 0.35);
 }
 
-/* ── Card meta (top row) ─────────────────────────── */
+/* ── Card meta ───────────────────────────────────── */
 .match-card__meta {
   display: flex;
   align-items: center;
@@ -72,43 +71,43 @@
 }
 
 .match-card__group {
-  font-size: 0.7rem;
+  font-size: 0.62rem;
   font-weight: var(--fw-bold);
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--gold);
   background: var(--gold-dim);
   border-radius: var(--r-full);
-  padding: 2px 8px;
+  padding: 2px 7px;
   flex-shrink: 0;
 }
 
 .match-card__live-badge {
-  font-size: 0.68rem;
+  font-size: 0.62rem;
   font-weight: var(--fw-bold);
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--bg-body);
+  color: #fff;
   background: var(--green);
   border-radius: var(--r-full);
-  padding: 2px 8px;
-  animation: pulse-dot 1.5s ease infinite;
+  padding: 2px 7px;
+  animation: pulse-dot 2s ease infinite;
 }
 
 .match-card__venue {
-  font-size: 0.75rem;
+  font-size: 0.72rem;
   color: var(--text-3);
   flex: 1;
 }
 
 .match-card__time {
-  font-size: 0.75rem;
+  font-size: 0.72rem;
   font-weight: var(--fw-semibold);
   color: var(--text-2);
   flex-shrink: 0;
 }
 
-/* ── Card body (teams + score) ───────────────────── */
+/* ── Card body ───────────────────────────────────── */
 .match-card__body {
   display: grid;
   grid-template-columns: 1fr auto 1fr;
@@ -123,20 +122,18 @@
   gap: var(--s3);
 }
 
-.match-team--away {
-  flex-direction: row-reverse;
-}
+.match-team--away { flex-direction: row-reverse; }
 
 .match-team__flag {
-  width: 28px;
-  height: 20px;
+  width: 26px;
+  height: 18px;
   object-fit: cover;
-  border-radius: 3px;
+  border-radius: 2px;
   flex-shrink: 0;
 }
 
 .match-team__name {
-  font-size: 0.9rem;
+  font-size: 0.875rem;
   font-weight: var(--fw-semibold);
   color: var(--text-1);
   white-space: nowrap;
@@ -144,13 +141,8 @@
   text-overflow: ellipsis;
 }
 
-.match-team--winner .match-team__name {
-  color: var(--gold);
-}
-
-.match-team--loser .match-team__name {
-  color: var(--text-3);
-}
+.match-team--winner .match-team__name { color: var(--gold); }
+.match-team--loser  .match-team__name { color: var(--text-3); }
 
 /* ── Score ───────────────────────────────────────── */
 .match-score {
@@ -159,30 +151,27 @@
   justify-content: center;
   gap: var(--s2);
   flex-shrink: 0;
-  min-width: 72px;
+  min-width: 64px;
 }
 
 .match-score__num {
-  font-size: 1.5rem;
+  font-size: 1.35rem;
   font-weight: var(--fw-black);
   color: var(--text-1);
   line-height: 1;
-  min-width: 20px;
+  min-width: 18px;
   text-align: center;
 }
 
-.match-score__num--winner {
-  color: var(--gold);
-}
+.match-score__num--winner { color: var(--gold); }
 
 .match-score__sep {
-  font-size: 1rem;
+  font-size: 0.875rem;
   color: var(--text-3);
-  font-weight: var(--fw-medium);
 }
 
 .match-score__vs {
-  font-size: 0.8rem;
+  font-size: 0.72rem;
   font-weight: var(--fw-bold);
   letter-spacing: 0.06em;
   color: var(--text-3);
@@ -190,20 +179,8 @@
 
 /* ── Responsive ──────────────────────────────────── */
 @media (max-width: 600px) {
-  .match-card__body {
-    grid-template-columns: 1fr auto 1fr;
-    gap: var(--s2);
-  }
-
-  .match-team__name {
-    font-size: 0.78rem;
-  }
-
-  .match-score__num {
-    font-size: 1.2rem;
-  }
-
-  .match-card__venue {
-    display: none;
-  }
+  .match-team__name  { font-size: 0.75rem; }
+  .match-score__num  { font-size: 1.1rem; }
+  .match-card__venue { display: none; }
+  .match-card        { padding: var(--s3); }
 }
