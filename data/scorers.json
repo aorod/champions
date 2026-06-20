@@ -61,7 +61,7 @@
       "flag_code": "de",
       "goals": 2,
       "assists": 0,
-      "matches": 1
+      "matches": 2
     },
     {
       "player": "Yasin Ayari",
@@ -133,6 +133,15 @@
       "flag_code": "nl",
       "goals": 2,
       "assists": 0,
+      "matches": 2
+    },
+    {
+      "player": "Cody Gakpo",
+      "team": "NED",
+      "team_name": "Países Baixos",
+      "flag_code": "nl",
+      "goals": 2,
+      "assists": 2,
       "matches": 2
     },
     {
@@ -259,16 +268,7 @@
       "flag_code": "de",
       "goals": 1,
       "assists": 0,
-      "matches": 1
-    },
-    {
-      "player": "Livano Comenencia",
-      "team": "CUW",
-      "team_name": "Curaçao",
-      "flag_code": "cw",
-      "goals": 1,
-      "assists": 0,
-      "matches": 1
+      "matches": 2
     }
   ],
   "assists": [
@@ -277,6 +277,15 @@
       "team": "BRA",
       "team_name": "Brasil",
       "flag_code": "br",
+      "goals": 2,
+      "assists": 2,
+      "matches": 2
+    },
+    {
+      "player": "Cody Gakpo",
+      "team": "NED",
+      "team_name": "Países Baixos",
+      "flag_code": "nl",
       "goals": 2,
       "assists": 2,
       "matches": 2
