@@ -1,6 +1,15 @@
 {
   "scorers": [
     {
+      "player": "Deniz Undav",
+      "team": "GER",
+      "team_name": "Alemanha",
+      "flag_code": "de",
+      "goals": 3,
+      "assists": 2,
+      "matches": 2
+    },
+    {
       "player": "Lionel Messi",
       "team": "ARG",
       "team_name": "Argentina",
@@ -260,18 +269,18 @@
       "goals": 1,
       "assists": 0,
       "matches": 2
-    },
-    {
-      "player": "Felix Kalu Nmecha",
-      "team": "GER",
-      "team_name": "Alemanha",
-      "flag_code": "de",
-      "goals": 1,
-      "assists": 0,
-      "matches": 2
     }
   ],
   "assists": [
+    {
+      "player": "Deniz Undav",
+      "team": "GER",
+      "team_name": "Alemanha",
+      "flag_code": "de",
+      "goals": 3,
+      "assists": 2,
+      "matches": 2
+    },
     {
       "player": "Vinicius Junior",
       "team": "BRA",
