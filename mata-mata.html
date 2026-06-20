@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CHAMPIONS — Mata-Mata | Copa do Mundo 2026</title>
+  <meta name="description" content="Chaveamento do mata-mata da Copa do Mundo FIFA 2026.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/components/bracket.css">
+
+  <script src="js/core/theme.js"></script>
+</head>
+<body>
+
+  <!-- ── Navigation ── -->
+  <nav class="nav" role="navigation" aria-label="Navegação principal">
+    <div class="nav__inner">
+      <a class="nav__logo" href="selecoes.html" aria-label="Champions — Copa do Mundo 2026">
+        <span class="nav__logo-icon">⚽</span>
+        <div class="nav__logo-wrap">
+          <span class="nav__logo-text">CHAMPIONS</span>
+          <span class="nav__logo-year">World Cup 2026</span>
+        </div>
+      </a>
+
+      <ul class="nav__links" role="list">
+        <li><a href="selecoes.html"  class="nav__link">Seleções</a></li>
+        <li><a href="grupos.html"    class="nav__link">Fase de Grupos</a></li>
+        <li><a href="mata-mata.html" class="nav__link active" aria-current="page">Mata-Mata</a></li>
+      </ul>
+
+      <div class="nav__actions">
+        <div class="last-updated" aria-live="polite">
+          <span class="last-updated__dot"></span>
+          <span id="lastUpdated">Carregando...</span>
+        </div>
+        <button class="theme-toggle" id="themeToggle" type="button">☀️</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ── Hero ── -->
+  <section class="hero" aria-label="Cabeçalho da página">
+    <div class="hero__inner container">
+      <p class="hero__eyebrow">FIFA World Cup 2026 · Fase Eliminatória</p>
+      <h1 class="hero__title">Mata-Mata</h1>
+      <p class="hero__sub">Chaveamento completo — da Rodada de 32 até a Grande Final.</p>
+    </div>
+  </section>
+
+  <!-- ── Main ── -->
+  <main class="page-body">
+    <div class="container">
+      <div id="bracket" role="main" aria-label="Chaveamento do mata-mata">
+        <div class="state-empty">
+          <div class="state-empty__icon">⏳</div>
+          <p class="state-empty__title">Carregando chaveamento...</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- ── Footer ── -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <p class="footer__copy">CHAMPIONS &copy; 2026</p>
+      <p class="footer__note">
+        Dados via <a href="https://www.football-data.org" target="_blank" rel="noopener">football-data.org</a>
+        &nbsp;·&nbsp; Projeto open-source no GitHub Pages
+      </p>
+    </div>
+  </footer>
+
+  <script src="js/core/data-loader.js"></script>
+  <script src="js/pages/mata-mata.js"></script>
+</body>
+</html>

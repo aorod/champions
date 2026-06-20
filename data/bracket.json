@@ -1,0 +1,273 @@
+{
+  "rounds": {
+    "r32": {
+      "label": "Rodada de 32",
+      "matches": [
+        {
+          "id": 537417,
+          "home": null,
+          "away": null,
+          "home_score": null,
+          "away_score": null,
+          "winner": null,
+          "date": "2026-06-28T19:00:00Z",
+          "status": "pending"
+        },
+        {
+          "id": 537423,
+          "home": null,
+          "away": null,
+          "home_score": null,
+          "away_score": null,
+          "winner": null,
+          "date": "2026-06-29T17:00:00Z",
+          "status": "pending"
+        },
+        {
+          "id": 537415,
+          "home": null,
+          "away": null,
+          "home_score": null,
+          "away_score": null,
+          "winner": null,
+          "date": "2026-06-29T20:30:00Z",
+          "status": "pending"
+        },
+        {
+          "id": 537418,
+          "home": null,
+          "away": null,
+          "home_score": null,
+          "away_score": null,
+          "winner": null,
+          "date": "2026-06-30T01:00:00Z",
+          "status": "pending"
+        },
+        {
+          "id": 537424,
+          "home": null,
+          "away": null,
+          "home_score": null,
+          "away_score": null,
+          "winner": null,
+          "date": "2026-06-30T17:00:00Z",
+          "status": "pending"
+        },
+        {
+          "id": 537416,
+          "home": null,
+          "away": null,
+          "home_score": null,
+          "away_score": null,
+          "winner": null,
+          "date": "2026-06-30T21:00:00Z",
+          "status": "pending"
+        },
+        {
+          "id": 537425,
+          "home": null,
+          "away": null,
+          "home_score": null,
+          "away_score": null,
+          "winner": null,
+          "date": "2026-07-01T01:00:00Z",
+          "status": "pending"
+        },
+        {
+          "id": 537426,
+          "home": null,
+          "away": null,
+          "home_score": null,
+          "away_score": null,
+          "winner": null,
+          "date": "2026-07-01T16:00:00Z",
+          "status": "pending"
+        },
+        {
+          "id": 537422,
+          "home": null,
+          "away": null,
+          "home_score": null,
+          "away_score": null,
+          "winner": null,
+          "date": "2026-07-01T20:00:00Z",
+          "status": "pending"
+        },
+        {
+          "id": 537421,
+          "home": null,
+          "away": null,
+          "home_score": null,
+          "away_score": null,
+          "winner": null,
+          "date": "2026-07-02T00:00:00Z",
+          "status": "pending"
+        },
+        {
+          "id": 537420,
+          "home": null,
+          "away": null,
+          "home_score": null,
+          "away_score": null,
+          "winner": null,
+          "date": "2026-07-02T19:00:00Z",
+          "status": "pending"
+        },
+        {
+          "id": 537419,
+          "home": null,
+          "away": null,
+          "home_score": null,
+          "away_score": null,
+          "winner": null,
+          "date": "2026-07-02T23:00:00Z",
+          "status": "pending"
+        },
+        {
+          "id": 537429,
+          "home": null,
+          "away": null,
+          "home_score": null,
+          "away_score": null,
+          "winner": null,
+          "date": "2026-07-03T03:00:00Z",
+          "status": "pending"
+        },
+        {
+          "id": 537428,
+          "home": null,
+          "away": null,
+          "home_score": null,
+          "away_score": null,
+          "winner": null,
+          "date": "2026-07-03T18:00:00Z",
+          "status": "pending"
+        },
+        {
+          "id": 537427,
+          "home": null,
+          "away": null,
+          "home_score": null,
+          "away_score": null,
+          "winner": null,
+          "date": "2026-07-03T22:00:00Z",
+          "status": "pending"
+        },
+        {
+          "id": 537430,
+          "home": null,
+          "away": null,
+          "home_score": null,
+          "away_score": null,
+          "winner": null,
+          "date": "2026-07-04T01:30:00Z",
+          "status": "pending"
+        }
+      ]
+    },
+    "r16": {
+      "label": "Oitavas de Final",
+      "matches": []
+    },
+    "qf": {
+      "label": "Quartas de Final",
+      "matches": [
+        {
+          "id": 537383,
+          "home": null,
+          "away": null,
+          "home_score": null,
+          "away_score": null,
+          "winner": null,
+          "date": "2026-07-09T20:00:00Z",
+          "status": "pending"
+        },
+        {
+          "id": 537384,
+          "home": null,
+          "away": null,
+          "home_score": null,
+          "away_score": null,
+          "winner": null,
+          "date": "2026-07-10T19:00:00Z",
+          "status": "pending"
+        },
+        {
+          "id": 537385,
+          "home": null,
+          "away": null,
+          "home_score": null,
+          "away_score": null,
+          "winner": null,
+          "date": "2026-07-11T21:00:00Z",
+          "status": "pending"
+        },
+        {
+          "id": 537386,
+          "home": null,
+          "away": null,
+          "home_score": null,
+          "away_score": null,
+          "winner": null,
+          "date": "2026-07-12T01:00:00Z",
+          "status": "pending"
+        }
+      ]
+    },
+    "sf": {
+      "label": "Semifinais",
+      "matches": [
+        {
+          "id": 537387,
+          "home": null,
+          "away": null,
+          "home_score": null,
+          "away_score": null,
+          "winner": null,
+          "date": "2026-07-14T19:00:00Z",
+          "status": "pending"
+        },
+        {
+          "id": 537388,
+          "home": null,
+          "away": null,
+          "home_score": null,
+          "away_score": null,
+          "winner": null,
+          "date": "2026-07-15T19:00:00Z",
+          "status": "pending"
+        }
+      ]
+    },
+    "third": {
+      "label": "3º Lugar",
+      "matches": [
+        {
+          "id": 537389,
+          "home": null,
+          "away": null,
+          "home_score": null,
+          "away_score": null,
+          "winner": null,
+          "date": "2026-07-18T21:00:00Z",
+          "status": "pending"
+        }
+      ]
+    },
+    "final": {
+      "label": "Final",
+      "matches": [
+        {
+          "id": 537390,
+          "home": null,
+          "away": null,
+          "home_score": null,
+          "away_score": null,
+          "winner": null,
+          "date": "2026-07-19T19:00:00Z",
+          "status": "pending"
+        }
+      ]
+    }
+  }
+}

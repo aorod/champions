@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CHAMPIONS — Seleções | Copa do Mundo 2026</title>
+  <meta name="description" content="Conheça as 48 seleções participantes da Copa do Mundo FIFA 2026.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/components/team-card.css">
+
+  <script src="js/core/theme.js"></script>
+</head>
+<body>
+
+  <!-- ── Navigation ── -->
+  <nav class="nav" role="navigation" aria-label="Navegação principal">
+    <div class="nav__inner">
+      <a class="nav__logo" href="selecoes.html" aria-label="Champions — Copa do Mundo 2026">
+        <span class="nav__logo-icon">⚽</span>
+        <div class="nav__logo-wrap">
+          <span class="nav__logo-text">CHAMPIONS</span>
+          <span class="nav__logo-year">World Cup 2026</span>
+        </div>
+      </a>
+
+      <ul class="nav__links" role="list">
+        <li><a href="selecoes.html"  class="nav__link active" aria-current="page">Seleções</a></li>
+        <li><a href="grupos.html"    class="nav__link">Fase de Grupos</a></li>
+        <li><a href="mata-mata.html" class="nav__link">Mata-Mata</a></li>
+      </ul>
+
+      <div class="nav__actions">
+        <div class="last-updated" aria-live="polite">
+          <span class="last-updated__dot"></span>
+          <span id="lastUpdated">Carregando...</span>
+        </div>
+        <button class="theme-toggle" id="themeToggle" type="button">☀️</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ── Hero ── -->
+  <section class="hero" aria-label="Cabeçalho da página">
+    <div class="hero__inner container">
+      <p class="hero__eyebrow">FIFA World Cup 2026 · 48 Nações</p>
+      <h1 class="hero__title">Seleções</h1>
+      <p class="hero__sub">Todas as equipes classificadas para a Copa do Mundo.</p>
+    </div>
+  </section>
+
+  <!-- ── Main ── -->
+  <main class="page-body">
+    <div class="container">
+
+      <!-- Filters -->
+      <div class="filter-bar">
+        <input
+          type="search"
+          id="searchInput"
+          class="search-input"
+          placeholder="Buscar seleção..."
+          aria-label="Buscar seleção"
+          autocomplete="off"
+        >
+        <div class="filter-tabs" role="group" aria-label="Filtrar por confederação">
+          <button class="filter-tab active" data-filter="all"     type="button">Todas</button>
+          <button class="filter-tab"        data-filter="UEFA"    type="button">UEFA</button>
+          <button class="filter-tab"        data-filter="CONMEBOL"type="button">CONMEBOL</button>
+          <button class="filter-tab"        data-filter="CONCACAF"type="button">CONCACAF</button>
+          <button class="filter-tab"        data-filter="CAF"     type="button">CAF</button>
+          <button class="filter-tab"        data-filter="AFC"     type="button">AFC</button>
+          <button class="filter-tab"        data-filter="OFC"     type="button">OFC</button>
+        </div>
+      </div>
+
+      <!-- Teams grid -->
+      <div id="teamsGrid" class="teams-grid" role="list" aria-label="Seleções classificadas">
+        <!-- Rendered by selecoes.js -->
+        <div class="state-empty" style="grid-column:1/-1">
+          <div class="state-empty__icon">⏳</div>
+          <p class="state-empty__title">Carregando seleções...</p>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- ── Footer ── -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <p class="footer__copy">CHAMPIONS &copy; 2026</p>
+      <p class="footer__note">
+        Dados via <a href="https://www.football-data.org" target="_blank" rel="noopener">football-data.org</a>
+        &nbsp;·&nbsp; Projeto open-source no GitHub Pages
+      </p>
+    </div>
+  </footer>
+
+  <script src="js/core/data-loader.js"></script>
+  <script src="js/pages/selecoes.js"></script>
+</body>
+</html>

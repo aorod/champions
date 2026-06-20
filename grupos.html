@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CHAMPIONS — Fase de Grupos | Copa do Mundo 2026</title>
+  <meta name="description" content="Tabela de classificação dos 12 grupos da Copa do Mundo FIFA 2026.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/components/group-table.css">
+
+  <script src="js/core/theme.js"></script>
+</head>
+<body>
+
+  <!-- ── Navigation ── -->
+  <nav class="nav" role="navigation" aria-label="Navegação principal">
+    <div class="nav__inner">
+      <a class="nav__logo" href="selecoes.html" aria-label="Champions — Copa do Mundo 2026">
+        <span class="nav__logo-icon">⚽</span>
+        <div class="nav__logo-wrap">
+          <span class="nav__logo-text">CHAMPIONS</span>
+          <span class="nav__logo-year">World Cup 2026</span>
+        </div>
+      </a>
+
+      <ul class="nav__links" role="list">
+        <li><a href="selecoes.html"  class="nav__link">Seleções</a></li>
+        <li><a href="grupos.html"    class="nav__link active" aria-current="page">Fase de Grupos</a></li>
+        <li><a href="mata-mata.html" class="nav__link">Mata-Mata</a></li>
+      </ul>
+
+      <div class="nav__actions">
+        <div class="last-updated" aria-live="polite">
+          <span class="last-updated__dot"></span>
+          <span id="lastUpdated">Carregando...</span>
+        </div>
+        <button class="theme-toggle" id="themeToggle" type="button">☀️</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ── Hero ── -->
+  <section class="hero" aria-label="Cabeçalho da página">
+    <div class="hero__inner container">
+      <p class="hero__eyebrow">FIFA World Cup 2026 · 12 Grupos</p>
+      <h1 class="hero__title">Fase de Grupos</h1>
+      <p class="hero__sub">Classificação atualizada dos 12 grupos. Top 2 + 8 melhores 3ºs avançam.</p>
+    </div>
+  </section>
+
+  <!-- ── Main ── -->
+  <main class="page-body">
+    <div class="container">
+
+      <!-- Page tabs: Grupos / Artilharia -->
+      <div class="page-tabs" role="tablist" aria-label="Seções da fase de grupos">
+        <button class="page-tab active" data-tab="groups"  role="tab" aria-selected="true"  type="button">Tabela de Grupos</button>
+        <button class="page-tab"        data-tab="scorers" role="tab" aria-selected="false" type="button">Artilharia</button>
+      </div>
+
+      <!-- Panel: Grupos -->
+      <div id="groupsContainer" class="tab-panel" data-panel="groups" role="tabpanel">
+        <div class="state-empty">
+          <div class="state-empty__icon">⏳</div>
+          <p class="state-empty__title">Carregando grupos...</p>
+        </div>
+      </div>
+
+      <!-- Panel: Artilharia -->
+      <div id="scorersContainer" class="tab-panel" data-panel="scorers" role="tabpanel" hidden>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:var(--s8)">
+
+          <div>
+            <h2 class="section-title">Artilheiros</h2>
+            <div id="scorersGoals">
+              <div class="state-empty">
+                <div class="state-empty__icon">⏳</div>
+                <p class="state-empty__title">Carregando...</p>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <h2 class="section-title">Assistências</h2>
+            <div id="scorersAssists">
+              <div class="state-empty">
+                <div class="state-empty__icon">⏳</div>
+                <p class="state-empty__title">Carregando...</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- ── Footer ── -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <p class="footer__copy">CHAMPIONS &copy; 2026</p>
+      <p class="footer__note">
+        Dados via <a href="https://www.football-data.org" target="_blank" rel="noopener">football-data.org</a>
+        &nbsp;·&nbsp; Projeto open-source no GitHub Pages
+      </p>
+    </div>
+  </footer>
+
+  <script src="js/core/data-loader.js"></script>
+  <script src="js/pages/grupos.js"></script>
+</body>
+</html>

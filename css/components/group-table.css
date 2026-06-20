@@ -1,0 +1,260 @@
+/* ── Groups Grid ─────────────────────────────────── */
+.groups-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(420px, 1fr));
+  gap: var(--s6);
+}
+
+/* ── Group Block ─────────────────────────────────── */
+.group-block {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--r-lg);
+  overflow: hidden;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  animation: fade-up var(--ease-slow) both;
+  transition: border-color var(--ease-base), box-shadow var(--ease-base);
+}
+
+.group-block:hover {
+  border-color: var(--border-strong);
+  box-shadow: var(--shadow-card);
+}
+
+/* ── Group Header ────────────────────────────────── */
+.group-block__header {
+  display: flex;
+  align-items: center;
+  gap: var(--s3);
+  padding: var(--s4) var(--s5);
+  border-bottom: 1px solid var(--border);
+  background: linear-gradient(135deg, var(--gold-dim), transparent);
+}
+
+.group-block__letter {
+  font-size: 1.4rem;
+  font-weight: var(--fw-black);
+  color: var(--gold);
+  line-height: 1;
+  min-width: 1.8ch;
+}
+
+.group-block__label {
+  font-size: 0.8rem;
+  font-weight: var(--fw-semibold);
+  color: var(--text-2);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+/* ── Table ───────────────────────────────────────── */
+.group-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.group-table th {
+  font-size: 0.68rem;
+  font-weight: var(--fw-semibold);
+  color: var(--text-3);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: var(--s2) var(--s5);
+  text-align: right;
+}
+
+.group-table th:first-child,
+.group-table th:nth-child(2) {
+  text-align: left;
+}
+
+.group-table th:nth-child(2) {
+  width: 100%;
+}
+
+.group-table td {
+  padding: var(--s3) var(--s5);
+  font-size: 0.875rem;
+  color: var(--text-1);
+  text-align: right;
+  border-top: 1px solid var(--border);
+}
+
+.group-table td:first-child,
+.group-table td:nth-child(2) {
+  text-align: left;
+}
+
+/* ── Row states ──────────────────────────────────── */
+.group-table tr.qualified td:first-child::before {
+  content: '';
+  display: inline-block;
+  width: 3px;
+  height: 0.85em;
+  background: var(--green);
+  border-radius: var(--r-full);
+  margin-right: var(--s2);
+  vertical-align: middle;
+}
+
+.group-table tr.playoff td:first-child::before {
+  content: '';
+  display: inline-block;
+  width: 3px;
+  height: 0.85em;
+  background: var(--cobalt);
+  border-radius: var(--r-full);
+  margin-right: var(--s2);
+  vertical-align: middle;
+}
+
+/* ── Team cell ───────────────────────────────────── */
+.group-table__team {
+  display: flex;
+  align-items: center;
+  gap: var(--s3);
+}
+
+.group-table__flag {
+  width: 24px;
+  height: 16px;
+  object-fit: cover;
+  border-radius: 2px;
+  flex-shrink: 0;
+}
+
+.group-table__name {
+  font-weight: var(--fw-medium);
+  color: var(--text-1);
+  white-space: nowrap;
+}
+
+/* ── Points cell ─────────────────────────────────── */
+.group-table .pts {
+  font-weight: var(--fw-bold);
+  color: var(--text-1);
+}
+
+/* ── GD color coding ─────────────────────────────── */
+.gd-pos { color: var(--green); }
+.gd-neg { color: var(--red); }
+.gd-zero { color: var(--text-3); }
+
+/* ── Rank number ─────────────────────────────────── */
+.rank {
+  font-size: 0.75rem;
+  font-weight: var(--fw-bold);
+  color: var(--text-3);
+  min-width: 1.2ch;
+}
+
+/* ── Scorers table ───────────────────────────────── */
+.scorers-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--s3);
+}
+
+.scorer-row {
+  display: grid;
+  grid-template-columns: 2rem 2rem 1fr auto auto;
+  align-items: center;
+  gap: var(--s3);
+  padding: var(--s3) var(--s5);
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--r-md);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  transition: background var(--ease-fast), border-color var(--ease-fast);
+  animation: fade-up var(--ease-slow) both;
+}
+
+.scorer-row:hover {
+  background: var(--bg-card-hover);
+  border-color: var(--border-strong);
+}
+
+.scorer-rank {
+  font-size: 0.8rem;
+  font-weight: var(--fw-black);
+  color: var(--text-3);
+  text-align: center;
+}
+
+.scorer-rank.top { color: var(--gold); }
+
+.scorer-flag {
+  width: 28px;
+  height: 19px;
+  object-fit: cover;
+  border-radius: 2px;
+}
+
+.scorer-info { min-width: 0; }
+
+.scorer-name {
+  font-size: 0.9rem;
+  font-weight: var(--fw-semibold);
+  color: var(--text-1);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.scorer-team {
+  font-size: 0.75rem;
+  color: var(--text-2);
+}
+
+.scorer-stat {
+  text-align: right;
+}
+
+.scorer-stat__value {
+  font-size: 1.1rem;
+  font-weight: var(--fw-black);
+  color: var(--gold);
+  line-height: 1;
+}
+
+.scorer-stat__label {
+  font-size: 0.65rem;
+  color: var(--text-3);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* ── Legend ──────────────────────────────────────── */
+.group-legend {
+  display: flex;
+  gap: var(--s5);
+  margin-top: var(--s6);
+  font-size: 0.75rem;
+  color: var(--text-2);
+  flex-wrap: wrap;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: var(--s2);
+}
+
+.legend-dot {
+  width: 3px;
+  height: 14px;
+  border-radius: var(--r-full);
+  flex-shrink: 0;
+}
+
+/* ── Responsive ──────────────────────────────────── */
+@media (max-width: 900px) {
+  .groups-grid { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 480px) {
+  .group-table th, .group-table td { padding: var(--s2) var(--s3); }
+  .scorer-row { grid-template-columns: 1.5rem 1.8rem 1fr auto auto; gap: var(--s2); padding: var(--s3); }
+}

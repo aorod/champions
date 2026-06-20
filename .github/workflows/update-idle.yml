@@ -1,0 +1,42 @@
+name: Atualizar dados (rotina diária)
+
+on:
+  schedule:
+    # Roda 1x por dia fora dos dias de jogo (mantém artilharia e meta atualizados)
+    - cron: '0 8 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-and-commit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repositório
+        uses: actions/checkout@v4
+
+      - name: Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Buscar dados da API
+        env:
+          FOOTBALL_DATA_API_KEY: ${{ secrets.FOOTBALL_DATA_API_KEY }}
+        run: node scripts/fetch-data.js
+
+      - name: Verificar mudanças nos dados
+        id: check
+        run: |
+          git diff --quiet data/ && echo "changed=false" >> $GITHUB_OUTPUT \
+                                 || echo "changed=true"  >> $GITHUB_OUTPUT
+
+      - name: Commit e push dos dados atualizados
+        if: steps.check.outputs.changed == 'true'
+        run: |
+          git config user.name  "champions-bot"
+          git config user.email "bot@champions-wc2026.github.io"
+          git add data/
+          git commit -m "chore(data): atualização diária $(date -u '+%Y-%m-%d')"
+          git push

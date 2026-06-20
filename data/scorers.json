@@ -1,0 +1,303 @@
+{
+  "scorers": [
+    {
+      "player": "Lionel Messi",
+      "team": "ARG",
+      "team_name": "Argentina",
+      "flag_code": "ar",
+      "goals": 3,
+      "assists": 0,
+      "matches": 1
+    },
+    {
+      "player": "Jonathan David",
+      "team": "CAN",
+      "team_name": "Canada",
+      "flag_code": "ca",
+      "goals": 3,
+      "assists": 0,
+      "matches": 2
+    },
+    {
+      "player": "Cyle Larin",
+      "team": "CAN",
+      "team_name": "Canada",
+      "flag_code": "ca",
+      "goals": 2,
+      "assists": 0,
+      "matches": 2
+    },
+    {
+      "player": "Folarin Balogun",
+      "team": "USA",
+      "team_name": "United States",
+      "flag_code": "us",
+      "goals": 2,
+      "assists": 0,
+      "matches": 2
+    },
+    {
+      "player": "Ismael Saibari",
+      "team": "MAR",
+      "team_name": "Morocco",
+      "flag_code": "ma",
+      "goals": 2,
+      "assists": 0,
+      "matches": 2
+    },
+    {
+      "player": "Vinicius Junior",
+      "team": "BRA",
+      "team_name": "Brazil",
+      "flag_code": "br",
+      "goals": 2,
+      "assists": 2,
+      "matches": 2
+    },
+    {
+      "player": "Kai Havertz",
+      "team": "GER",
+      "team_name": "Germany",
+      "flag_code": "de",
+      "goals": 2,
+      "assists": 0,
+      "matches": 1
+    },
+    {
+      "player": "Yasin Ayari",
+      "team": "SWE",
+      "team_name": "Sweden",
+      "flag_code": "se",
+      "goals": 2,
+      "assists": 0,
+      "matches": 1
+    },
+    {
+      "player": "Elijah Just",
+      "team": "NZL",
+      "team_name": "New Zealand",
+      "flag_code": "nz",
+      "goals": 2,
+      "assists": 0,
+      "matches": 1
+    },
+    {
+      "player": "Kylian Mbappé",
+      "team": "FRA",
+      "team_name": "France",
+      "flag_code": "fr",
+      "goals": 2,
+      "assists": 0,
+      "matches": 1
+    },
+    {
+      "player": "Erling Haaland",
+      "team": "NOR",
+      "team_name": "Norway",
+      "flag_code": "no",
+      "goals": 2,
+      "assists": 0,
+      "matches": 1
+    },
+    {
+      "player": "Harry Kane",
+      "team": "ENG",
+      "team_name": "England",
+      "flag_code": "gb-eng",
+      "goals": 2,
+      "assists": 0,
+      "matches": 1
+    },
+    {
+      "player": "Johan Manzambi",
+      "team": "SUI",
+      "team_name": "Switzerland",
+      "flag_code": "ch",
+      "goals": 2,
+      "assists": 0,
+      "matches": 2
+    },
+    {
+      "player": "Matheus Cunha",
+      "team": "BRA",
+      "team_name": "Brazil",
+      "flag_code": "br",
+      "goals": 2,
+      "assists": 0,
+      "matches": 2
+    },
+    {
+      "player": "Julián Quiñones",
+      "team": "MEX",
+      "team_name": "Mexico",
+      "flag_code": "mx",
+      "goals": 1,
+      "assists": 0,
+      "matches": 2
+    },
+    {
+      "player": "Raúl Jiménez",
+      "team": "MEX",
+      "team_name": "Mexico",
+      "flag_code": "mx",
+      "goals": 1,
+      "assists": 0,
+      "matches": 2
+    },
+    {
+      "player": "Ladislav Krejčí",
+      "team": "CZE",
+      "team_name": "Czechia",
+      "flag_code": "cz",
+      "goals": 1,
+      "assists": 0,
+      "matches": 2
+    },
+    {
+      "player": "In-beom Hwang",
+      "team": "KOR",
+      "team_name": "South Korea",
+      "flag_code": "kr",
+      "goals": 1,
+      "assists": 1,
+      "matches": 2
+    },
+    {
+      "player": "Hyun-Gyu Oh",
+      "team": "KOR",
+      "team_name": "South Korea",
+      "flag_code": "kr",
+      "goals": 1,
+      "assists": 0,
+      "matches": 2
+    },
+    {
+      "player": "Jovo Lukić",
+      "team": "BIH",
+      "team_name": "Bosnia-Herzegovina",
+      "flag_code": "ba",
+      "goals": 1,
+      "assists": 0,
+      "matches": 2
+    },
+    {
+      "player": "Mauricio",
+      "team": "PAR",
+      "team_name": "Paraguay",
+      "flag_code": "py",
+      "goals": 1,
+      "assists": 0,
+      "matches": 2
+    },
+    {
+      "player": "Gio Reyna",
+      "team": "USA",
+      "team_name": "United States",
+      "flag_code": "us",
+      "goals": 1,
+      "assists": 0,
+      "matches": 2
+    },
+    {
+      "player": "Breel Embolo",
+      "team": "SUI",
+      "team_name": "Switzerland",
+      "flag_code": "ch",
+      "goals": 1,
+      "assists": 1,
+      "matches": 2
+    },
+    {
+      "player": "Boualem Khoukhi",
+      "team": "QAT",
+      "team_name": "Qatar",
+      "flag_code": "qa",
+      "goals": 1,
+      "assists": 0,
+      "matches": 2
+    },
+    {
+      "player": "John McGinn",
+      "team": "SCO",
+      "team_name": "Scotland",
+      "flag_code": "gb-sct",
+      "goals": 1,
+      "assists": 0,
+      "matches": 2
+    },
+    {
+      "player": "Nestor Irankunda",
+      "team": "AUS",
+      "team_name": "Australia",
+      "flag_code": "au",
+      "goals": 1,
+      "assists": 0,
+      "matches": 2
+    },
+    {
+      "player": "Connor Metcalfe",
+      "team": "AUS",
+      "team_name": "Australia",
+      "flag_code": "au",
+      "goals": 1,
+      "assists": 0,
+      "matches": 2
+    },
+    {
+      "player": "Felix Kalu Nmecha",
+      "team": "GER",
+      "team_name": "Germany",
+      "flag_code": "de",
+      "goals": 1,
+      "assists": 0,
+      "matches": 1
+    },
+    {
+      "player": "Livano Comenencia",
+      "team": "CUW",
+      "team_name": "Curaçao",
+      "flag_code": "cw",
+      "goals": 1,
+      "assists": 0,
+      "matches": 1
+    },
+    {
+      "player": "Nico Schlotterbeck",
+      "team": "GER",
+      "team_name": "Germany",
+      "flag_code": "de",
+      "goals": 1,
+      "assists": 0,
+      "matches": 1
+    }
+  ],
+  "assists": [
+    {
+      "player": "Vinicius Junior",
+      "team": "BRA",
+      "team_name": "Brazil",
+      "flag_code": "br",
+      "goals": 2,
+      "assists": 2,
+      "matches": 2
+    },
+    {
+      "player": "In-beom Hwang",
+      "team": "KOR",
+      "team_name": "South Korea",
+      "flag_code": "kr",
+      "goals": 1,
+      "assists": 1,
+      "matches": 2
+    },
+    {
+      "player": "Breel Embolo",
+      "team": "SUI",
+      "team_name": "Switzerland",
+      "flag_code": "ch",
+      "goals": 1,
+      "assists": 1,
+      "matches": 2
+    }
+  ]
+}

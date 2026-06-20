@@ -1,0 +1,66 @@
+/* ── Page entrance ───────────────────────────────── */
+@keyframes fade-up {
+  from { opacity: 0; transform: translateY(16px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@keyframes slide-in-right {
+  from { opacity: 0; transform: translateX(20px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+
+/* ── Utility animations ──────────────────────────── */
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50%       { opacity: 0.5; transform: scale(0.75); }
+}
+
+@keyframes skeleton-shimmer {
+  from { background-position: 200% 0; }
+  to   { background-position: -200% 0; }
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* ── Applied classes ─────────────────────────────── */
+.anim-fade-up {
+  opacity: 0;
+  animation: fade-up var(--ease-slow) forwards;
+}
+
+.anim-fade-in {
+  opacity: 0;
+  animation: fade-in var(--ease-slow) forwards;
+}
+
+/* Staggered children */
+.stagger > *:nth-child(1)  { animation-delay: 50ms; }
+.stagger > *:nth-child(2)  { animation-delay: 100ms; }
+.stagger > *:nth-child(3)  { animation-delay: 150ms; }
+.stagger > *:nth-child(4)  { animation-delay: 200ms; }
+.stagger > *:nth-child(5)  { animation-delay: 250ms; }
+.stagger > *:nth-child(6)  { animation-delay: 300ms; }
+.stagger > *:nth-child(7)  { animation-delay: 350ms; }
+.stagger > *:nth-child(8)  { animation-delay: 400ms; }
+.stagger > *:nth-child(n+9){ animation-delay: 450ms; }
+
+/* Hero stagger */
+.hero__eyebrow { animation: fade-up 500ms 80ms both cubic-bezier(0.4, 0, 0.2, 1); }
+.hero__title   { animation: fade-up 500ms 160ms both cubic-bezier(0.4, 0, 0.2, 1); }
+.hero__sub     { animation: fade-up 500ms 240ms both cubic-bezier(0.4, 0, 0.2, 1); }
+
+/* Reduce motion */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

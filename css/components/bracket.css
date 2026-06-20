@@ -1,0 +1,208 @@
+/* ── Bracket Scroll Wrapper ──────────────────────── */
+.bracket-scroll {
+  overflow-x: auto;
+  padding-bottom: var(--s4);
+  -webkit-overflow-scrolling: touch;
+}
+
+/* ── Bracket layout ──────────────────────────────── */
+.bracket {
+  display: flex;
+  gap: var(--s8);
+  align-items: center;
+  min-width: max-content;
+  padding: var(--s4) 0;
+}
+
+/* ── Round column ────────────────────────────────── */
+.bracket__round {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  flex-shrink: 0;
+}
+
+.bracket__round-label {
+  font-size: 0.7rem;
+  font-weight: var(--fw-bold);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: var(--s4);
+  padding: 0 var(--s2);
+  text-align: center;
+}
+
+/* ── Matches within a round ──────────────────────── */
+.bracket__matches {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex: 1;
+}
+
+/* ── Single match card ───────────────────────────── */
+.bracket__match {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--r-md);
+  overflow: hidden;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  margin: var(--s3) 0;
+  transition: border-color var(--ease-fast), box-shadow var(--ease-fast);
+  position: relative;
+}
+
+.bracket__match:hover {
+  border-color: var(--border-strong);
+  box-shadow: var(--shadow-card);
+}
+
+.bracket__match.final-match {
+  width: 220px;
+  border-color: var(--gold);
+  box-shadow: 0 0 0 1px var(--gold-dim), var(--shadow-glow);
+}
+
+/* ── Team slot inside match ──────────────────────── */
+.bracket__team {
+  display: flex;
+  align-items: center;
+  gap: var(--s3);
+  padding: var(--s3) var(--s4);
+  transition: background var(--ease-fast);
+  position: relative;
+}
+
+.bracket__team + .bracket__team {
+  border-top: 1px solid var(--border);
+}
+
+.bracket__team.winner {
+  background: var(--gold-dim);
+}
+
+.bracket__team.winner .bracket__team-name {
+  color: var(--gold);
+  font-weight: var(--fw-bold);
+}
+
+.bracket__team-flag {
+  width: 24px;
+  height: 16px;
+  object-fit: cover;
+  border-radius: 2px;
+  flex-shrink: 0;
+  background: var(--bg-raised);
+}
+
+.bracket__team-name {
+  font-size: 0.8rem;
+  font-weight: var(--fw-medium);
+  color: var(--text-1);
+  flex: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.bracket__team-name.tbd {
+  color: var(--text-3);
+  font-style: italic;
+}
+
+.bracket__team-score {
+  font-size: 0.9rem;
+  font-weight: var(--fw-black);
+  color: var(--text-2);
+  min-width: 1.2ch;
+  text-align: right;
+  flex-shrink: 0;
+}
+
+.bracket__team.winner .bracket__team-score {
+  color: var(--gold);
+}
+
+/* ── Match date badge ────────────────────────────── */
+.bracket__date {
+  font-size: 0.65rem;
+  color: var(--text-3);
+  padding: var(--s1) var(--s4) var(--s2);
+  border-top: 1px solid var(--border);
+  letter-spacing: 0.04em;
+}
+
+/* ── Connector lines between rounds ──────────────── */
+.bracket__connector {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 24px;
+  flex-shrink: 0;
+}
+
+.bracket__connector-line {
+  flex: 1;
+  border-right: 1px solid var(--border-strong);
+}
+
+/* ── Trophy icon for final ───────────────────────── */
+.bracket__trophy {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: var(--s2);
+}
+
+/* ── Phase labels above bracket ─────────────────── */
+.bracket-legend {
+  display: flex;
+  gap: var(--s4);
+  margin-bottom: var(--s6);
+  flex-wrap: wrap;
+}
+
+.bracket-legend__item {
+  display: flex;
+  align-items: center;
+  gap: var(--s2);
+  font-size: 0.75rem;
+  color: var(--text-2);
+}
+
+.bracket-legend__dot {
+  width: 8px;
+  height: 8px;
+  border-radius: var(--r-full);
+  background: var(--gold);
+  flex-shrink: 0;
+}
+
+/* ── Pending state ───────────────────────────────── */
+.bracket__match.pending {
+  opacity: 0.6;
+}
+
+.bracket__match.pending .bracket__team-name {
+  color: var(--text-3);
+}
+
+/* ── Live badge ──────────────────────────────────── */
+.live-badge {
+  position: absolute;
+  top: var(--s2);
+  right: var(--s2);
+  font-size: 0.6rem;
+  font-weight: var(--fw-black);
+  letter-spacing: 0.1em;
+  color: #fff;
+  background: var(--red);
+  padding: 2px 6px;
+  border-radius: var(--r-full);
+  text-transform: uppercase;
+  animation: pulse-dot 1.5s ease infinite;
+}

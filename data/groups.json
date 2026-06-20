@@ -1,0 +1,676 @@
+{
+  "groups": {
+    "A": {
+      "teams": [
+        {
+          "id": "MEX",
+          "name": "Mexico",
+          "flag": "mx",
+          "played": 2,
+          "won": 2,
+          "drawn": 0,
+          "lost": 0,
+          "gf": 3,
+          "ga": 0,
+          "gd": 3,
+          "points": 6
+        },
+        {
+          "id": "KOR",
+          "name": "South Korea",
+          "flag": "kr",
+          "played": 2,
+          "won": 1,
+          "drawn": 0,
+          "lost": 1,
+          "gf": 2,
+          "ga": 2,
+          "gd": 0,
+          "points": 3
+        },
+        {
+          "id": "CZE",
+          "name": "Czechia",
+          "flag": "cz",
+          "played": 2,
+          "won": 0,
+          "drawn": 1,
+          "lost": 1,
+          "gf": 2,
+          "ga": 3,
+          "gd": -1,
+          "points": 1
+        },
+        {
+          "id": "RSA",
+          "name": "South Africa",
+          "flag": "za",
+          "played": 2,
+          "won": 0,
+          "drawn": 1,
+          "lost": 1,
+          "gf": 1,
+          "ga": 3,
+          "gd": -2,
+          "points": 1
+        }
+      ]
+    },
+    "B": {
+      "teams": [
+        {
+          "id": "CAN",
+          "name": "Canada",
+          "flag": "ca",
+          "played": 2,
+          "won": 1,
+          "drawn": 1,
+          "lost": 0,
+          "gf": 7,
+          "ga": 1,
+          "gd": 6,
+          "points": 4
+        },
+        {
+          "id": "SUI",
+          "name": "Switzerland",
+          "flag": "ch",
+          "played": 2,
+          "won": 1,
+          "drawn": 1,
+          "lost": 0,
+          "gf": 5,
+          "ga": 2,
+          "gd": 3,
+          "points": 4
+        },
+        {
+          "id": "BIH",
+          "name": "Bosnia-Herzegovina",
+          "flag": "ba",
+          "played": 2,
+          "won": 0,
+          "drawn": 1,
+          "lost": 1,
+          "gf": 2,
+          "ga": 5,
+          "gd": -3,
+          "points": 1
+        },
+        {
+          "id": "QAT",
+          "name": "Qatar",
+          "flag": "qa",
+          "played": 2,
+          "won": 0,
+          "drawn": 1,
+          "lost": 1,
+          "gf": 1,
+          "ga": 7,
+          "gd": -6,
+          "points": 1
+        }
+      ]
+    },
+    "C": {
+      "teams": [
+        {
+          "id": "BRA",
+          "name": "Brazil",
+          "flag": "br",
+          "played": 2,
+          "won": 1,
+          "drawn": 1,
+          "lost": 0,
+          "gf": 4,
+          "ga": 1,
+          "gd": 3,
+          "points": 4
+        },
+        {
+          "id": "MAR",
+          "name": "Morocco",
+          "flag": "ma",
+          "played": 2,
+          "won": 1,
+          "drawn": 1,
+          "lost": 0,
+          "gf": 2,
+          "ga": 1,
+          "gd": 1,
+          "points": 4
+        },
+        {
+          "id": "SCO",
+          "name": "Scotland",
+          "flag": "gb-sct",
+          "played": 2,
+          "won": 1,
+          "drawn": 0,
+          "lost": 1,
+          "gf": 1,
+          "ga": 1,
+          "gd": 0,
+          "points": 3
+        },
+        {
+          "id": "HAI",
+          "name": "Haiti",
+          "flag": "ht",
+          "played": 2,
+          "won": 0,
+          "drawn": 0,
+          "lost": 2,
+          "gf": 0,
+          "ga": 4,
+          "gd": -4,
+          "points": 0
+        }
+      ]
+    },
+    "D": {
+      "teams": [
+        {
+          "id": "USA",
+          "name": "United States",
+          "flag": "us",
+          "played": 2,
+          "won": 2,
+          "drawn": 0,
+          "lost": 0,
+          "gf": 6,
+          "ga": 1,
+          "gd": 5,
+          "points": 6
+        },
+        {
+          "id": "AUS",
+          "name": "Australia",
+          "flag": "au",
+          "played": 2,
+          "won": 1,
+          "drawn": 0,
+          "lost": 1,
+          "gf": 2,
+          "ga": 2,
+          "gd": 0,
+          "points": 3
+        },
+        {
+          "id": "PAR",
+          "name": "Paraguay",
+          "flag": "py",
+          "played": 2,
+          "won": 1,
+          "drawn": 0,
+          "lost": 1,
+          "gf": 2,
+          "ga": 4,
+          "gd": -2,
+          "points": 3
+        },
+        {
+          "id": "TUR",
+          "name": "Turkey",
+          "flag": "tr",
+          "played": 2,
+          "won": 0,
+          "drawn": 0,
+          "lost": 2,
+          "gf": 0,
+          "ga": 3,
+          "gd": -3,
+          "points": 0
+        }
+      ]
+    },
+    "E": {
+      "teams": [
+        {
+          "id": "GER",
+          "name": "Germany",
+          "flag": "de",
+          "played": 1,
+          "won": 1,
+          "drawn": 0,
+          "lost": 0,
+          "gf": 7,
+          "ga": 1,
+          "gd": 6,
+          "points": 3
+        },
+        {
+          "id": "CIV",
+          "name": "Ivory Coast",
+          "flag": "ci",
+          "played": 1,
+          "won": 1,
+          "drawn": 0,
+          "lost": 0,
+          "gf": 1,
+          "ga": 0,
+          "gd": 1,
+          "points": 3
+        },
+        {
+          "id": "ECU",
+          "name": "Ecuador",
+          "flag": "ec",
+          "played": 1,
+          "won": 0,
+          "drawn": 0,
+          "lost": 1,
+          "gf": 0,
+          "ga": 1,
+          "gd": -1,
+          "points": 0
+        },
+        {
+          "id": "CUW",
+          "name": "Curaçao",
+          "flag": "cw",
+          "played": 1,
+          "won": 0,
+          "drawn": 0,
+          "lost": 1,
+          "gf": 1,
+          "ga": 7,
+          "gd": -6,
+          "points": 0
+        }
+      ]
+    },
+    "F": {
+      "teams": [
+        {
+          "id": "SWE",
+          "name": "Sweden",
+          "flag": "se",
+          "played": 1,
+          "won": 1,
+          "drawn": 0,
+          "lost": 0,
+          "gf": 5,
+          "ga": 1,
+          "gd": 4,
+          "points": 3
+        },
+        {
+          "id": "JPN",
+          "name": "Japan",
+          "flag": "jp",
+          "played": 1,
+          "won": 0,
+          "drawn": 1,
+          "lost": 0,
+          "gf": 2,
+          "ga": 2,
+          "gd": 0,
+          "points": 1
+        },
+        {
+          "id": "NED",
+          "name": "Netherlands",
+          "flag": "nl",
+          "played": 1,
+          "won": 0,
+          "drawn": 1,
+          "lost": 0,
+          "gf": 2,
+          "ga": 2,
+          "gd": 0,
+          "points": 1
+        },
+        {
+          "id": "TUN",
+          "name": "Tunisia",
+          "flag": "tn",
+          "played": 1,
+          "won": 0,
+          "drawn": 0,
+          "lost": 1,
+          "gf": 1,
+          "ga": 5,
+          "gd": -4,
+          "points": 0
+        }
+      ]
+    },
+    "G": {
+      "teams": [
+        {
+          "id": "NZL",
+          "name": "New Zealand",
+          "flag": "nz",
+          "played": 1,
+          "won": 0,
+          "drawn": 1,
+          "lost": 0,
+          "gf": 2,
+          "ga": 2,
+          "gd": 0,
+          "points": 1
+        },
+        {
+          "id": "IRN",
+          "name": "Iran",
+          "flag": "ir",
+          "played": 1,
+          "won": 0,
+          "drawn": 1,
+          "lost": 0,
+          "gf": 2,
+          "ga": 2,
+          "gd": 0,
+          "points": 1
+        },
+        {
+          "id": "BEL",
+          "name": "Belgium",
+          "flag": "be",
+          "played": 1,
+          "won": 0,
+          "drawn": 1,
+          "lost": 0,
+          "gf": 1,
+          "ga": 1,
+          "gd": 0,
+          "points": 1
+        },
+        {
+          "id": "EGY",
+          "name": "Egypt",
+          "flag": "eg",
+          "played": 1,
+          "won": 0,
+          "drawn": 1,
+          "lost": 0,
+          "gf": 1,
+          "ga": 1,
+          "gd": 0,
+          "points": 1
+        }
+      ]
+    },
+    "H": {
+      "teams": [
+        {
+          "id": "URU",
+          "name": "Uruguay",
+          "flag": "uy",
+          "played": 1,
+          "won": 0,
+          "drawn": 1,
+          "lost": 0,
+          "gf": 1,
+          "ga": 1,
+          "gd": 0,
+          "points": 1
+        },
+        {
+          "id": "KSA",
+          "name": "Saudi Arabia",
+          "flag": "sa",
+          "played": 1,
+          "won": 0,
+          "drawn": 1,
+          "lost": 0,
+          "gf": 1,
+          "ga": 1,
+          "gd": 0,
+          "points": 1
+        },
+        {
+          "id": "ESP",
+          "name": "Spain",
+          "flag": "es",
+          "played": 1,
+          "won": 0,
+          "drawn": 1,
+          "lost": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "points": 1
+        },
+        {
+          "id": "CPV",
+          "name": "Cape Verde Islands",
+          "flag": "cp",
+          "played": 1,
+          "won": 0,
+          "drawn": 1,
+          "lost": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "points": 1
+        }
+      ]
+    },
+    "I": {
+      "teams": [
+        {
+          "id": "NOR",
+          "name": "Norway",
+          "flag": "no",
+          "played": 1,
+          "won": 1,
+          "drawn": 0,
+          "lost": 0,
+          "gf": 4,
+          "ga": 1,
+          "gd": 3,
+          "points": 3
+        },
+        {
+          "id": "FRA",
+          "name": "France",
+          "flag": "fr",
+          "played": 1,
+          "won": 1,
+          "drawn": 0,
+          "lost": 0,
+          "gf": 3,
+          "ga": 1,
+          "gd": 2,
+          "points": 3
+        },
+        {
+          "id": "SEN",
+          "name": "Senegal",
+          "flag": "sn",
+          "played": 1,
+          "won": 0,
+          "drawn": 0,
+          "lost": 1,
+          "gf": 1,
+          "ga": 3,
+          "gd": -2,
+          "points": 0
+        },
+        {
+          "id": "IRQ",
+          "name": "Iraq",
+          "flag": "iq",
+          "played": 1,
+          "won": 0,
+          "drawn": 0,
+          "lost": 1,
+          "gf": 1,
+          "ga": 4,
+          "gd": -3,
+          "points": 0
+        }
+      ]
+    },
+    "J": {
+      "teams": [
+        {
+          "id": "ARG",
+          "name": "Argentina",
+          "flag": "ar",
+          "played": 1,
+          "won": 1,
+          "drawn": 0,
+          "lost": 0,
+          "gf": 3,
+          "ga": 0,
+          "gd": 3,
+          "points": 3
+        },
+        {
+          "id": "AUT",
+          "name": "Austria",
+          "flag": "at",
+          "played": 1,
+          "won": 1,
+          "drawn": 0,
+          "lost": 0,
+          "gf": 3,
+          "ga": 1,
+          "gd": 2,
+          "points": 3
+        },
+        {
+          "id": "JOR",
+          "name": "Jordan",
+          "flag": "jo",
+          "played": 1,
+          "won": 0,
+          "drawn": 0,
+          "lost": 1,
+          "gf": 1,
+          "ga": 3,
+          "gd": -2,
+          "points": 0
+        },
+        {
+          "id": "ALG",
+          "name": "Algeria",
+          "flag": "dz",
+          "played": 1,
+          "won": 0,
+          "drawn": 0,
+          "lost": 1,
+          "gf": 0,
+          "ga": 3,
+          "gd": -3,
+          "points": 0
+        }
+      ]
+    },
+    "K": {
+      "teams": [
+        {
+          "id": "COL",
+          "name": "Colombia",
+          "flag": "co",
+          "played": 1,
+          "won": 1,
+          "drawn": 0,
+          "lost": 0,
+          "gf": 3,
+          "ga": 1,
+          "gd": 2,
+          "points": 3
+        },
+        {
+          "id": "COD",
+          "name": "Congo DR",
+          "flag": "cd",
+          "played": 1,
+          "won": 0,
+          "drawn": 1,
+          "lost": 0,
+          "gf": 1,
+          "ga": 1,
+          "gd": 0,
+          "points": 1
+        },
+        {
+          "id": "POR",
+          "name": "Portugal",
+          "flag": "pt",
+          "played": 1,
+          "won": 0,
+          "drawn": 1,
+          "lost": 0,
+          "gf": 1,
+          "ga": 1,
+          "gd": 0,
+          "points": 1
+        },
+        {
+          "id": "UZB",
+          "name": "Uzbekistan",
+          "flag": "uz",
+          "played": 1,
+          "won": 0,
+          "drawn": 0,
+          "lost": 1,
+          "gf": 1,
+          "ga": 3,
+          "gd": -2,
+          "points": 0
+        }
+      ]
+    },
+    "L": {
+      "teams": [
+        {
+          "id": "ENG",
+          "name": "England",
+          "flag": "gb-eng",
+          "played": 1,
+          "won": 1,
+          "drawn": 0,
+          "lost": 0,
+          "gf": 4,
+          "ga": 2,
+          "gd": 2,
+          "points": 3
+        },
+        {
+          "id": "GHA",
+          "name": "Ghana",
+          "flag": "gh",
+          "played": 1,
+          "won": 1,
+          "drawn": 0,
+          "lost": 0,
+          "gf": 1,
+          "ga": 0,
+          "gd": 1,
+          "points": 3
+        },
+        {
+          "id": "PAN",
+          "name": "Panama",
+          "flag": "pa",
+          "played": 1,
+          "won": 0,
+          "drawn": 0,
+          "lost": 1,
+          "gf": 0,
+          "ga": 1,
+          "gd": -1,
+          "points": 0
+        },
+        {
+          "id": "CRO",
+          "name": "Croatia",
+          "flag": "hr",
+          "played": 1,
+          "won": 0,
+          "drawn": 0,
+          "lost": 1,
+          "gf": 2,
+          "ga": 4,
+          "gd": -2,
+          "points": 0
+        }
+      ]
+    }
+  }
+}

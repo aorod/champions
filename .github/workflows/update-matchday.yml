@@ -1,0 +1,45 @@
+name: Atualizar dados (dia de jogo)
+
+on:
+  schedule:
+    # Roda a cada 10 minutos entre 12h e 23h UTC (cobre todos os horários de jogo)
+    # Ajuste os horários conforme a tabela de jogos da Copa 2026
+    - cron: '*/10 12-23 11 6 *'   # Jun 11 — abertura
+    - cron: '*/10 12-23 12-30 6 *' # Jun 12-30 — fase de grupos
+    - cron: '*/10 12-23 1-19 7 *'  # Jul 1-19 — mata-mata até a final
+  workflow_dispatch:  # permite rodar manualmente pelo GitHub UI
+
+permissions:
+  contents: write   # necessário para fazer commit dos JSONs
+
+jobs:
+  fetch-and-commit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repositório
+        uses: actions/checkout@v4
+
+      - name: Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Buscar dados da API
+        env:
+          FOOTBALL_DATA_API_KEY: ${{ secrets.FOOTBALL_DATA_API_KEY }}
+        run: node scripts/fetch-data.js
+
+      - name: Verificar mudanças nos dados
+        id: check
+        run: |
+          git diff --quiet data/ && echo "changed=false" >> $GITHUB_OUTPUT \
+                                 || echo "changed=true"  >> $GITHUB_OUTPUT
+
+      - name: Commit e push dos dados atualizados
+        if: steps.check.outputs.changed == 'true'
+        run: |
+          git config user.name  "champions-bot"
+          git config user.email "bot@champions-wc2026.github.io"
+          git add data/
+          git commit -m "chore(data): atualização automática $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push
