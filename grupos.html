@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="css/layout.css">
   <link rel="stylesheet" href="css/animations.css">
   <link rel="stylesheet" href="css/components/group-table.css">
+  <link rel="stylesheet" href="css/components/matches.css">
 
   <script src="js/core/theme.js"></script>
 </head>
@@ -75,6 +76,7 @@
       <!-- Page tabs: Grupos / Artilharia -->
       <div class="page-tabs" role="tablist" aria-label="Seções da fase de grupos">
         <button class="page-tab active" data-tab="groups"  role="tab" aria-selected="true"  type="button">Tabela de Grupos</button>
+        <button class="page-tab"        data-tab="matches" role="tab" aria-selected="false" type="button">Partidas</button>
         <button class="page-tab"        data-tab="scorers" role="tab" aria-selected="false" type="button">Artilharia</button>
       </div>
 
@@ -83,6 +85,14 @@
         <div class="state-empty">
           <div class="state-empty__icon">⏳</div>
           <p class="state-empty__title">Carregando grupos...</p>
+        </div>
+      </div>
+
+      <!-- Panel: Partidas -->
+      <div id="matchesContainer" class="tab-panel" data-panel="matches" role="tabpanel" hidden>
+        <div class="state-empty">
+          <div class="state-empty__icon">⏳</div>
+          <p class="state-empty__title">Carregando partidas...</p>
         </div>
       </div>
 

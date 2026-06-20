@@ -1,0 +1,1588 @@
+{
+  "matches": [
+    {
+      "id": 537327,
+      "group": "A",
+      "matchday": 1,
+      "home": {
+        "name": "México",
+        "tla": "MEX",
+        "flag": "mx"
+      },
+      "away": {
+        "name": "África do Sul",
+        "tla": "RSA",
+        "flag": "za"
+      },
+      "home_score": 2,
+      "away_score": 0,
+      "winner": "home",
+      "date": "2026-06-11T19:00:00Z",
+      "venue": null,
+      "city": null,
+      "status": "finished"
+    },
+    {
+      "id": 537328,
+      "group": "A",
+      "matchday": 1,
+      "home": {
+        "name": "Coreia do Sul",
+        "tla": "KOR",
+        "flag": "kr"
+      },
+      "away": {
+        "name": "República Tcheca",
+        "tla": "CZE",
+        "flag": "cz"
+      },
+      "home_score": 2,
+      "away_score": 1,
+      "winner": "home",
+      "date": "2026-06-12T02:00:00Z",
+      "venue": null,
+      "city": null,
+      "status": "finished"
+    },
+    {
+      "id": 537333,
+      "group": "B",
+      "matchday": 1,
+      "home": {
+        "name": "Canadá",
+        "tla": "CAN",
+        "flag": "ca"
+      },
+      "away": {
+        "name": "Bósnia e Herzegovina",
+        "tla": "BIH",
+        "flag": "ba"
+      },
+      "home_score": 1,
+      "away_score": 1,
+      "winner": "draw",
+      "date": "2026-06-12T19:00:00Z",
+      "venue": null,
+      "city": null,
+      "status": "finished"
+    },
+    {
+      "id": 537345,
+      "group": "D",
+      "matchday": 1,
+      "home": {
+        "name": "Estados Unidos",
+        "tla": "USA",
+        "flag": "us"
+      },
+      "away": {
+        "name": "Paraguai",
+        "tla": "PAR",
+        "flag": "py"
+      },
+      "home_score": 4,
+      "away_score": 1,
+      "winner": "home",
+      "date": "2026-06-13T01:00:00Z",
+      "venue": null,
+      "city": null,
+      "status": "finished"
+    },
+    {
+      "id": 537334,
+      "group": "B",
+      "matchday": 1,
+      "home": {
+        "name": "Catar",
+        "tla": "QAT",
+        "flag": "qa"
+      },
+      "away": {
+        "name": "Suíça",
+        "tla": "SUI",
+        "flag": "ch"
+      },
+      "home_score": 1,
+      "away_score": 1,
+      "winner": "draw",
+      "date": "2026-06-13T19:00:00Z",
+      "venue": null,
+      "city": null,
+      "status": "finished"
+    },
+    {
+      "id": 537339,
+      "group": "C",
+      "matchday": 1,
+      "home": {
+        "name": "Brasil",
+        "tla": "BRA",
+        "flag": "br"
+      },
+      "away": {
+        "name": "Marrocos",
+        "tla": "MAR",
+        "flag": "ma"
+      },
+      "home_score": 1,
+      "away_score": 1,
+      "winner": "draw",
+      "date": "2026-06-13T22:00:00Z",
+      "venue": null,
+      "city": null,
+      "status": "finished"
+    },
+    {
+      "id": 537340,
+      "group": "C",
+      "matchday": 1,
+      "home": {
+        "name": "Haiti",
+        "tla": "HAI",
+        "flag": "ht"
+      },
+      "away": {
+        "name": "Escócia",
+        "tla": "SCO",
+        "flag": "gb-sct"
+      },
+      "home_score": 0,
+      "away_score": 1,
+      "winner": "away",
+      "date": "2026-06-14T01:00:00Z",
+      "venue": null,
+      "city": null,
+      "status": "finished"
+    },
+    {
+      "id": 537346,
+      "group": "D",
+      "matchday": 1,
+      "home": {
+        "name": "Austrália",
+        "tla": "AUS",
+        "flag": "au"
+      },
+      "away": {
+        "name": "Turquia",
+        "tla": "TUR",
+        "flag": "tr"
+      },
+      "home_score": 2,
+      "away_score": 0,
+      "winner": "home",
+      "date": "2026-06-14T04:00:00Z",
+      "venue": null,
+      "city": null,
+      "status": "finished"
+    },
+    {
+      "id": 537351,
+      "group": "E",
+      "matchday": 1,
+      "home": {
+        "name": "Alemanha",
+        "tla": "GER",
+        "flag": "de"
+      },
+      "away": {
+        "name": "Curaçao",
+        "tla": "CUW",
+        "flag": "cw"
+      },
+      "home_score": 7,
+      "away_score": 1,
+      "winner": "home",
+      "date": "2026-06-14T17:00:00Z",
+      "venue": null,
+      "city": null,
+      "status": "finished"
+    },
+    {
+      "id": 537357,
+      "group": "F",
+      "matchday": 1,
+      "home": {
+        "name": "Países Baixos",
+        "tla": "NED",
+        "flag": "nl"
+      },
+      "away": {
+        "name": "Japão",
+        "tla": "JPN",
+        "flag": "jp"
+      },
+      "home_score": 2,
+      "away_score": 2,
+      "winner": "draw",
+      "date": "2026-06-14T20:00:00Z",
+      "venue": null,
+      "city": null,
+      "status": "finished"
+    },
+    {
+      "id": 537352,
+      "group": "E",
+      "matchday": 1,
+      "home": {
+        "name": "Costa do Marfim",
+        "tla": "CIV",
+        "flag": "ci"
+      },
+      "away": {
+        "name": "Equador",
+        "tla": "ECU",
+        "flag": "ec"
+      },
+      "home_score": 1,
+      "away_score": 0,
+      "winner": "home",
+      "date": "2026-06-14T23:00:00Z",
+      "venue": null,
+      "city": null,
+      "status": "finished"
+    },
+    {
+      "id": 537358,
+      "group": "F",
+      "matchday": 1,
+      "home": {
+        "name": "Suécia",
+        "tla": "SWE",
+        "flag": "se"
+      },
+      "away": {
+        "name": "Tunísia",
+        "tla": "TUN",
+        "flag": "tn"
+      },
+      "home_score": 5,
+      "away_score": 1,
+      "winner": "home",
+      "date": "2026-06-15T02:00:00Z",
+      "venue": null,
+      "city": null,
+      "status": "finished"
+    },
+    {
+      "id": 537369,
+      "group": "H",
+      "matchday": 1,
+      "home": {
+        "name": "Espanha",
+        "tla": "ESP",
+        "flag": "es"
+      },
+      "away": {
+        "name": "Cape Verde Islands",
+        "tla": "CPV",
+        "flag": null
+      },
+      "home_score": 0,
+      "away_score": 0,
+      "winner": "draw",
+      "date": "2026-06-15T16:00:00Z",
+      "venue": null,
+      "city": null,
+      "status": "finished"
+    },
+    {
+      "id": 537363,
+      "group": "G",
+      "matchday": 1,
+      "home": {
+        "name": "Bélgica",
+        "tla": "BEL",
+        "flag": "be"
+      },
+      "away": {
+        "name": "Egito",
+        "tla": "EGY",
+        "flag": "eg"
+      },
+      "home_score": 1,
+      "away_score": 1,
+      "winner": "draw",
+      "date": "2026-06-15T19:00:00Z",
+      "venue": null,
+      "city": null,
+      "status": "finished"
+    },
+    {
+      "id": 537370,
+      "group": "H",
+      "matchday": 1,
+      "home": {
+        "name": "Arábia Saudita",
+        "tla": "KSA",
+        "flag": "sa"
+      },
+      "away": {
+        "name": "Uruguai",
+        "tla": "URU",
+        "flag": "uy"
+      },
+      "home_score": 1,
+      "away_score": 1,
+      "winner": "draw",
+      "date": "2026-06-15T22:00:00Z",
+      "venue": null,
+      "city": null,
+      "status": "finished"
+    },
+    {
+      "id": 537364,
+      "group": "G",
+      "matchday": 1,
+      "home": {
+        "name": "Irã",
+        "tla": "IRN",
+        "flag": "ir"
+      },
+      "away": {
+        "name": "Nova Zelândia",
+        "tla": "NZL",
+        "flag": "nz"
+      },
+      "home_score": 2,
+      "away_score": 2,
+      "winner": "draw",
+      "date": "2026-06-16T01:00:00Z",
+      "venue": null,
+      "city": null,
+      "status": "finished"
+    },
+    {
+      "id": 537391,
+      "group": "I",
+      "matchday": 1,
+      "home": {
+        "name": "França",
+        "tla": "FRA",
+        "flag": "fr"
+      },
+      "away": {
+        "name": "Senegal",
+        "tla": "SEN",
+        "flag": "sn"
+      },
+      "home_score": 3,
+      "away_score": 1,
+      "winner": "home",
+      "date": "2026-06-16T19:00:00Z",
+      "venue": null,
+      "city": null,
+      "status": "finished"
+    },
+    {
+      "id": 537392,
+      "group": "I",
+      "matchday": 1,
+      "home": {
+        "name": "Iraque",
+        "tla": "IRQ",
+        "flag": "iq"
+      },
+      "away": {
+        "name": "Noruega",
+        "tla": "NOR",
+        "flag": "no"
+      },
+      "home_score": 1,
+      "away_score": 4,
+      "winner": "away",
+      "date": "2026-06-16T22:00:00Z",
+      "venue": null,
+      "city": null,
+      "status": "finished"
+    },
+    {
+      "id": 537397,
+      "group": "J",
+      "matchday": 1,
+      "home": {
+        "name": "Argentina",
+        "tla": "ARG",
+        "flag": "ar"
+      },
+      "away": {
+        "name": "Argélia",
+        "tla": "ALG",
+        "flag": "dz"
+      },
+      "home_score": 3,
+      "away_score": 0,
+      "winner": "home",
+      "date": "2026-06-17T01:00:00Z",
+      "venue": null,
+      "city": null,
+      "status": "finished"
+    },
+    {
+      "id": 537398,
+      "group": "J",
+      "matchday": 1,
+      "home": {
+        "name": "Áustria",
+        "tla": "AUT",
+        "flag": "at"
+      },
+      "away": {
+        "name": "Jordânia",
+        "tla": "JOR",
+        "flag": "jo"
+      },
+      "home_score": 3,
+      "away_score": 1,
+      "winner": "home",
+      "date": "2026-06-17T04:00:00Z",
+      "venue": null,
+      "city": null,
+      "status": "finished"
+    },
+    {
+      "id": 537403,
+      "group": "K",
+      "matchday": 1,
+      "home": {
+        "name": "Portugal",
+        "tla": "POR",
+        "flag": "pt"
+      },
+      "away": {
+        "name": "RD Congo",
+        "tla": "COD",
+        "flag": "cd"
+      },
+      "home_score": 1,
+      "away_score": 1,
+      "winner": "draw",
+      "date": "2026-06-17T17:00:00Z",
+      "venue": null,
+      "city": null,
+      "status": "finished"
+    },
+    {
+      "id": 537409,
+      "group": "L",
+      "matchday": 1,
+      "home": {
+        "name": "Inglaterra",
+        "tla": "ENG",
+        "flag": "gb-eng"
+      },
+      "away": {
+        "name": "Croácia",
+        "tla": "CRO",
+        "flag": "hr"
+      },
+      "home_score": 4,
+      "away_score": 2,
+      "winner": "home",
+      "date": "2026-06-17T20:00:00Z",
+      "venue": null,
+      "city": null,
+      "status": "finished"
+    },
+    {
+      "id": 537410,
+      "group": "L",
+      "matchday": 1,
+      "home": {
+        "name": "Gana",
+        "tla": "GHA",
+        "flag": "gh"
+      },
+      "away": {
+        "name": "Panamá",
+        "tla": "PAN",
+        "flag": "pa"
+      },
+      "home_score": 1,
+      "away_score": 0,
+      "winner": "home",
+      "date": "2026-06-17T23:00:00Z",
+      "venue": null,
+      "city": null,
+      "status": "finished"
+    },
+    {
+      "id": 537404,
+      "group": "K",
+      "matchday": 1,
+      "home": {
+        "name": "Uzbequistão",
+        "tla": "UZB",
+        "flag": "uz"
+      },
+      "away": {
+        "name": "Colômbia",
+        "tla": "COL",
+        "flag": "co"
+      },
+      "home_score": 1,
+      "away_score": 3,
+      "winner": "away",
+      "date": "2026-06-18T02:00:00Z",
+      "venue": null,
+      "city": null,
+      "status": "finished"
+    },
+    {
+      "id": 537329,
+      "group": "A",
+      "matchday": 2,
+      "home": {
+        "name": "República Tcheca",
+        "tla": "CZE",
+        "flag": "cz"
+      },
+      "away": {
+        "name": "África do Sul",
+        "tla": "RSA",
+        "flag": "za"
+      },
+      "home_score": 1,
+      "away_score": 1,
+      "winner": "draw",
+      "date": "2026-06-18T16:00:00Z",
+      "venue": null,
+      "city": null,
+      "status": "finished"
+    },
+    {
+      "id": 537335,
+      "group": "B",
+      "matchday": 2,
+      "home": {
+        "name": "Suíça",
+        "tla": "SUI",
+        "flag": "ch"
+      },
+      "away": {
+        "name": "Bósnia e Herzegovina",
+        "tla": "BIH",
+        "flag": "ba"
+      },
+      "home_score": 4,
+      "away_score": 1,
+      "winner": "home",
+      "date": "2026-06-18T19:00:00Z",
+      "venue": null,
+      "city": null,
+      "status": "finished"
+    },
+    {
+      "id": 537336,
+      "group": "B",
+      "matchday": 2,
+      "home": {
+        "name": "Canadá",
+        "tla": "CAN",
+        "flag": "ca"
+      },
+      "away": {
+        "name": "Catar",
+        "tla": "QAT",
+        "flag": "qa"
+      },
+      "home_score": 6,
+      "away_score": 0,
+      "winner": "home",
+      "date": "2026-06-18T22:00:00Z",
+      "venue": null,
+      "city": null,
+      "status": "finished"
+    },
+    {
+      "id": 537330,
+      "group": "A",
+      "matchday": 2,
+      "home": {
+        "name": "México",
+        "tla": "MEX",
+        "flag": "mx"
+      },
+      "away": {
+        "name": "Coreia do Sul",
+        "tla": "KOR",
+        "flag": "kr"
+      },
+      "home_score": 1,
+      "away_score": 0,
+      "winner": "home",
+      "date": "2026-06-19T01:00:00Z",
+      "venue": null,
+      "city": null,
+      "status": "finished"
+    },
+    {
+      "id": 537348,
+      "group": "D",
+      "matchday": 2,
+      "home": {
+        "name": "Estados Unidos",
+        "tla": "USA",
+        "flag": "us"
+      },
+      "away": {
+        "name": "Austrália",
+        "tla": "AUS",
+        "flag": "au"
+      },
+      "home_score": 2,
+      "away_score": 0,
+      "winner": "home",
+      "date": "2026-06-19T19:00:00Z",
+      "venue": null,
+      "city": null,
+      "status": "finished"
+    },
+    {
+      "id": 537342,
+      "group": "C",
+      "matchday": 2,
+      "home": {
+        "name": "Escócia",
+        "tla": "SCO",
+        "flag": "gb-sct"
+      },
+      "away": {
+        "name": "Marrocos",
+        "tla": "MAR",
+        "flag": "ma"
+      },
+      "home_score": 0,
+      "away_score": 1,
+      "winner": "away",
+      "date": "2026-06-19T22:00:00Z",
+      "venue": null,
+      "city": null,
+      "status": "finished"
+    },
+    {
+      "id": 537341,
+      "group": "C",
+      "matchday": 2,
+      "home": {
+        "name": "Brasil",
+        "tla": "BRA",
+        "flag": "br"
+      },
+      "away": {
+        "name": "Haiti",
+        "tla": "HAI",
+        "flag": "ht"
+      },
+      "home_score": 3,
+      "away_score": 0,
+      "winner": "home",
+      "date": "2026-06-20T00:30:00Z",
+      "venue": null,
+      "city": null,
+      "status": "finished"
+    },
+    {
+      "id": 537347,
+      "group": "D",
+      "matchday": 2,
+      "home": {
+        "name": "Turquia",
+        "tla": "TUR",
+        "flag": "tr"
+      },
+      "away": {
+        "name": "Paraguai",
+        "tla": "PAR",
+        "flag": "py"
+      },
+      "home_score": 0,
+      "away_score": 1,
+      "winner": "away",
+      "date": "2026-06-20T03:00:00Z",
+      "venue": null,
+      "city": null,
+      "status": "finished"
+    },
+    {
+      "id": 537359,
+      "group": "F",
+      "matchday": 2,
+      "home": {
+        "name": "Países Baixos",
+        "tla": "NED",
+        "flag": "nl"
+      },
+      "away": {
+        "name": "Suécia",
+        "tla": "SWE",
+        "flag": "se"
+      },
+      "home_score": null,
+      "away_score": null,
+      "winner": null,
+      "date": "2026-06-20T17:00:00Z",
+      "venue": null,
+      "city": null,
+      "status": "pending"
+    },
+    {
+      "id": 537353,
+      "group": "E",
+      "matchday": 2,
+      "home": {
+        "name": "Alemanha",
+        "tla": "GER",
+        "flag": "de"
+      },
+      "away": {
+        "name": "Costa do Marfim",
+        "tla": "CIV",
+        "flag": "ci"
+      },
+      "home_score": null,
+      "away_score": null,
+      "winner": null,
+      "date": "2026-06-20T20:00:00Z",
+      "venue": null,
+      "city": null,
+      "status": "pending"
+    },
+    {
+      "id": 537354,
+      "group": "E",
+      "matchday": 2,
+      "home": {
+        "name": "Equador",
+        "tla": "ECU",
+        "flag": "ec"
+      },
+      "away": {
+        "name": "Curaçao",
+        "tla": "CUW",
+        "flag": "cw"
+      },
+      "home_score": null,
+      "away_score": null,
+      "winner": null,
+      "date": "2026-06-21T00:00:00Z",
+      "venue": null,
+      "city": null,
+      "status": "pending"
+    },
+    {
+      "id": 537360,
+      "group": "F",
+      "matchday": 2,
+      "home": {
+        "name": "Tunísia",
+        "tla": "TUN",
+        "flag": "tn"
+      },
+      "away": {
+        "name": "Japão",
+        "tla": "JPN",
+        "flag": "jp"
+      },
+      "home_score": null,
+      "away_score": null,
+      "winner": null,
+      "date": "2026-06-21T04:00:00Z",
+      "venue": null,
+      "city": null,
+      "status": "pending"
+    },
+    {
+      "id": 537371,
+      "group": "H",
+      "matchday": 2,
+      "home": {
+        "name": "Espanha",
+        "tla": "ESP",
+        "flag": "es"
+      },
+      "away": {
+        "name": "Arábia Saudita",
+        "tla": "KSA",
+        "flag": "sa"
+      },
+      "home_score": null,
+      "away_score": null,
+      "winner": null,
+      "date": "2026-06-21T16:00:00Z",
+      "venue": null,
+      "city": null,
+      "status": "pending"
+    },
+    {
+      "id": 537365,
+      "group": "G",
+      "matchday": 2,
+      "home": {
+        "name": "Bélgica",
+        "tla": "BEL",
+        "flag": "be"
+      },
+      "away": {
+        "name": "Irã",
+        "tla": "IRN",
+        "flag": "ir"
+      },
+      "home_score": null,
+      "away_score": null,
+      "winner": null,
+      "date": "2026-06-21T19:00:00Z",
+      "venue": null,
+      "city": null,
+      "status": "pending"
+    },
+    {
+      "id": 537372,
+      "group": "H",
+      "matchday": 2,
+      "home": {
+        "name": "Uruguai",
+        "tla": "URU",
+        "flag": "uy"
+      },
+      "away": {
+        "name": "Cape Verde Islands",
+        "tla": "CPV",
+        "flag": null
+      },
+      "home_score": null,
+      "away_score": null,
+      "winner": null,
+      "date": "2026-06-21T22:00:00Z",
+      "venue": null,
+      "city": null,
+      "status": "pending"
+    },
+    {
+      "id": 537366,
+      "group": "G",
+      "matchday": 2,
+      "home": {
+        "name": "Nova Zelândia",
+        "tla": "NZL",
+        "flag": "nz"
+      },
+      "away": {
+        "name": "Egito",
+        "tla": "EGY",
+        "flag": "eg"
+      },
+      "home_score": null,
+      "away_score": null,
+      "winner": null,
+      "date": "2026-06-22T01:00:00Z",
+      "venue": null,
+      "city": null,
+      "status": "pending"
+    },
+    {
+      "id": 537399,
+      "group": "J",
+      "matchday": 2,
+      "home": {
+        "name": "Argentina",
+        "tla": "ARG",
+        "flag": "ar"
+      },
+      "away": {
+        "name": "Áustria",
+        "tla": "AUT",
+        "flag": "at"
+      },
+      "home_score": null,
+      "away_score": null,
+      "winner": null,
+      "date": "2026-06-22T17:00:00Z",
+      "venue": null,
+      "city": null,
+      "status": "pending"
+    },
+    {
+      "id": 537393,
+      "group": "I",
+      "matchday": 2,
+      "home": {
+        "name": "França",
+        "tla": "FRA",
+        "flag": "fr"
+      },
+      "away": {
+        "name": "Iraque",
+        "tla": "IRQ",
+        "flag": "iq"
+      },
+      "home_score": null,
+      "away_score": null,
+      "winner": null,
+      "date": "2026-06-22T21:00:00Z",
+      "venue": null,
+      "city": null,
+      "status": "pending"
+    },
+    {
+      "id": 537394,
+      "group": "I",
+      "matchday": 2,
+      "home": {
+        "name": "Noruega",
+        "tla": "NOR",
+        "flag": "no"
+      },
+      "away": {
+        "name": "Senegal",
+        "tla": "SEN",
+        "flag": "sn"
+      },
+      "home_score": null,
+      "away_score": null,
+      "winner": null,
+      "date": "2026-06-23T00:00:00Z",
+      "venue": null,
+      "city": null,
+      "status": "pending"
+    },
+    {
+      "id": 537400,
+      "group": "J",
+      "matchday": 2,
+      "home": {
+        "name": "Jordânia",
+        "tla": "JOR",
+        "flag": "jo"
+      },
+      "away": {
+        "name": "Argélia",
+        "tla": "ALG",
+        "flag": "dz"
+      },
+      "home_score": null,
+      "away_score": null,
+      "winner": null,
+      "date": "2026-06-23T03:00:00Z",
+      "venue": null,
+      "city": null,
+      "status": "pending"
+    },
+    {
+      "id": 537405,
+      "group": "K",
+      "matchday": 2,
+      "home": {
+        "name": "Portugal",
+        "tla": "POR",
+        "flag": "pt"
+      },
+      "away": {
+        "name": "Uzbequistão",
+        "tla": "UZB",
+        "flag": "uz"
+      },
+      "home_score": null,
+      "away_score": null,
+      "winner": null,
+      "date": "2026-06-23T17:00:00Z",
+      "venue": null,
+      "city": null,
+      "status": "pending"
+    },
+    {
+      "id": 537411,
+      "group": "L",
+      "matchday": 2,
+      "home": {
+        "name": "Inglaterra",
+        "tla": "ENG",
+        "flag": "gb-eng"
+      },
+      "away": {
+        "name": "Gana",
+        "tla": "GHA",
+        "flag": "gh"
+      },
+      "home_score": null,
+      "away_score": null,
+      "winner": null,
+      "date": "2026-06-23T20:00:00Z",
+      "venue": null,
+      "city": null,
+      "status": "pending"
+    },
+    {
+      "id": 537412,
+      "group": "L",
+      "matchday": 2,
+      "home": {
+        "name": "Panamá",
+        "tla": "PAN",
+        "flag": "pa"
+      },
+      "away": {
+        "name": "Croácia",
+        "tla": "CRO",
+        "flag": "hr"
+      },
+      "home_score": null,
+      "away_score": null,
+      "winner": null,
+      "date": "2026-06-23T23:00:00Z",
+      "venue": null,
+      "city": null,
+      "status": "pending"
+    },
+    {
+      "id": 537406,
+      "group": "K",
+      "matchday": 2,
+      "home": {
+        "name": "Colômbia",
+        "tla": "COL",
+        "flag": "co"
+      },
+      "away": {
+        "name": "RD Congo",
+        "tla": "COD",
+        "flag": "cd"
+      },
+      "home_score": null,
+      "away_score": null,
+      "winner": null,
+      "date": "2026-06-24T02:00:00Z",
+      "venue": null,
+      "city": null,
+      "status": "pending"
+    },
+    {
+      "id": 537337,
+      "group": "B",
+      "matchday": 3,
+      "home": {
+        "name": "Suíça",
+        "tla": "SUI",
+        "flag": "ch"
+      },
+      "away": {
+        "name": "Canadá",
+        "tla": "CAN",
+        "flag": "ca"
+      },
+      "home_score": null,
+      "away_score": null,
+      "winner": null,
+      "date": "2026-06-24T19:00:00Z",
+      "venue": null,
+      "city": null,
+      "status": "pending"
+    },
+    {
+      "id": 537338,
+      "group": "B",
+      "matchday": 3,
+      "home": {
+        "name": "Bósnia e Herzegovina",
+        "tla": "BIH",
+        "flag": "ba"
+      },
+      "away": {
+        "name": "Catar",
+        "tla": "QAT",
+        "flag": "qa"
+      },
+      "home_score": null,
+      "away_score": null,
+      "winner": null,
+      "date": "2026-06-24T19:00:00Z",
+      "venue": null,
+      "city": null,
+      "status": "pending"
+    },
+    {
+      "id": 537344,
+      "group": "C",
+      "matchday": 3,
+      "home": {
+        "name": "Marrocos",
+        "tla": "MAR",
+        "flag": "ma"
+      },
+      "away": {
+        "name": "Haiti",
+        "tla": "HAI",
+        "flag": "ht"
+      },
+      "home_score": null,
+      "away_score": null,
+      "winner": null,
+      "date": "2026-06-24T22:00:00Z",
+      "venue": null,
+      "city": null,
+      "status": "pending"
+    },
+    {
+      "id": 537343,
+      "group": "C",
+      "matchday": 3,
+      "home": {
+        "name": "Escócia",
+        "tla": "SCO",
+        "flag": "gb-sct"
+      },
+      "away": {
+        "name": "Brasil",
+        "tla": "BRA",
+        "flag": "br"
+      },
+      "home_score": null,
+      "away_score": null,
+      "winner": null,
+      "date": "2026-06-24T22:00:00Z",
+      "venue": null,
+      "city": null,
+      "status": "pending"
+    },
+    {
+      "id": 537331,
+      "group": "A",
+      "matchday": 3,
+      "home": {
+        "name": "República Tcheca",
+        "tla": "CZE",
+        "flag": "cz"
+      },
+      "away": {
+        "name": "México",
+        "tla": "MEX",
+        "flag": "mx"
+      },
+      "home_score": null,
+      "away_score": null,
+      "winner": null,
+      "date": "2026-06-25T01:00:00Z",
+      "venue": null,
+      "city": null,
+      "status": "pending"
+    },
+    {
+      "id": 537332,
+      "group": "A",
+      "matchday": 3,
+      "home": {
+        "name": "África do Sul",
+        "tla": "RSA",
+        "flag": "za"
+      },
+      "away": {
+        "name": "Coreia do Sul",
+        "tla": "KOR",
+        "flag": "kr"
+      },
+      "home_score": null,
+      "away_score": null,
+      "winner": null,
+      "date": "2026-06-25T01:00:00Z",
+      "venue": null,
+      "city": null,
+      "status": "pending"
+    },
+    {
+      "id": 537355,
+      "group": "E",
+      "matchday": 3,
+      "home": {
+        "name": "Equador",
+        "tla": "ECU",
+        "flag": "ec"
+      },
+      "away": {
+        "name": "Alemanha",
+        "tla": "GER",
+        "flag": "de"
+      },
+      "home_score": null,
+      "away_score": null,
+      "winner": null,
+      "date": "2026-06-25T20:00:00Z",
+      "venue": null,
+      "city": null,
+      "status": "pending"
+    },
+    {
+      "id": 537356,
+      "group": "E",
+      "matchday": 3,
+      "home": {
+        "name": "Curaçao",
+        "tla": "CUW",
+        "flag": "cw"
+      },
+      "away": {
+        "name": "Costa do Marfim",
+        "tla": "CIV",
+        "flag": "ci"
+      },
+      "home_score": null,
+      "away_score": null,
+      "winner": null,
+      "date": "2026-06-25T20:00:00Z",
+      "venue": null,
+      "city": null,
+      "status": "pending"
+    },
+    {
+      "id": 537361,
+      "group": "F",
+      "matchday": 3,
+      "home": {
+        "name": "Tunísia",
+        "tla": "TUN",
+        "flag": "tn"
+      },
+      "away": {
+        "name": "Países Baixos",
+        "tla": "NED",
+        "flag": "nl"
+      },
+      "home_score": null,
+      "away_score": null,
+      "winner": null,
+      "date": "2026-06-25T23:00:00Z",
+      "venue": null,
+      "city": null,
+      "status": "pending"
+    },
+    {
+      "id": 537362,
+      "group": "F",
+      "matchday": 3,
+      "home": {
+        "name": "Japão",
+        "tla": "JPN",
+        "flag": "jp"
+      },
+      "away": {
+        "name": "Suécia",
+        "tla": "SWE",
+        "flag": "se"
+      },
+      "home_score": null,
+      "away_score": null,
+      "winner": null,
+      "date": "2026-06-25T23:00:00Z",
+      "venue": null,
+      "city": null,
+      "status": "pending"
+    },
+    {
+      "id": 537349,
+      "group": "D",
+      "matchday": 3,
+      "home": {
+        "name": "Turquia",
+        "tla": "TUR",
+        "flag": "tr"
+      },
+      "away": {
+        "name": "Estados Unidos",
+        "tla": "USA",
+        "flag": "us"
+      },
+      "home_score": null,
+      "away_score": null,
+      "winner": null,
+      "date": "2026-06-26T02:00:00Z",
+      "venue": null,
+      "city": null,
+      "status": "pending"
+    },
+    {
+      "id": 537350,
+      "group": "D",
+      "matchday": 3,
+      "home": {
+        "name": "Paraguai",
+        "tla": "PAR",
+        "flag": "py"
+      },
+      "away": {
+        "name": "Austrália",
+        "tla": "AUS",
+        "flag": "au"
+      },
+      "home_score": null,
+      "away_score": null,
+      "winner": null,
+      "date": "2026-06-26T02:00:00Z",
+      "venue": null,
+      "city": null,
+      "status": "pending"
+    },
+    {
+      "id": 537395,
+      "group": "I",
+      "matchday": 3,
+      "home": {
+        "name": "Noruega",
+        "tla": "NOR",
+        "flag": "no"
+      },
+      "away": {
+        "name": "França",
+        "tla": "FRA",
+        "flag": "fr"
+      },
+      "home_score": null,
+      "away_score": null,
+      "winner": null,
+      "date": "2026-06-26T19:00:00Z",
+      "venue": null,
+      "city": null,
+      "status": "pending"
+    },
+    {
+      "id": 537396,
+      "group": "I",
+      "matchday": 3,
+      "home": {
+        "name": "Senegal",
+        "tla": "SEN",
+        "flag": "sn"
+      },
+      "away": {
+        "name": "Iraque",
+        "tla": "IRQ",
+        "flag": "iq"
+      },
+      "home_score": null,
+      "away_score": null,
+      "winner": null,
+      "date": "2026-06-26T19:00:00Z",
+      "venue": null,
+      "city": null,
+      "status": "pending"
+    },
+    {
+      "id": 537373,
+      "group": "H",
+      "matchday": 3,
+      "home": {
+        "name": "Uruguai",
+        "tla": "URU",
+        "flag": "uy"
+      },
+      "away": {
+        "name": "Espanha",
+        "tla": "ESP",
+        "flag": "es"
+      },
+      "home_score": null,
+      "away_score": null,
+      "winner": null,
+      "date": "2026-06-27T00:00:00Z",
+      "venue": null,
+      "city": null,
+      "status": "pending"
+    },
+    {
+      "id": 537374,
+      "group": "H",
+      "matchday": 3,
+      "home": {
+        "name": "Cape Verde Islands",
+        "tla": "CPV",
+        "flag": null
+      },
+      "away": {
+        "name": "Arábia Saudita",
+        "tla": "KSA",
+        "flag": "sa"
+      },
+      "home_score": null,
+      "away_score": null,
+      "winner": null,
+      "date": "2026-06-27T00:00:00Z",
+      "venue": null,
+      "city": null,
+      "status": "pending"
+    },
+    {
+      "id": 537367,
+      "group": "G",
+      "matchday": 3,
+      "home": {
+        "name": "Nova Zelândia",
+        "tla": "NZL",
+        "flag": "nz"
+      },
+      "away": {
+        "name": "Bélgica",
+        "tla": "BEL",
+        "flag": "be"
+      },
+      "home_score": null,
+      "away_score": null,
+      "winner": null,
+      "date": "2026-06-27T03:00:00Z",
+      "venue": null,
+      "city": null,
+      "status": "pending"
+    },
+    {
+      "id": 537368,
+      "group": "G",
+      "matchday": 3,
+      "home": {
+        "name": "Egito",
+        "tla": "EGY",
+        "flag": "eg"
+      },
+      "away": {
+        "name": "Irã",
+        "tla": "IRN",
+        "flag": "ir"
+      },
+      "home_score": null,
+      "away_score": null,
+      "winner": null,
+      "date": "2026-06-27T03:00:00Z",
+      "venue": null,
+      "city": null,
+      "status": "pending"
+    },
+    {
+      "id": 537413,
+      "group": "L",
+      "matchday": 3,
+      "home": {
+        "name": "Panamá",
+        "tla": "PAN",
+        "flag": "pa"
+      },
+      "away": {
+        "name": "Inglaterra",
+        "tla": "ENG",
+        "flag": "gb-eng"
+      },
+      "home_score": null,
+      "away_score": null,
+      "winner": null,
+      "date": "2026-06-27T21:00:00Z",
+      "venue": null,
+      "city": null,
+      "status": "pending"
+    },
+    {
+      "id": 537414,
+      "group": "L",
+      "matchday": 3,
+      "home": {
+        "name": "Croácia",
+        "tla": "CRO",
+        "flag": "hr"
+      },
+      "away": {
+        "name": "Gana",
+        "tla": "GHA",
+        "flag": "gh"
+      },
+      "home_score": null,
+      "away_score": null,
+      "winner": null,
+      "date": "2026-06-27T21:00:00Z",
+      "venue": null,
+      "city": null,
+      "status": "pending"
+    },
+    {
+      "id": 537407,
+      "group": "K",
+      "matchday": 3,
+      "home": {
+        "name": "Colômbia",
+        "tla": "COL",
+        "flag": "co"
+      },
+      "away": {
+        "name": "Portugal",
+        "tla": "POR",
+        "flag": "pt"
+      },
+      "home_score": null,
+      "away_score": null,
+      "winner": null,
+      "date": "2026-06-27T23:30:00Z",
+      "venue": null,
+      "city": null,
+      "status": "pending"
+    },
+    {
+      "id": 537408,
+      "group": "K",
+      "matchday": 3,
+      "home": {
+        "name": "RD Congo",
+        "tla": "COD",
+        "flag": "cd"
+      },
+      "away": {
+        "name": "Uzbequistão",
+        "tla": "UZB",
+        "flag": "uz"
+      },
+      "home_score": null,
+      "away_score": null,
+      "winner": null,
+      "date": "2026-06-27T23:30:00Z",
+      "venue": null,
+      "city": null,
+      "status": "pending"
+    },
+    {
+      "id": 537401,
+      "group": "J",
+      "matchday": 3,
+      "home": {
+        "name": "Jordânia",
+        "tla": "JOR",
+        "flag": "jo"
+      },
+      "away": {
+        "name": "Argentina",
+        "tla": "ARG",
+        "flag": "ar"
+      },
+      "home_score": null,
+      "away_score": null,
+      "winner": null,
+      "date": "2026-06-28T02:00:00Z",
+      "venue": null,
+      "city": null,
+      "status": "pending"
+    },
+    {
+      "id": 537402,
+      "group": "J",
+      "matchday": 3,
+      "home": {
+        "name": "Argélia",
+        "tla": "ALG",
+        "flag": "dz"
+      },
+      "away": {
+        "name": "Áustria",
+        "tla": "AUT",
+        "flag": "at"
+      },
+      "home_score": null,
+      "away_score": null,
+      "winner": null,
+      "date": "2026-06-28T02:00:00Z",
+      "venue": null,
+      "city": null,
+      "status": "pending"
+    }
+  ]
+}

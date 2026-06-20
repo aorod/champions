@@ -12,7 +12,7 @@
     {
       "player": "Jonathan David",
       "team": "CAN",
-      "team_name": "Canada",
+      "team_name": "Canadá",
       "flag_code": "ca",
       "goals": 3,
       "assists": 0,
@@ -21,7 +21,7 @@
     {
       "player": "Cyle Larin",
       "team": "CAN",
-      "team_name": "Canada",
+      "team_name": "Canadá",
       "flag_code": "ca",
       "goals": 2,
       "assists": 0,
@@ -30,7 +30,7 @@
     {
       "player": "Folarin Balogun",
       "team": "USA",
-      "team_name": "United States",
+      "team_name": "Estados Unidos",
       "flag_code": "us",
       "goals": 2,
       "assists": 0,
@@ -39,7 +39,7 @@
     {
       "player": "Ismael Saibari",
       "team": "MAR",
-      "team_name": "Morocco",
+      "team_name": "Marrocos",
       "flag_code": "ma",
       "goals": 2,
       "assists": 0,
@@ -48,7 +48,7 @@
     {
       "player": "Vinicius Junior",
       "team": "BRA",
-      "team_name": "Brazil",
+      "team_name": "Brasil",
       "flag_code": "br",
       "goals": 2,
       "assists": 2,
@@ -57,7 +57,7 @@
     {
       "player": "Kai Havertz",
       "team": "GER",
-      "team_name": "Germany",
+      "team_name": "Alemanha",
       "flag_code": "de",
       "goals": 2,
       "assists": 0,
@@ -66,7 +66,7 @@
     {
       "player": "Yasin Ayari",
       "team": "SWE",
-      "team_name": "Sweden",
+      "team_name": "Suécia",
       "flag_code": "se",
       "goals": 2,
       "assists": 0,
@@ -75,7 +75,7 @@
     {
       "player": "Elijah Just",
       "team": "NZL",
-      "team_name": "New Zealand",
+      "team_name": "Nova Zelândia",
       "flag_code": "nz",
       "goals": 2,
       "assists": 0,
@@ -84,7 +84,7 @@
     {
       "player": "Kylian Mbappé",
       "team": "FRA",
-      "team_name": "France",
+      "team_name": "França",
       "flag_code": "fr",
       "goals": 2,
       "assists": 0,
@@ -93,7 +93,7 @@
     {
       "player": "Erling Haaland",
       "team": "NOR",
-      "team_name": "Norway",
+      "team_name": "Noruega",
       "flag_code": "no",
       "goals": 2,
       "assists": 0,
@@ -102,7 +102,7 @@
     {
       "player": "Harry Kane",
       "team": "ENG",
-      "team_name": "England",
+      "team_name": "Inglaterra",
       "flag_code": "gb-eng",
       "goals": 2,
       "assists": 0,
@@ -111,7 +111,7 @@
     {
       "player": "Johan Manzambi",
       "team": "SUI",
-      "team_name": "Switzerland",
+      "team_name": "Suíça",
       "flag_code": "ch",
       "goals": 2,
       "assists": 0,
@@ -120,7 +120,7 @@
     {
       "player": "Matheus Cunha",
       "team": "BRA",
-      "team_name": "Brazil",
+      "team_name": "Brasil",
       "flag_code": "br",
       "goals": 2,
       "assists": 0,
@@ -129,7 +129,7 @@
     {
       "player": "Julián Quiñones",
       "team": "MEX",
-      "team_name": "Mexico",
+      "team_name": "México",
       "flag_code": "mx",
       "goals": 1,
       "assists": 0,
@@ -138,7 +138,7 @@
     {
       "player": "Raúl Jiménez",
       "team": "MEX",
-      "team_name": "Mexico",
+      "team_name": "México",
       "flag_code": "mx",
       "goals": 1,
       "assists": 0,
@@ -147,7 +147,7 @@
     {
       "player": "Ladislav Krejčí",
       "team": "CZE",
-      "team_name": "Czechia",
+      "team_name": "República Tcheca",
       "flag_code": "cz",
       "goals": 1,
       "assists": 0,
@@ -156,7 +156,7 @@
     {
       "player": "In-beom Hwang",
       "team": "KOR",
-      "team_name": "South Korea",
+      "team_name": "Coreia do Sul",
       "flag_code": "kr",
       "goals": 1,
       "assists": 1,
@@ -165,7 +165,7 @@
     {
       "player": "Hyun-Gyu Oh",
       "team": "KOR",
-      "team_name": "South Korea",
+      "team_name": "Coreia do Sul",
       "flag_code": "kr",
       "goals": 1,
       "assists": 0,
@@ -174,7 +174,7 @@
     {
       "player": "Jovo Lukić",
       "team": "BIH",
-      "team_name": "Bosnia-Herzegovina",
+      "team_name": "Bósnia e Herzegovina",
       "flag_code": "ba",
       "goals": 1,
       "assists": 0,
@@ -183,7 +183,7 @@
     {
       "player": "Mauricio",
       "team": "PAR",
-      "team_name": "Paraguay",
+      "team_name": "Paraguai",
       "flag_code": "py",
       "goals": 1,
       "assists": 0,
@@ -192,7 +192,7 @@
     {
       "player": "Gio Reyna",
       "team": "USA",
-      "team_name": "United States",
+      "team_name": "Estados Unidos",
       "flag_code": "us",
       "goals": 1,
       "assists": 0,
@@ -201,7 +201,7 @@
     {
       "player": "Breel Embolo",
       "team": "SUI",
-      "team_name": "Switzerland",
+      "team_name": "Suíça",
       "flag_code": "ch",
       "goals": 1,
       "assists": 1,
@@ -210,7 +210,7 @@
     {
       "player": "Boualem Khoukhi",
       "team": "QAT",
-      "team_name": "Qatar",
+      "team_name": "Catar",
       "flag_code": "qa",
       "goals": 1,
       "assists": 0,
@@ -219,7 +219,7 @@
     {
       "player": "John McGinn",
       "team": "SCO",
-      "team_name": "Scotland",
+      "team_name": "Escócia",
       "flag_code": "gb-sct",
       "goals": 1,
       "assists": 0,
@@ -228,7 +228,7 @@
     {
       "player": "Nestor Irankunda",
       "team": "AUS",
-      "team_name": "Australia",
+      "team_name": "Austrália",
       "flag_code": "au",
       "goals": 1,
       "assists": 0,
@@ -237,7 +237,7 @@
     {
       "player": "Connor Metcalfe",
       "team": "AUS",
-      "team_name": "Australia",
+      "team_name": "Austrália",
       "flag_code": "au",
       "goals": 1,
       "assists": 0,
@@ -246,7 +246,7 @@
     {
       "player": "Felix Kalu Nmecha",
       "team": "GER",
-      "team_name": "Germany",
+      "team_name": "Alemanha",
       "flag_code": "de",
       "goals": 1,
       "assists": 0,
@@ -264,7 +264,7 @@
     {
       "player": "Nico Schlotterbeck",
       "team": "GER",
-      "team_name": "Germany",
+      "team_name": "Alemanha",
       "flag_code": "de",
       "goals": 1,
       "assists": 0,
@@ -275,7 +275,7 @@
     {
       "player": "Vinicius Junior",
       "team": "BRA",
-      "team_name": "Brazil",
+      "team_name": "Brasil",
       "flag_code": "br",
       "goals": 2,
       "assists": 2,
@@ -284,7 +284,7 @@
     {
       "player": "In-beom Hwang",
       "team": "KOR",
-      "team_name": "South Korea",
+      "team_name": "Coreia do Sul",
       "flag_code": "kr",
       "goals": 1,
       "assists": 1,
@@ -293,7 +293,7 @@
     {
       "player": "Breel Embolo",
       "team": "SUI",
-      "team_name": "Switzerland",
+      "team_name": "Suíça",
       "flag_code": "ch",
       "goals": 1,
       "assists": 1,

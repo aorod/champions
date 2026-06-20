@@ -4,7 +4,7 @@
       "teams": [
         {
           "id": "MEX",
-          "name": "Mexico",
+          "name": "México",
           "flag": "mx",
           "played": 2,
           "won": 2,
@@ -17,7 +17,7 @@
         },
         {
           "id": "KOR",
-          "name": "South Korea",
+          "name": "Coreia do Sul",
           "flag": "kr",
           "played": 2,
           "won": 1,
@@ -30,7 +30,7 @@
         },
         {
           "id": "CZE",
-          "name": "Czechia",
+          "name": "República Tcheca",
           "flag": "cz",
           "played": 2,
           "won": 0,
@@ -43,7 +43,7 @@
         },
         {
           "id": "RSA",
-          "name": "South Africa",
+          "name": "África do Sul",
           "flag": "za",
           "played": 2,
           "won": 0,
@@ -60,7 +60,7 @@
       "teams": [
         {
           "id": "CAN",
-          "name": "Canada",
+          "name": "Canadá",
           "flag": "ca",
           "played": 2,
           "won": 1,
@@ -73,7 +73,7 @@
         },
         {
           "id": "SUI",
-          "name": "Switzerland",
+          "name": "Suíça",
           "flag": "ch",
           "played": 2,
           "won": 1,
@@ -86,7 +86,7 @@
         },
         {
           "id": "BIH",
-          "name": "Bosnia-Herzegovina",
+          "name": "Bósnia e Herzegovina",
           "flag": "ba",
           "played": 2,
           "won": 0,
@@ -99,7 +99,7 @@
         },
         {
           "id": "QAT",
-          "name": "Qatar",
+          "name": "Catar",
           "flag": "qa",
           "played": 2,
           "won": 0,
@@ -116,7 +116,7 @@
       "teams": [
         {
           "id": "BRA",
-          "name": "Brazil",
+          "name": "Brasil",
           "flag": "br",
           "played": 2,
           "won": 1,
@@ -129,7 +129,7 @@
         },
         {
           "id": "MAR",
-          "name": "Morocco",
+          "name": "Marrocos",
           "flag": "ma",
           "played": 2,
           "won": 1,
@@ -142,7 +142,7 @@
         },
         {
           "id": "SCO",
-          "name": "Scotland",
+          "name": "Escócia",
           "flag": "gb-sct",
           "played": 2,
           "won": 1,
@@ -172,7 +172,7 @@
       "teams": [
         {
           "id": "USA",
-          "name": "United States",
+          "name": "Estados Unidos",
           "flag": "us",
           "played": 2,
           "won": 2,
@@ -185,7 +185,7 @@
         },
         {
           "id": "AUS",
-          "name": "Australia",
+          "name": "Austrália",
           "flag": "au",
           "played": 2,
           "won": 1,
@@ -198,7 +198,7 @@
         },
         {
           "id": "PAR",
-          "name": "Paraguay",
+          "name": "Paraguai",
           "flag": "py",
           "played": 2,
           "won": 1,
@@ -211,7 +211,7 @@
         },
         {
           "id": "TUR",
-          "name": "Turkey",
+          "name": "Turquia",
           "flag": "tr",
           "played": 2,
           "won": 0,
@@ -228,7 +228,7 @@
       "teams": [
         {
           "id": "GER",
-          "name": "Germany",
+          "name": "Alemanha",
           "flag": "de",
           "played": 1,
           "won": 1,
@@ -241,7 +241,7 @@
         },
         {
           "id": "CIV",
-          "name": "Ivory Coast",
+          "name": "Costa do Marfim",
           "flag": "ci",
           "played": 1,
           "won": 1,
@@ -254,7 +254,7 @@
         },
         {
           "id": "ECU",
-          "name": "Ecuador",
+          "name": "Equador",
           "flag": "ec",
           "played": 1,
           "won": 0,
@@ -284,7 +284,7 @@
       "teams": [
         {
           "id": "SWE",
-          "name": "Sweden",
+          "name": "Suécia",
           "flag": "se",
           "played": 1,
           "won": 1,
@@ -297,7 +297,7 @@
         },
         {
           "id": "JPN",
-          "name": "Japan",
+          "name": "Japão",
           "flag": "jp",
           "played": 1,
           "won": 0,
@@ -310,7 +310,7 @@
         },
         {
           "id": "NED",
-          "name": "Netherlands",
+          "name": "Países Baixos",
           "flag": "nl",
           "played": 1,
           "won": 0,
@@ -323,7 +323,7 @@
         },
         {
           "id": "TUN",
-          "name": "Tunisia",
+          "name": "Tunísia",
           "flag": "tn",
           "played": 1,
           "won": 0,
@@ -340,7 +340,7 @@
       "teams": [
         {
           "id": "NZL",
-          "name": "New Zealand",
+          "name": "Nova Zelândia",
           "flag": "nz",
           "played": 1,
           "won": 0,
@@ -353,7 +353,7 @@
         },
         {
           "id": "IRN",
-          "name": "Iran",
+          "name": "Irã",
           "flag": "ir",
           "played": 1,
           "won": 0,
@@ -366,7 +366,7 @@
         },
         {
           "id": "BEL",
-          "name": "Belgium",
+          "name": "Bélgica",
           "flag": "be",
           "played": 1,
           "won": 0,
@@ -379,7 +379,7 @@
         },
         {
           "id": "EGY",
-          "name": "Egypt",
+          "name": "Egito",
           "flag": "eg",
           "played": 1,
           "won": 0,
@@ -396,7 +396,7 @@
       "teams": [
         {
           "id": "URU",
-          "name": "Uruguay",
+          "name": "Uruguai",
           "flag": "uy",
           "played": 1,
           "won": 0,
@@ -409,7 +409,7 @@
         },
         {
           "id": "KSA",
-          "name": "Saudi Arabia",
+          "name": "Arábia Saudita",
           "flag": "sa",
           "played": 1,
           "won": 0,
@@ -422,7 +422,7 @@
         },
         {
           "id": "ESP",
-          "name": "Spain",
+          "name": "Espanha",
           "flag": "es",
           "played": 1,
           "won": 0,
@@ -452,7 +452,7 @@
       "teams": [
         {
           "id": "NOR",
-          "name": "Norway",
+          "name": "Noruega",
           "flag": "no",
           "played": 1,
           "won": 1,
@@ -465,7 +465,7 @@
         },
         {
           "id": "FRA",
-          "name": "France",
+          "name": "França",
           "flag": "fr",
           "played": 1,
           "won": 1,
@@ -491,7 +491,7 @@
         },
         {
           "id": "IRQ",
-          "name": "Iraq",
+          "name": "Iraque",
           "flag": "iq",
           "played": 1,
           "won": 0,
@@ -521,7 +521,7 @@
         },
         {
           "id": "AUT",
-          "name": "Austria",
+          "name": "Áustria",
           "flag": "at",
           "played": 1,
           "won": 1,
@@ -534,7 +534,7 @@
         },
         {
           "id": "JOR",
-          "name": "Jordan",
+          "name": "Jordânia",
           "flag": "jo",
           "played": 1,
           "won": 0,
@@ -547,7 +547,7 @@
         },
         {
           "id": "ALG",
-          "name": "Algeria",
+          "name": "Argélia",
           "flag": "dz",
           "played": 1,
           "won": 0,
@@ -564,7 +564,7 @@
       "teams": [
         {
           "id": "COL",
-          "name": "Colombia",
+          "name": "Colômbia",
           "flag": "co",
           "played": 1,
           "won": 1,
@@ -577,7 +577,7 @@
         },
         {
           "id": "COD",
-          "name": "Congo DR",
+          "name": "RD Congo",
           "flag": "cd",
           "played": 1,
           "won": 0,
@@ -603,7 +603,7 @@
         },
         {
           "id": "UZB",
-          "name": "Uzbekistan",
+          "name": "Uzbequistão",
           "flag": "uz",
           "played": 1,
           "won": 0,
@@ -620,7 +620,7 @@
       "teams": [
         {
           "id": "ENG",
-          "name": "England",
+          "name": "Inglaterra",
           "flag": "gb-eng",
           "played": 1,
           "won": 1,
@@ -633,7 +633,7 @@
         },
         {
           "id": "GHA",
-          "name": "Ghana",
+          "name": "Gana",
           "flag": "gh",
           "played": 1,
           "won": 1,
@@ -646,7 +646,7 @@
         },
         {
           "id": "PAN",
-          "name": "Panama",
+          "name": "Panamá",
           "flag": "pa",
           "played": 1,
           "won": 0,
@@ -659,7 +659,7 @@
         },
         {
           "id": "CRO",
-          "name": "Croatia",
+          "name": "Croácia",
           "flag": "hr",
           "played": 1,
           "won": 0,

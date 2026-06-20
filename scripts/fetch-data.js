@@ -43,6 +43,49 @@ const KNOWN_FLAGS = {
   NZL: 'nz',
 };
 
+// Nomes das seleções em Português-BR (chave = TLA da API)
+const TEAM_NAMES_PT = {
+  // CONMEBOL
+  ARG: 'Argentina',    BRA: 'Brasil',         COL: 'Colômbia',
+  ECU: 'Equador',      URU: 'Uruguai',        VEN: 'Venezuela',
+  CHL: 'Chile',        CHI: 'Chile',          PAR: 'Paraguai',
+  BOL: 'Bolívia',      PER: 'Peru',
+  // CONCACAF
+  USA: 'Estados Unidos', CAN: 'Canadá',       MEX: 'México',
+  PAN: 'Panamá',       HND: 'Honduras',       HON: 'Honduras',
+  JAM: 'Jamaica',      CRC: 'Costa Rica',     SLV: 'El Salvador',
+  HAI: 'Haiti',        TRI: 'Trinidad e Tobago', CUW: 'Curaçao',
+  // UEFA
+  FRA: 'França',       ESP: 'Espanha',        GER: 'Alemanha',
+  ENG: 'Inglaterra',   POR: 'Portugal',       ITA: 'Itália',
+  NED: 'Países Baixos',BEL: 'Bélgica',        CRO: 'Croácia',
+  POL: 'Polônia',      CZE: 'República Tcheca', SRB: 'Sérvia',
+  TUR: 'Turquia',      UKR: 'Ucrânia',        SUI: 'Suíça',
+  DEN: 'Dinamarca',    SWE: 'Suécia',         NOR: 'Noruega',
+  SCO: 'Escócia',      WAL: 'País de Gales',  NIR: 'Irlanda do Norte',
+  AUT: 'Áustria',      ROM: 'Romênia',        ROU: 'Romênia',
+  HUN: 'Hungria',      SVK: 'Eslováquia',     SVN: 'Eslovênia',
+  GRE: 'Grécia',       ALB: 'Albânia',        MNE: 'Montenegro',
+  BIH: 'Bósnia e Herzegovina', MKD: 'Macedônia do Norte',
+  KOS: 'Kosovo',       GEO: 'Geórgia',        ARM: 'Armênia',
+  AZE: 'Azerbaijão',   FIN: 'Finlândia',      ISL: 'Islândia',
+  IRL: 'Irlanda',
+  // CAF
+  MAR: 'Marrocos',     SEN: 'Senegal',        CMR: 'Camarões',
+  EGY: 'Egito',        RSA: 'África do Sul',  ALG: 'Argélia',
+  TUN: 'Tunísia',      CIV: 'Costa do Marfim',COD: 'RD Congo',
+  NGA: 'Nigéria',      GHA: 'Gana',           MLI: 'Mali',
+  GUI: 'Guiné',        COG: 'Congo',          MOZ: 'Moçambique',
+  ZIM: 'Zimbábue',     UGA: 'Uganda',         TAN: 'Tanzânia',
+  // AFC
+  JPN: 'Japão',        KOR: 'Coreia do Sul',  AUS: 'Austrália',
+  KSA: 'Arábia Saudita', IRN: 'Irã',          IRQ: 'Iraque',
+  UZB: 'Uzbequistão',  JOR: 'Jordânia',       QAT: 'Catar',
+  CHN: 'China',        UAE: 'Emirados Árabes Unidos', KUW: 'Kuwait',
+  // OFC
+  NZL: 'Nova Zelândia',
+};
+
 // Combina KNOWN_FLAGS com teams.json para máxima cobertura
 function buildFlagMap() {
   try {
@@ -102,7 +145,7 @@ function buildGroupsJSON(standingsResp, flagMap) {
     groups[letter] = {
       teams: standing.table.map(entry => ({
         id:     entry.team.tla,
-        name:   entry.team.name,
+        name:   TEAM_NAMES_PT[entry.team.tla] ?? entry.team.name,
         flag:   flagMap[entry.team.tla] ?? entry.team.tla.toLowerCase().slice(0, 2),
         played: entry.playedGames,
         won:    entry.won,
@@ -123,7 +166,7 @@ function buildScorersJSON(scorersResp, flagMap) {
   const scorers = (scorersResp.scorers ?? []).map(s => ({
     player:    s.player.name,
     team:      s.team.tla,
-    team_name: s.team.name,
+    team_name: TEAM_NAMES_PT[s.team.tla] ?? s.team.name,
     flag_code: flagMap[s.team.tla] ?? null,
     goals:     s.goals ?? 0,
     assists:   s.assists ?? 0,
@@ -136,6 +179,60 @@ function buildScorersJSON(scorersResp, flagMap) {
     .sort((a, b) => b.assists - a.assists);
 
   return { scorers, assists };
+}
+
+const VENUE_CITIES = {
+  'AT&T Stadium':            'Arlington, TX',
+  'Rose Bowl Stadium':       'Pasadena, CA',
+  'SoFi Stadium':            'Inglewood, CA',
+  "Levi's Stadium":          'Santa Clara, CA',
+  'MetLife Stadium':         'East Rutherford, NJ',
+  'Lincoln Financial Field': 'Filadélfia, PA',
+  'Arrowhead Stadium':       'Kansas City, MO',
+  'Soldier Field':           'Chicago, IL',
+  'State Farm Stadium':      'Glendale, AZ',
+  'NRG Stadium':             'Houston, TX',
+  'Hard Rock Stadium':       'Miami, FL',
+  'BC Place':                'Vancouver, BC',
+  'BMO Field':               'Toronto, ON',
+  'Estadio Akron':           'Guadalajara',
+  'Estadio BBVA':            'Monterrey',
+  'Estadio Azteca':          'Cidade do México',
+};
+
+function buildGroupMatchesJSON(matchesResp, flagMap) {
+  const groupMatches = (matchesResp.matches ?? [])
+    .filter(m => m.stage === 'GROUP_STAGE')
+    .map(match => {
+      const group = (match.group ?? '').replace(/^(GROUP_|Group\s+)/i, '').trim();
+      const venue = match.venue ?? null;
+      return {
+        id:         match.id,
+        group:      group || '?',
+        matchday:   match.matchday ?? null,
+        home:       match.homeTeam?.name
+                      ? { name: TEAM_NAMES_PT[match.homeTeam.tla] ?? match.homeTeam.name, tla: match.homeTeam.tla, flag: flagMap[match.homeTeam.tla] ?? null }
+                      : null,
+        away:       match.awayTeam?.name
+                      ? { name: TEAM_NAMES_PT[match.awayTeam.tla] ?? match.awayTeam.name, tla: match.awayTeam.tla, flag: flagMap[match.awayTeam.tla] ?? null }
+                      : null,
+        home_score: match.score?.fullTime?.home ?? null,
+        away_score: match.score?.fullTime?.away ?? null,
+        winner:     match.score?.winner === 'HOME_TEAM' ? 'home'
+                  : match.score?.winner === 'AWAY_TEAM' ? 'away'
+                  : match.score?.winner === 'DRAW'      ? 'draw'
+                  : null,
+        date:       match.utcDate ?? null,
+        venue:      venue,
+        city:       venue ? (VENUE_CITIES[venue] ?? null) : null,
+        status:     match.status === 'IN_PLAY'  ? 'live'
+                  : match.status === 'FINISHED'  ? 'finished'
+                  : 'pending',
+      };
+    })
+    .sort((a, b) => new Date(a.date) - new Date(b.date));
+
+  return { matches: groupMatches };
 }
 
 function buildBracketJSON(matchesResp, flagMap) {
@@ -163,14 +260,14 @@ function buildBracketJSON(matchesResp, flagMap) {
 
     knockout[key].matches.push({
       id:         match.id,
-      home:       match.homeTeam?.name ? { name: match.homeTeam.name, flag: flagMap[match.homeTeam.tla] ?? null } : null,
-      away:       match.awayTeam?.name ? { name: match.awayTeam.name, flag: flagMap[match.awayTeam.tla] ?? null } : null,
+      home:       match.homeTeam?.name ? { name: TEAM_NAMES_PT[match.homeTeam.tla] ?? match.homeTeam.name, flag: flagMap[match.homeTeam.tla] ?? null } : null,
+      away:       match.awayTeam?.name ? { name: TEAM_NAMES_PT[match.awayTeam.tla] ?? match.awayTeam.name, flag: flagMap[match.awayTeam.tla] ?? null } : null,
       home_score: match.score?.fullTime?.home ?? null,
       away_score: match.score?.fullTime?.away ?? null,
       winner:     match.score?.winner === 'HOME_TEAM'
-                    ? match.homeTeam?.name
+                    ? (TEAM_NAMES_PT[match.homeTeam?.tla] ?? match.homeTeam?.name)
                     : match.score?.winner === 'AWAY_TEAM'
-                    ? match.awayTeam?.name
+                    ? (TEAM_NAMES_PT[match.awayTeam?.tla] ?? match.awayTeam?.name)
                     : null,
       date:       match.utcDate ?? null,
       status:     match.status === 'IN_PLAY' ? 'live'
@@ -205,6 +302,7 @@ async function main() {
     saveJSON('groups.json',  buildGroupsJSON(standings, flagMap));
     saveJSON('scorers.json', buildScorersJSON(scorers, flagMap));
     saveJSON('bracket.json', buildBracketJSON(matches, flagMap));
+    saveJSON('matches.json', buildGroupMatchesJSON(matches, flagMap));
 
     saveJSON('meta.json', {
       last_updated:    new Date().toISOString(),
