@@ -283,35 +283,35 @@
     "F": {
       "teams": [
         {
+          "id": "NED",
+          "name": "Países Baixos",
+          "flag": "nl",
+          "played": 2,
+          "won": 1,
+          "drawn": 1,
+          "lost": 0,
+          "gf": 4,
+          "ga": 2,
+          "gd": 2,
+          "points": 4
+        },
+        {
           "id": "SWE",
           "name": "Suécia",
           "flag": "se",
-          "played": 1,
+          "played": 2,
           "won": 1,
           "drawn": 0,
-          "lost": 0,
+          "lost": 1,
           "gf": 5,
-          "ga": 1,
-          "gd": 4,
+          "ga": 3,
+          "gd": 2,
           "points": 3
         },
         {
           "id": "JPN",
           "name": "Japão",
           "flag": "jp",
-          "played": 1,
-          "won": 0,
-          "drawn": 1,
-          "lost": 0,
-          "gf": 2,
-          "ga": 2,
-          "gd": 0,
-          "points": 1
-        },
-        {
-          "id": "NED",
-          "name": "Países Baixos",
-          "flag": "nl",
           "played": 1,
           "won": 0,
           "drawn": 1,
