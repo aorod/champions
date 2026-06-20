@@ -318,9 +318,9 @@
         "flag": "sa"
       },
       "away": {
-        "name": "Uruguai",
-        "tla": "URU",
-        "flag": "uy"
+        "name": "Uruguay",
+        "tla": "URY",
+        "flag": null
       },
       "home_score": 1,
       "away_score": 1,
@@ -841,9 +841,9 @@
       "group": "H",
       "matchday": 2,
       "home": {
-        "name": "Uruguai",
-        "tla": "URU",
-        "flag": "uy"
+        "name": "Uruguay",
+        "tla": "URY",
+        "flag": null
       },
       "away": {
         "name": "Cabo Verde",
@@ -1369,9 +1369,9 @@
       "group": "H",
       "matchday": 3,
       "home": {
-        "name": "Uruguai",
-        "tla": "URU",
-        "flag": "uy"
+        "name": "Uruguay",
+        "tla": "URY",
+        "flag": null
       },
       "away": {
         "name": "Espanha",
