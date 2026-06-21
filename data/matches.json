@@ -784,13 +784,13 @@
         "tla": "JPN",
         "flag": "jp"
       },
-      "home_score": null,
-      "away_score": null,
-      "winner": null,
+      "home_score": 0,
+      "away_score": 2,
+      "winner": "away",
       "date": "2026-06-21T04:00:00Z",
       "venue": "Estadio BBVA",
       "city": "Monterrey",
-      "status": "pending"
+      "status": "live"
     },
     {
       "id": 537371,

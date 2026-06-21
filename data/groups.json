@@ -296,6 +296,19 @@
           "points": 4
         },
         {
+          "id": "JPN",
+          "name": "Japão",
+          "flag": "jp",
+          "played": 2,
+          "won": 1,
+          "drawn": 1,
+          "lost": 0,
+          "gf": 3,
+          "ga": 2,
+          "gd": 1,
+          "points": 4
+        },
+        {
           "id": "SWE",
           "name": "Suécia",
           "flag": "se",
@@ -309,29 +322,16 @@
           "points": 3
         },
         {
-          "id": "JPN",
-          "name": "Japão",
-          "flag": "jp",
-          "played": 1,
-          "won": 0,
-          "drawn": 1,
-          "lost": 0,
-          "gf": 2,
-          "ga": 2,
-          "gd": 0,
-          "points": 1
-        },
-        {
           "id": "TUN",
           "name": "Tunísia",
           "flag": "tn",
-          "played": 1,
+          "played": 2,
           "won": 0,
           "drawn": 0,
-          "lost": 1,
+          "lost": 2,
           "gf": 1,
-          "ga": 5,
-          "gd": -4,
+          "ga": 6,
+          "gd": -5,
           "points": 0
         }
       ]

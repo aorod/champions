@@ -73,6 +73,15 @@
       "matches": 2
     },
     {
+      "player": "Daichi Kamada",
+      "team": "JPN",
+      "team_name": "Japão",
+      "flag_code": "jp",
+      "goals": 2,
+      "assists": 0,
+      "matches": 2
+    },
+    {
       "player": "Yasin Ayari",
       "team": "SWE",
       "team_name": "Suécia",
@@ -254,15 +263,6 @@
     },
     {
       "player": "Nestor Irankunda",
-      "team": "AUS",
-      "team_name": "Austrália",
-      "flag_code": "au",
-      "goals": 1,
-      "assists": 0,
-      "matches": 2
-    },
-    {
-      "player": "Connor Metcalfe",
       "team": "AUS",
       "team_name": "Austrália",
       "flag_code": "au",
