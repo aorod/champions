@@ -163,6 +163,15 @@
       "matches": 2
     },
     {
+      "player": "Ayase Ueda",
+      "team": "JPN",
+      "team_name": "Japão",
+      "flag_code": "jp",
+      "goals": 2,
+      "assists": 1,
+      "matches": 2
+    },
+    {
       "player": "Julián Quiñones",
       "team": "MEX",
       "team_name": "México",
@@ -260,15 +269,6 @@
       "goals": 1,
       "assists": 0,
       "matches": 2
-    },
-    {
-      "player": "Nestor Irankunda",
-      "team": "AUS",
-      "team_name": "Austrália",
-      "flag_code": "au",
-      "goals": 1,
-      "assists": 0,
-      "matches": 2
     }
   ],
   "assists": [
@@ -297,6 +297,15 @@
       "flag_code": "nl",
       "goals": 2,
       "assists": 2,
+      "matches": 2
+    },
+    {
+      "player": "Ayase Ueda",
+      "team": "JPN",
+      "team_name": "Japão",
+      "flag_code": "jp",
+      "goals": 2,
+      "assists": 1,
       "matches": 2
     },
     {
