@@ -339,6 +339,32 @@
     "G": {
       "teams": [
         {
+          "id": "IRN",
+          "name": "Irã",
+          "flag": "ir",
+          "played": 2,
+          "won": 0,
+          "drawn": 2,
+          "lost": 0,
+          "gf": 2,
+          "ga": 2,
+          "gd": 0,
+          "points": 2
+        },
+        {
+          "id": "BEL",
+          "name": "Bélgica",
+          "flag": "be",
+          "played": 2,
+          "won": 0,
+          "drawn": 2,
+          "lost": 0,
+          "gf": 1,
+          "ga": 1,
+          "gd": 0,
+          "points": 2
+        },
+        {
           "id": "NZL",
           "name": "Nova Zelândia",
           "flag": "nz",
@@ -348,32 +374,6 @@
           "lost": 0,
           "gf": 2,
           "ga": 2,
-          "gd": 0,
-          "points": 1
-        },
-        {
-          "id": "IRN",
-          "name": "Irã",
-          "flag": "ir",
-          "played": 1,
-          "won": 0,
-          "drawn": 1,
-          "lost": 0,
-          "gf": 2,
-          "ga": 2,
-          "gd": 0,
-          "points": 1
-        },
-        {
-          "id": "BEL",
-          "name": "Bélgica",
-          "flag": "be",
-          "played": 1,
-          "won": 0,
-          "drawn": 1,
-          "lost": 0,
-          "gf": 1,
-          "ga": 1,
           "gd": 0,
           "points": 1
         },
