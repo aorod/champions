@@ -16,6 +16,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     renderGroups(groupsData.groups);
     renderScorers(scorersData);
     renderMatches(matchesData.matches ?? []);
+    PageLoader.done();
   } catch (err) {
     groupsContainer.innerHTML = `
       <div class="state-empty">
@@ -23,6 +24,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         <p class="state-empty__title">Erro ao carregar dados</p>
         <p class="state-empty__sub">${err.message}</p>
       </div>`;
+    PageLoader.done();
   }
 
   // Tab switching

@@ -12,6 +12,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     DataLoader.setLastUpdated(meta.last_updated);
     renderTeams(allTeams);
     initFilters(allTeams);
+    PageLoader.done();
   } catch (err) {
     grid.innerHTML = `
       <div class="state-empty" style="grid-column:1/-1">
@@ -19,6 +20,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         <p class="state-empty__title">Erro ao carregar dados</p>
         <p class="state-empty__sub">${err.message}</p>
       </div>`;
+    PageLoader.done();
   }
 
   function renderTeams(teams) {

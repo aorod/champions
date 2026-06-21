@@ -26,6 +26,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     groupsData  = gd;
     DataLoader.setLastUpdated(meta.last_updated);
     renderUI();
+    PageLoader.done();
   } catch (err) {
     bracketEl.innerHTML = `
       <div class="state-empty">
@@ -33,6 +34,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         <p class="state-empty__title">Erro ao carregar dados</p>
         <p class="state-empty__sub">${err.message}</p>
       </div>`;
+    PageLoader.done();
   }
 
   // ── UI shell ──────────────────────────────────────────────────────────────
