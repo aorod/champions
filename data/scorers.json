@@ -96,7 +96,7 @@
       "team_name": "Uruguai",
       "flag_code": "uy",
       "goals": 2,
-      "assists": 0,
+      "assists": 1,
       "matches": 2
     },
     {
@@ -106,7 +106,7 @@
       "flag_code": "nz",
       "goals": 2,
       "assists": 0,
-      "matches": 1
+      "matches": 2
     },
     {
       "player": "Kylian Mbappé",
@@ -297,6 +297,15 @@
       "flag_code": "nl",
       "goals": 2,
       "assists": 2,
+      "matches": 2
+    },
+    {
+      "player": "Maximiliano Araújo",
+      "team": "URU",
+      "team_name": "Uruguai",
+      "flag_code": "uy",
+      "goals": 2,
+      "assists": 1,
       "matches": 2
     },
     {

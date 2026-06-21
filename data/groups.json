@@ -408,30 +408,30 @@
           "points": 4
         },
         {
-          "id": "CPV",
-          "name": "Cabo Verde",
-          "flag": "cv",
-          "played": 2,
-          "won": 1,
-          "drawn": 1,
-          "lost": 0,
-          "gf": 1,
-          "ga": 0,
-          "gd": 1,
-          "points": 4
-        },
-        {
           "id": "URU",
           "name": "Uruguai",
           "flag": "uy",
           "played": 2,
           "won": 0,
-          "drawn": 1,
-          "lost": 1,
-          "gf": 1,
+          "drawn": 2,
+          "lost": 0,
+          "gf": 3,
+          "ga": 3,
+          "gd": 0,
+          "points": 2
+        },
+        {
+          "id": "CPV",
+          "name": "Cabo Verde",
+          "flag": "cv",
+          "played": 2,
+          "won": 0,
+          "drawn": 2,
+          "lost": 0,
+          "gf": 2,
           "ga": 2,
-          "gd": -1,
-          "points": 1
+          "gd": 0,
+          "points": 2
         },
         {
           "id": "KSA",
