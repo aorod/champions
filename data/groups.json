@@ -256,27 +256,27 @@
           "id": "ECU",
           "name": "Equador",
           "flag": "ec",
-          "played": 1,
+          "played": 2,
           "won": 0,
-          "drawn": 0,
+          "drawn": 1,
           "lost": 1,
           "gf": 0,
           "ga": 1,
           "gd": -1,
-          "points": 0
+          "points": 1
         },
         {
           "id": "CUW",
           "name": "Curaçao",
           "flag": "cw",
-          "played": 1,
+          "played": 2,
           "won": 0,
-          "drawn": 0,
+          "drawn": 1,
           "lost": 1,
           "gf": 1,
           "ga": 7,
           "gd": -6,
-          "points": 0
+          "points": 1
         }
       ]
     },
