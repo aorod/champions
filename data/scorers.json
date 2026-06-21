@@ -91,6 +91,15 @@
       "matches": 2
     },
     {
+      "player": "Maximiliano Araújo",
+      "team": "URU",
+      "team_name": "Uruguai",
+      "flag_code": "uy",
+      "goals": 2,
+      "assists": 0,
+      "matches": 2
+    },
+    {
       "player": "Elijah Just",
       "team": "NZL",
       "team_name": "Nova Zelândia",
@@ -259,15 +268,6 @@
       "flag_code": "ch",
       "goals": 1,
       "assists": 1,
-      "matches": 2
-    },
-    {
-      "player": "Boualem Khoukhi",
-      "team": "QAT",
-      "team_name": "Catar",
-      "flag_code": "qa",
-      "goals": 1,
-      "assists": 0,
       "matches": 2
     }
   ],

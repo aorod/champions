@@ -318,16 +318,16 @@
         "flag": "sa"
       },
       "away": {
-        "name": "Uruguai",
-        "tla": "URU",
-        "flag": "uy"
+        "name": "Uruguay",
+        "tla": "URY",
+        "flag": null
       },
       "home_score": 1,
       "away_score": 1,
       "winner": "draw",
       "date": "2026-06-15T22:00:00Z",
-      "venue": "Hard Rock Stadium",
-      "city": "Miami, FL",
+      "venue": null,
+      "city": null,
       "status": "finished"
     },
     {
@@ -841,22 +841,22 @@
       "group": "H",
       "matchday": 2,
       "home": {
-        "name": "Uruguai",
-        "tla": "URU",
-        "flag": "uy"
+        "name": "Uruguay",
+        "tla": "URY",
+        "flag": null
       },
       "away": {
         "name": "Cabo Verde",
         "tla": "CPV",
         "flag": "cv"
       },
-      "home_score": null,
-      "away_score": null,
-      "winner": null,
+      "home_score": 0,
+      "away_score": 1,
+      "winner": "away",
       "date": "2026-06-21T22:00:00Z",
-      "venue": "Hard Rock Stadium",
-      "city": "Miami, FL",
-      "status": "pending"
+      "venue": null,
+      "city": null,
+      "status": "live"
     },
     {
       "id": 537366,
@@ -1369,9 +1369,9 @@
       "group": "H",
       "matchday": 3,
       "home": {
-        "name": "Uruguai",
-        "tla": "URU",
-        "flag": "uy"
+        "name": "Uruguay",
+        "tla": "URY",
+        "flag": null
       },
       "away": {
         "name": "Espanha",
@@ -1382,8 +1382,8 @@
       "away_score": null,
       "winner": null,
       "date": "2026-06-27T00:00:00Z",
-      "venue": "Estadio Akron",
-      "city": "Guadalajara",
+      "venue": null,
+      "city": null,
       "status": "pending"
     },
     {
