@@ -172,6 +172,15 @@
       "matches": 2
     },
     {
+      "player": "Mikel Oyarzabal",
+      "team": "ESP",
+      "team_name": "Espanha",
+      "flag_code": "es",
+      "goals": 2,
+      "assists": 1,
+      "matches": 2
+    },
+    {
       "player": "Julián Quiñones",
       "team": "MEX",
       "team_name": "México",
@@ -260,15 +269,6 @@
       "goals": 1,
       "assists": 0,
       "matches": 2
-    },
-    {
-      "player": "John McGinn",
-      "team": "SCO",
-      "team_name": "Escócia",
-      "flag_code": "gb-sct",
-      "goals": 1,
-      "assists": 0,
-      "matches": 2
     }
   ],
   "assists": [
@@ -304,6 +304,15 @@
       "team": "JPN",
       "team_name": "Japão",
       "flag_code": "jp",
+      "goals": 2,
+      "assists": 1,
+      "matches": 2
+    },
+    {
+      "player": "Mikel Oyarzabal",
+      "team": "ESP",
+      "team_name": "Espanha",
+      "flag_code": "es",
       "goals": 2,
       "assists": 1,
       "matches": 2
