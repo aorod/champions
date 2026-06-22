@@ -19,6 +19,15 @@
       "matches": 2
     },
     {
+      "player": "Kylian Mbappé",
+      "team": "FRA",
+      "team_name": "França",
+      "flag_code": "fr",
+      "goals": 3,
+      "assists": 0,
+      "matches": 2
+    },
+    {
       "player": "Jonathan David",
       "team": "CAN",
       "team_name": "Canadá",
@@ -104,15 +113,6 @@
       "team": "NZL",
       "team_name": "Nova Zelândia",
       "flag_code": "nz",
-      "goals": 2,
-      "assists": 0,
-      "matches": 2
-    },
-    {
-      "player": "Kylian Mbappé",
-      "team": "FRA",
-      "team_name": "França",
-      "flag_code": "fr",
       "goals": 2,
       "assists": 0,
       "matches": 2
