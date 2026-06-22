@@ -894,13 +894,13 @@
         "tla": "AUT",
         "flag": "at"
       },
-      "home_score": null,
-      "away_score": null,
-      "winner": null,
+      "home_score": 2,
+      "away_score": 0,
+      "winner": "home",
       "date": "2026-06-22T17:00:00Z",
       "venue": "AT&T Stadium",
       "city": "Dallas, TX",
-      "status": "pending"
+      "status": "finished"
     },
     {
       "id": 537393,
