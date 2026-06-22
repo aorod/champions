@@ -339,16 +339,16 @@
     "G": {
       "teams": [
         {
-          "id": "NZL",
-          "name": "Nova Zelândia",
-          "flag": "nz",
+          "id": "EGY",
+          "name": "Egito",
+          "flag": "eg",
           "played": 2,
           "won": 1,
           "drawn": 1,
           "lost": 0,
-          "gf": 3,
+          "gf": 4,
           "ga": 2,
-          "gd": 1,
+          "gd": 2,
           "points": 4
         },
         {
@@ -378,16 +378,16 @@
           "points": 2
         },
         {
-          "id": "EGY",
-          "name": "Egito",
-          "flag": "eg",
+          "id": "NZL",
+          "name": "Nova Zelândia",
+          "flag": "nz",
           "played": 2,
           "won": 0,
           "drawn": 1,
           "lost": 1,
-          "gf": 1,
-          "ga": 2,
-          "gd": -1,
+          "gf": 3,
+          "ga": 5,
+          "gd": -2,
           "points": 1
         }
       ]
