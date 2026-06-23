@@ -10,21 +10,30 @@
       "matches": 2
     },
     {
+      "player": "Kylian Mbappé",
+      "team": "FRA",
+      "team_name": "França",
+      "flag_code": "fr",
+      "goals": 4,
+      "assists": 0,
+      "matches": 2
+    },
+    {
+      "player": "Erling Haaland",
+      "team": "NOR",
+      "team_name": "Noruega",
+      "flag_code": "no",
+      "goals": 4,
+      "assists": 0,
+      "matches": 2
+    },
+    {
       "player": "Deniz Undav",
       "team": "GER",
       "team_name": "Alemanha",
       "flag_code": "de",
       "goals": 3,
       "assists": 2,
-      "matches": 2
-    },
-    {
-      "player": "Kylian Mbappé",
-      "team": "FRA",
-      "team_name": "França",
-      "flag_code": "fr",
-      "goals": 3,
-      "assists": 0,
       "matches": 2
     },
     {
@@ -113,15 +122,6 @@
       "team": "NZL",
       "team_name": "Nova Zelândia",
       "flag_code": "nz",
-      "goals": 2,
-      "assists": 0,
-      "matches": 2
-    },
-    {
-      "player": "Erling Haaland",
-      "team": "NOR",
-      "team_name": "Noruega",
-      "flag_code": "no",
       "goals": 2,
       "assists": 0,
       "matches": 2
