@@ -563,6 +563,19 @@
     "K": {
       "teams": [
         {
+          "id": "POR",
+          "name": "Portugal",
+          "flag": "pt",
+          "played": 2,
+          "won": 1,
+          "drawn": 1,
+          "lost": 0,
+          "gf": 6,
+          "ga": 1,
+          "gd": 5,
+          "points": 4
+        },
+        {
           "id": "COL",
           "name": "Colômbia",
           "flag": "co",
@@ -574,19 +587,6 @@
           "ga": 1,
           "gd": 2,
           "points": 3
-        },
-        {
-          "id": "POR",
-          "name": "Portugal",
-          "flag": "pt",
-          "played": 2,
-          "won": 0,
-          "drawn": 2,
-          "lost": 0,
-          "gf": 1,
-          "ga": 1,
-          "gd": 0,
-          "points": 2
         },
         {
           "id": "COD",
@@ -607,12 +607,12 @@
           "flag": "uz",
           "played": 2,
           "won": 0,
-          "drawn": 1,
-          "lost": 1,
+          "drawn": 0,
+          "lost": 2,
           "gf": 1,
-          "ga": 3,
-          "gd": -2,
-          "points": 1
+          "ga": 8,
+          "gd": -7,
+          "points": 0
         }
       ]
     },

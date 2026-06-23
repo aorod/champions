@@ -982,13 +982,13 @@
         "tla": "UZB",
         "flag": "uz"
       },
-      "home_score": null,
-      "away_score": null,
-      "winner": null,
+      "home_score": 5,
+      "away_score": 0,
+      "winner": "home",
       "date": "2026-06-23T17:00:00Z",
       "venue": "NRG Stadium",
       "city": "Houston, TX",
-      "status": "pending"
+      "status": "finished"
     },
     {
       "id": 537411,
