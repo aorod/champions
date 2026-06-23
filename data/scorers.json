@@ -208,6 +208,15 @@
       "matches": 2
     },
     {
+      "player": "Cristiano Ronaldo",
+      "team": "POR",
+      "team_name": "Portugal",
+      "flag_code": "pt",
+      "goals": 2,
+      "assists": 0,
+      "matches": 2
+    },
+    {
       "player": "Julián Quiñones",
       "team": "MEX",
       "team_name": "México",
@@ -257,15 +266,6 @@
       "team": "BIH",
       "team_name": "Bósnia e Herzegovina",
       "flag_code": "ba",
-      "goals": 1,
-      "assists": 0,
-      "matches": 2
-    },
-    {
-      "player": "Mauricio",
-      "team": "PAR",
-      "team_name": "Paraguai",
-      "flag_code": "py",
       "goals": 1,
       "assists": 0,
       "matches": 2
