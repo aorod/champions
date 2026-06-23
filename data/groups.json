@@ -451,6 +451,19 @@
     "I": {
       "teams": [
         {
+          "id": "NOR",
+          "name": "Noruega",
+          "flag": "no",
+          "played": 2,
+          "won": 2,
+          "drawn": 0,
+          "lost": 0,
+          "gf": 7,
+          "ga": 2,
+          "gd": 5,
+          "points": 6
+        },
+        {
           "id": "FRA",
           "name": "França",
           "flag": "fr",
@@ -464,19 +477,6 @@
           "points": 6
         },
         {
-          "id": "NOR",
-          "name": "Noruega",
-          "flag": "no",
-          "played": 2,
-          "won": 2,
-          "drawn": 0,
-          "lost": 0,
-          "gf": 5,
-          "ga": 1,
-          "gd": 4,
-          "points": 6
-        },
-        {
           "id": "SEN",
           "name": "Senegal",
           "flag": "sn",
@@ -484,9 +484,9 @@
           "won": 0,
           "drawn": 0,
           "lost": 2,
-          "gf": 1,
-          "ga": 4,
-          "gd": -3,
+          "gf": 2,
+          "ga": 6,
+          "gd": -4,
           "points": 0
         },
         {
