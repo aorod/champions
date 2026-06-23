@@ -91,6 +91,15 @@
       "matches": 2
     },
     {
+      "player": "Crysencio Summerville",
+      "team": "NED",
+      "team_name": "Países Baixos",
+      "flag_code": "nl",
+      "goals": 2,
+      "assists": 1,
+      "matches": 2
+    },
+    {
       "player": "Daichi Kamada",
       "team": "JPN",
       "team_name": "Japão",
@@ -168,7 +177,7 @@
       "team_name": "Países Baixos",
       "flag_code": "nl",
       "goals": 2,
-      "assists": 2,
+      "assists": 1,
       "matches": 2
     },
     {
@@ -260,15 +269,6 @@
       "goals": 1,
       "assists": 0,
       "matches": 2
-    },
-    {
-      "player": "Gio Reyna",
-      "team": "USA",
-      "team_name": "Estados Unidos",
-      "flag_code": "us",
-      "goals": 1,
-      "assists": 0,
-      "matches": 2
     }
   ],
   "assists": [
@@ -291,12 +291,12 @@
       "matches": 2
     },
     {
-      "player": "Cody Gakpo",
+      "player": "Crysencio Summerville",
       "team": "NED",
       "team_name": "Países Baixos",
       "flag_code": "nl",
       "goals": 2,
-      "assists": 2,
+      "assists": 1,
       "matches": 2
     },
     {
@@ -304,6 +304,15 @@
       "team": "URU",
       "team_name": "Uruguai",
       "flag_code": "uy",
+      "goals": 2,
+      "assists": 1,
+      "matches": 2
+    },
+    {
+      "player": "Cody Gakpo",
+      "team": "NED",
+      "team_name": "Países Baixos",
+      "flag_code": "nl",
       "goals": 2,
       "assists": 1,
       "matches": 2

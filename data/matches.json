@@ -58,9 +58,9 @@
         "tla": "BIH",
         "flag": "ba"
       },
-      "home_score": null,
-      "away_score": null,
-      "winner": null,
+      "home_score": 1,
+      "away_score": 1,
+      "winner": "draw",
       "date": "2026-06-12T19:00:00Z",
       "venue": "BMO Field",
       "city": "Toronto, ON",
