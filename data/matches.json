@@ -939,12 +939,12 @@
         "flag": "sn"
       },
       "home_score": 3,
-      "away_score": 1,
+      "away_score": 2,
       "winner": "home",
       "date": "2026-06-23T00:00:00Z",
       "venue": "MetLife Stadium",
       "city": "Nova York / Nova Jersey",
-      "status": "live"
+      "status": "finished"
     },
     {
       "id": 537400,
@@ -960,13 +960,13 @@
         "tla": "ALG",
         "flag": "dz"
       },
-      "home_score": null,
-      "away_score": null,
-      "winner": null,
+      "home_score": 1,
+      "away_score": 2,
+      "winner": "away",
       "date": "2026-06-23T03:00:00Z",
       "venue": "Levi's Stadium",
       "city": "San Jose / Bay Area, CA",
-      "status": "pending"
+      "status": "finished"
     },
     {
       "id": 537405,

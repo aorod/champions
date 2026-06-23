@@ -451,19 +451,6 @@
     "I": {
       "teams": [
         {
-          "id": "NOR",
-          "name": "Noruega",
-          "flag": "no",
-          "played": 2,
-          "won": 2,
-          "drawn": 0,
-          "lost": 0,
-          "gf": 7,
-          "ga": 2,
-          "gd": 5,
-          "points": 6
-        },
-        {
           "id": "FRA",
           "name": "França",
           "flag": "fr",
@@ -477,6 +464,19 @@
           "points": 6
         },
         {
+          "id": "NOR",
+          "name": "Noruega",
+          "flag": "no",
+          "played": 2,
+          "won": 2,
+          "drawn": 0,
+          "lost": 0,
+          "gf": 7,
+          "ga": 3,
+          "gd": 4,
+          "points": 6
+        },
+        {
           "id": "SEN",
           "name": "Senegal",
           "flag": "sn",
@@ -484,9 +484,9 @@
           "won": 0,
           "drawn": 0,
           "lost": 2,
-          "gf": 2,
+          "gf": 3,
           "ga": 6,
-          "gd": -4,
+          "gd": -3,
           "points": 0
         },
         {
@@ -533,28 +533,28 @@
           "points": 3
         },
         {
-          "id": "JOR",
-          "name": "Jordânia",
-          "flag": "jo",
-          "played": 1,
-          "won": 0,
-          "drawn": 0,
-          "lost": 1,
-          "gf": 1,
-          "ga": 3,
-          "gd": -2,
-          "points": 0
-        },
-        {
           "id": "ALG",
           "name": "Argélia",
           "flag": "dz",
-          "played": 1,
-          "won": 0,
+          "played": 2,
+          "won": 1,
           "drawn": 0,
           "lost": 1,
-          "gf": 0,
-          "ga": 3,
+          "gf": 2,
+          "ga": 4,
+          "gd": -2,
+          "points": 3
+        },
+        {
+          "id": "JOR",
+          "name": "Jordânia",
+          "flag": "jo",
+          "played": 2,
+          "won": 0,
+          "drawn": 0,
+          "lost": 2,
+          "gf": 2,
+          "ga": 5,
           "gd": -3,
           "points": 0
         }
