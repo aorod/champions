@@ -1026,9 +1026,9 @@
         "tla": "CRO",
         "flag": "hr"
       },
-      "home_score": null,
-      "away_score": null,
-      "winner": null,
+      "home_score": 0,
+      "away_score": 0,
+      "winner": "draw",
       "date": "2026-06-23T23:00:00Z",
       "venue": "BMO Field",
       "city": "Toronto, ON",
