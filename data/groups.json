@@ -576,6 +576,19 @@
           "points": 3
         },
         {
+          "id": "POR",
+          "name": "Portugal",
+          "flag": "pt",
+          "played": 2,
+          "won": 0,
+          "drawn": 2,
+          "lost": 0,
+          "gf": 1,
+          "ga": 1,
+          "gd": 0,
+          "points": 2
+        },
+        {
           "id": "COD",
           "name": "RD Congo",
           "flag": "cd",
@@ -589,30 +602,17 @@
           "points": 1
         },
         {
-          "id": "POR",
-          "name": "Portugal",
-          "flag": "pt",
-          "played": 1,
-          "won": 0,
-          "drawn": 1,
-          "lost": 0,
-          "gf": 1,
-          "ga": 1,
-          "gd": 0,
-          "points": 1
-        },
-        {
           "id": "UZB",
           "name": "Uzbequistão",
           "flag": "uz",
-          "played": 1,
+          "played": 2,
           "won": 0,
-          "drawn": 0,
+          "drawn": 1,
           "lost": 1,
           "gf": 1,
           "ga": 3,
           "gd": -2,
-          "points": 0
+          "points": 1
         }
       ]
     },
