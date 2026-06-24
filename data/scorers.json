@@ -159,7 +159,16 @@
       "team_name": "Suíça",
       "flag_code": "ch",
       "goals": 2,
-      "assists": 0,
+      "assists": 1,
+      "matches": 3
+    },
+    {
+      "player": "Ruben Vargas",
+      "team": "SUI",
+      "team_name": "Suíça",
+      "flag_code": "ch",
+      "goals": 2,
+      "assists": 1,
       "matches": 3
     },
     {
@@ -260,15 +269,6 @@
       "goals": 1,
       "assists": 1,
       "matches": 2
-    },
-    {
-      "player": "Hyun-Gyu Oh",
-      "team": "KOR",
-      "team_name": "Coreia do Sul",
-      "flag_code": "kr",
-      "goals": 1,
-      "assists": 0,
-      "matches": 2
     }
   ],
   "assists": [
@@ -307,6 +307,24 @@
       "goals": 2,
       "assists": 1,
       "matches": 2
+    },
+    {
+      "player": "Johan Manzambi",
+      "team": "SUI",
+      "team_name": "Suíça",
+      "flag_code": "ch",
+      "goals": 2,
+      "assists": 1,
+      "matches": 3
+    },
+    {
+      "player": "Ruben Vargas",
+      "team": "SUI",
+      "team_name": "Suíça",
+      "flag_code": "ch",
+      "goals": 2,
+      "assists": 1,
+      "matches": 3
     },
     {
       "player": "Cody Gakpo",
