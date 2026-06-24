@@ -145,6 +145,15 @@
       "matches": 2
     },
     {
+      "player": "Daniel Muñoz",
+      "team": "COL",
+      "team_name": "Colômbia",
+      "flag_code": "co",
+      "goals": 2,
+      "assists": 0,
+      "matches": 1
+    },
+    {
       "player": "Johan Manzambi",
       "team": "SUI",
       "team_name": "Suíça",
@@ -257,15 +266,6 @@
       "team": "KOR",
       "team_name": "Coreia do Sul",
       "flag_code": "kr",
-      "goals": 1,
-      "assists": 0,
-      "matches": 2
-    },
-    {
-      "player": "Jovo Lukić",
-      "team": "BIH",
-      "team_name": "Bósnia e Herzegovina",
-      "flag_code": "ba",
       "goals": 1,
       "assists": 0,
       "matches": 2
