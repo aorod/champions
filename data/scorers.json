@@ -10,6 +10,15 @@
       "matches": 2
     },
     {
+      "player": "Vinicius Junior",
+      "team": "BRA",
+      "team_name": "Brasil",
+      "flag_code": "br",
+      "goals": 4,
+      "assists": 1,
+      "matches": 3
+    },
+    {
       "player": "Kylian Mbappé",
       "team": "FRA",
       "team_name": "França",
@@ -26,6 +35,15 @@
       "goals": 4,
       "assists": 0,
       "matches": 2
+    },
+    {
+      "player": "Ismael Saibari",
+      "team": "MAR",
+      "team_name": "Marrocos",
+      "flag_code": "ma",
+      "goals": 3,
+      "assists": 0,
+      "matches": 3
     },
     {
       "player": "Deniz Undav",
@@ -71,24 +89,6 @@
       "goals": 2,
       "assists": 0,
       "matches": 2
-    },
-    {
-      "player": "Ismael Saibari",
-      "team": "MAR",
-      "team_name": "Marrocos",
-      "flag_code": "ma",
-      "goals": 2,
-      "assists": 0,
-      "matches": 3
-    },
-    {
-      "player": "Vinicius Junior",
-      "team": "BRA",
-      "team_name": "Brasil",
-      "flag_code": "br",
-      "goals": 2,
-      "assists": 1,
-      "matches": 3
     },
     {
       "player": "Kai Havertz",
@@ -282,20 +282,20 @@
       "matches": 2
     },
     {
+      "player": "Vinicius Junior",
+      "team": "BRA",
+      "team_name": "Brasil",
+      "flag_code": "br",
+      "goals": 4,
+      "assists": 1,
+      "matches": 3
+    },
+    {
       "player": "Johan Manzambi",
       "team": "SUI",
       "team_name": "Suíça",
       "flag_code": "ch",
       "goals": 3,
-      "assists": 1,
-      "matches": 3
-    },
-    {
-      "player": "Vinicius Junior",
-      "team": "BRA",
-      "team_name": "Brasil",
-      "flag_code": "br",
-      "goals": 2,
       "assists": 1,
       "matches": 3
     },
