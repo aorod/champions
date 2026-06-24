@@ -73,6 +73,15 @@
       "matches": 3
     },
     {
+      "player": "Matheus Cunha",
+      "team": "BRA",
+      "team_name": "Brasil",
+      "flag_code": "br",
+      "goals": 3,
+      "assists": 0,
+      "matches": 3
+    },
+    {
       "player": "Cyle Larin",
       "team": "CAN",
       "team_name": "Canadá",
@@ -176,15 +185,6 @@
       "team": "BIH",
       "team_name": "Bósnia e Herzegovina",
       "flag_code": "ba",
-      "goals": 2,
-      "assists": 0,
-      "matches": 3
-    },
-    {
-      "player": "Matheus Cunha",
-      "team": "BRA",
-      "team_name": "Brasil",
-      "flag_code": "br",
       "goals": 2,
       "assists": 0,
       "matches": 3
