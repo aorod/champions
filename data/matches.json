@@ -1070,13 +1070,13 @@
         "tla": "CAN",
         "flag": "ca"
       },
-      "home_score": 1,
-      "away_score": 0,
+      "home_score": 2,
+      "away_score": 1,
       "winner": "home",
       "date": "2026-06-24T19:00:00Z",
       "venue": "BC Place",
       "city": "Vancouver, BC",
-      "status": "live"
+      "status": "finished"
     },
     {
       "id": 537338,
@@ -1092,13 +1092,13 @@
         "tla": "QAT",
         "flag": "qa"
       },
-      "home_score": 2,
+      "home_score": 3,
       "away_score": 1,
       "winner": "home",
       "date": "2026-06-24T19:00:00Z",
       "venue": "Lumen Field",
       "city": "Seattle, WA",
-      "status": "live"
+      "status": "finished"
     },
     {
       "id": 537344,

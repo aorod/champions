@@ -59,30 +59,30 @@
     "B": {
       "teams": [
         {
+          "id": "SUI",
+          "name": "Suíça",
+          "flag": "ch",
+          "played": 3,
+          "won": 2,
+          "drawn": 1,
+          "lost": 0,
+          "gf": 7,
+          "ga": 3,
+          "gd": 4,
+          "points": 7
+        },
+        {
           "id": "CAN",
           "name": "Canadá",
           "flag": "ca",
           "played": 3,
           "won": 1,
-          "drawn": 2,
-          "lost": 0,
-          "gf": 7,
-          "ga": 1,
-          "gd": 6,
-          "points": 5
-        },
-        {
-          "id": "SUI",
-          "name": "Suíça",
-          "flag": "ch",
-          "played": 3,
-          "won": 1,
-          "drawn": 2,
-          "lost": 0,
-          "gf": 5,
-          "ga": 2,
-          "gd": 3,
-          "points": 5
+          "drawn": 1,
+          "lost": 1,
+          "gf": 8,
+          "ga": 3,
+          "gd": 5,
+          "points": 4
         },
         {
           "id": "BIH",
@@ -92,9 +92,9 @@
           "won": 1,
           "drawn": 1,
           "lost": 1,
-          "gf": 4,
+          "gf": 5,
           "ga": 6,
-          "gd": -2,
+          "gd": -1,
           "points": 4
         },
         {
@@ -106,8 +106,8 @@
           "drawn": 1,
           "lost": 2,
           "gf": 2,
-          "ga": 9,
-          "gd": -7,
+          "ga": 10,
+          "gd": -8,
           "points": 1
         }
       ]
