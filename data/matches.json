@@ -187,15 +187,15 @@
       },
       "away": {
         "name": "Curaçao",
-        "tla": "CUR",
-        "flag": null
+        "tla": "CUW",
+        "flag": "cw"
       },
       "home_score": 7,
       "away_score": 1,
       "winner": "home",
       "date": "2026-06-14T17:00:00Z",
-      "venue": null,
-      "city": null,
+      "venue": "NRG Stadium",
+      "city": "Houston, TX",
       "status": "finished"
     },
     {
@@ -318,16 +318,16 @@
         "flag": "sa"
       },
       "away": {
-        "name": "Uruguay",
-        "tla": "URY",
-        "flag": null
+        "name": "Uruguai",
+        "tla": "URU",
+        "flag": "uy"
       },
       "home_score": 1,
       "away_score": 1,
       "winner": "draw",
       "date": "2026-06-15T22:00:00Z",
-      "venue": null,
-      "city": null,
+      "venue": "Hard Rock Stadium",
+      "city": "Miami, FL",
       "status": "finished"
     },
     {
@@ -759,15 +759,15 @@
       },
       "away": {
         "name": "Curaçao",
-        "tla": "CUR",
-        "flag": null
+        "tla": "CUW",
+        "flag": "cw"
       },
       "home_score": 0,
       "away_score": 0,
       "winner": "draw",
       "date": "2026-06-21T00:00:00Z",
-      "venue": null,
-      "city": null,
+      "venue": "GEHA Field at Arrowhead Stadium",
+      "city": "Kansas City, MO",
       "status": "finished"
     },
     {
@@ -841,9 +841,9 @@
       "group": "H",
       "matchday": 2,
       "home": {
-        "name": "Uruguay",
-        "tla": "URY",
-        "flag": null
+        "name": "Uruguai",
+        "tla": "URU",
+        "flag": "uy"
       },
       "away": {
         "name": "Cabo Verde",
@@ -854,8 +854,8 @@
       "away_score": 2,
       "winner": "draw",
       "date": "2026-06-21T22:00:00Z",
-      "venue": null,
-      "city": null,
+      "venue": "Hard Rock Stadium",
+      "city": "Miami, FL",
       "status": "finished"
     },
     {
@@ -1216,8 +1216,8 @@
       "matchday": 3,
       "home": {
         "name": "Curaçao",
-        "tla": "CUR",
-        "flag": null
+        "tla": "CUW",
+        "flag": "cw"
       },
       "away": {
         "name": "Costa do Marfim",
@@ -1228,8 +1228,8 @@
       "away_score": 1,
       "winner": "away",
       "date": "2026-06-25T20:00:00Z",
-      "venue": null,
-      "city": null,
+      "venue": "Lincoln Financial Field",
+      "city": "Filadélfia, PA",
       "status": "pending"
     },
     {
@@ -1369,9 +1369,9 @@
       "group": "H",
       "matchday": 3,
       "home": {
-        "name": "Uruguay",
-        "tla": "URY",
-        "flag": null
+        "name": "Uruguai",
+        "tla": "URU",
+        "flag": "uy"
       },
       "away": {
         "name": "Espanha",
@@ -1382,8 +1382,8 @@
       "away_score": null,
       "winner": null,
       "date": "2026-06-27T00:00:00Z",
-      "venue": null,
-      "city": null,
+      "venue": "Estadio Akron",
+      "city": "Guadalajara",
       "status": "pending"
     },
     {

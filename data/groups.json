@@ -234,8 +234,8 @@
           "won": 2,
           "drawn": 1,
           "lost": 0,
-          "gf": 9,
-          "ga": 2,
+          "gf": 10,
+          "ga": 3,
           "gd": 7,
           "points": 7
         },
@@ -244,13 +244,13 @@
           "name": "Costa do Marfim",
           "flag": "ci",
           "played": 3,
-          "won": 1,
-          "drawn": 1,
+          "won": 2,
+          "drawn": 0,
           "lost": 1,
-          "gf": 2,
+          "gf": 3,
           "ga": 2,
-          "gd": 0,
-          "points": 4
+          "gd": 1,
+          "points": 6
         },
         {
           "id": "ECU",
@@ -260,8 +260,8 @@
           "won": 0,
           "drawn": 2,
           "lost": 1,
-          "gf": 0,
-          "ga": 1,
+          "gf": 1,
+          "ga": 2,
           "gd": -1,
           "points": 2
         },
@@ -271,12 +271,12 @@
           "flag": "cw",
           "played": 3,
           "won": 0,
-          "drawn": 2,
-          "lost": 1,
+          "drawn": 1,
+          "lost": 2,
           "gf": 1,
-          "ga": 7,
-          "gd": -6,
-          "points": 2
+          "ga": 8,
+          "gd": -7,
+          "points": 1
         }
       ]
     },
