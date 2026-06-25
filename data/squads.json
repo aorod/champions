@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-25T09:38:40.709Z",
+  "updated": "2026-06-25T22:08:21.266Z",
   "squads": {
     "RSA": [
       {
@@ -416,7 +416,7 @@
         "espnId": "290811",
         "name": "Jamie Leweling",
         "jersey": 9,
-        "position": "F",
+        "position": "M",
         "goals": 0,
         "assists": 0,
         "yellowCards": 0,
@@ -1224,7 +1224,7 @@
         "espnId": "341720",
         "name": "Yassine Titraoui",
         "jersey": 24,
-        "position": "F",
+        "position": "M",
         "goals": 0,
         "assists": 0,
         "yellowCards": 0,
@@ -1454,7 +1454,7 @@
         "espnId": "337970",
         "name": "Nico Paz",
         "jersey": 18,
-        "position": "F",
+        "position": "M",
         "goals": 0,
         "assists": 0,
         "yellowCards": 0,
@@ -3070,7 +3070,7 @@
       },
       {
         "espnId": "176948",
-        "name": "Ederson ",
+        "name": "Ederson",
         "jersey": 23,
         "position": "G",
         "goals": 0,
@@ -4710,7 +4710,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 0,
-        "lastMatchStarter": false
+        "lastMatchStarter": true
       },
       {
         "espnId": "250888",
@@ -4722,7 +4722,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 2,
-        "lastMatchStarter": true
+        "lastMatchStarter": false
       },
       {
         "espnId": "193539",
@@ -4746,7 +4746,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 2,
-        "lastMatchStarter": true
+        "lastMatchStarter": false
       },
       {
         "espnId": "184118",
@@ -4842,7 +4842,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 0,
-        "lastMatchStarter": false
+        "lastMatchStarter": true
       },
       {
         "espnId": "329483",
@@ -4890,7 +4890,7 @@
         "yellowCards": 1,
         "redCards": 0,
         "appearances": 2,
-        "lastMatchStarter": false
+        "lastMatchStarter": true
       },
       {
         "espnId": "213718",
@@ -4914,7 +4914,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 2,
-        "lastMatchStarter": false
+        "lastMatchStarter": true
       },
       {
         "espnId": "308449",
@@ -4926,7 +4926,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 2,
-        "lastMatchStarter": true
+        "lastMatchStarter": false
       },
       {
         "espnId": "242593",
@@ -4980,7 +4980,7 @@
         "espnId": "257055",
         "name": "Parfait Guiagon",
         "jersey": 25,
-        "position": "F",
+        "position": "M",
         "goals": 0,
         "assists": 0,
         "yellowCards": 0,
@@ -4998,7 +4998,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 2,
-        "lastMatchStarter": true
+        "lastMatchStarter": false
       }
     ],
     "CRO": [
@@ -5464,7 +5464,7 @@
         "espnId": "359132",
         "name": "Tyrese Noslin",
         "jersey": 13,
-        "position": "D",
+        "position": "M",
         "goals": 0,
         "assists": 0,
         "yellowCards": 0,
@@ -6176,7 +6176,7 @@
         "espnId": "318090",
         "name": "Nilson Angulo",
         "jersey": 20,
-        "position": "F",
+        "position": "M",
         "goals": 0,
         "assists": 0,
         "yellowCards": 0,
@@ -6754,7 +6754,7 @@
       },
       {
         "espnId": "231828",
-        "name": "Rodri ",
+        "name": "Rodri",
         "jersey": 16,
         "position": "M",
         "goals": 0,
@@ -10258,7 +10258,7 @@
         "espnId": "379193",
         "name": "Mateo Chávez",
         "jersey": 20,
-        "position": "M",
+        "position": "D",
         "goals": 1,
         "assists": 0,
         "yellowCards": 0,
@@ -12058,7 +12058,7 @@
         "espnId": "337011",
         "name": "Renato Veiga",
         "jersey": 13,
-        "position": "M",
+        "position": "D",
         "goals": 0,
         "assists": 0,
         "yellowCards": 1,
@@ -13000,7 +13000,7 @@
         "espnId": "268641",
         "name": "Iliman Ndiaye",
         "jersey": 13,
-        "position": "F",
+        "position": "M",
         "goals": 0,
         "assists": 1,
         "yellowCards": 0,

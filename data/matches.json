@@ -1202,13 +1202,13 @@
         "tla": "GER",
         "flag": "de"
       },
-      "home_score": 1,
+      "home_score": 2,
       "away_score": 1,
-      "winner": "draw",
+      "winner": "home",
       "date": "2026-06-25T20:00:00Z",
       "venue": "MetLife Stadium",
       "city": "Nova York / Nova Jersey",
-      "status": "pending"
+      "status": "finished"
     },
     {
       "id": 537356,
@@ -1225,12 +1225,12 @@
         "flag": "ci"
       },
       "home_score": 0,
-      "away_score": 1,
+      "away_score": 2,
       "winner": "away",
       "date": "2026-06-25T20:00:00Z",
       "venue": "Lincoln Financial Field",
       "city": "Filadélfia, PA",
-      "status": "pending"
+      "status": "finished"
     },
     {
       "id": 537361,
