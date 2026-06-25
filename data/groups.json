@@ -230,53 +230,53 @@
           "id": "GER",
           "name": "Alemanha",
           "flag": "de",
-          "played": 2,
+          "played": 3,
           "won": 2,
-          "drawn": 0,
+          "drawn": 1,
           "lost": 0,
           "gf": 9,
           "ga": 2,
           "gd": 7,
-          "points": 6
+          "points": 7
         },
         {
           "id": "CIV",
           "name": "Costa do Marfim",
           "flag": "ci",
-          "played": 2,
+          "played": 3,
           "won": 1,
-          "drawn": 0,
+          "drawn": 1,
           "lost": 1,
           "gf": 2,
           "ga": 2,
           "gd": 0,
-          "points": 3
+          "points": 4
         },
         {
           "id": "ECU",
           "name": "Equador",
           "flag": "ec",
-          "played": 2,
+          "played": 3,
           "won": 0,
-          "drawn": 1,
+          "drawn": 2,
           "lost": 1,
           "gf": 0,
           "ga": 1,
           "gd": -1,
-          "points": 1
+          "points": 2
         },
         {
           "id": "CUW",
           "name": "Curaçao",
           "flag": "cw",
-          "played": 2,
+          "played": 3,
           "won": 0,
-          "drawn": 1,
+          "drawn": 2,
           "lost": 1,
           "gf": 1,
           "ga": 7,
           "gd": -6,
-          "points": 1
+          "points": 2
         }
       ]
     },
