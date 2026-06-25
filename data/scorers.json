@@ -82,6 +82,15 @@
       "matches": 3
     },
     {
+      "player": "Julián Quiñones",
+      "team": "MEX",
+      "team_name": "México",
+      "flag_code": "mx",
+      "goals": 2,
+      "assists": 0,
+      "matches": 3
+    },
+    {
       "player": "Cyle Larin",
       "team": "CAN",
       "team_name": "Canadá",
@@ -242,15 +251,6 @@
       "goals": 2,
       "assists": 0,
       "matches": 2
-    },
-    {
-      "player": "Julián Quiñones",
-      "team": "MEX",
-      "team_name": "México",
-      "flag_code": "mx",
-      "goals": 1,
-      "assists": 0,
-      "matches": 3
     },
     {
       "player": "Raúl Jiménez",

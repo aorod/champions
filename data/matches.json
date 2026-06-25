@@ -1159,12 +1159,12 @@
         "flag": "mx"
       },
       "home_score": 0,
-      "away_score": 0,
-      "winner": "draw",
+      "away_score": 3,
+      "winner": "away",
       "date": "2026-06-25T01:00:00Z",
       "venue": "Estadio Banorte",
       "city": "Cidade do México",
-      "status": "pending"
+      "status": "finished"
     },
     {
       "id": 537332,
@@ -1180,13 +1180,13 @@
         "tla": "KOR",
         "flag": "kr"
       },
-      "home_score": 0,
+      "home_score": 1,
       "away_score": 0,
-      "winner": "draw",
+      "winner": "home",
       "date": "2026-06-25T01:00:00Z",
       "venue": "Estadio BBVA",
       "city": "Monterrey",
-      "status": "pending"
+      "status": "finished"
     },
     {
       "id": 537355,

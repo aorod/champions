@@ -7,13 +7,26 @@
           "name": "México",
           "flag": "mx",
           "played": 3,
-          "won": 2,
-          "drawn": 1,
+          "won": 3,
+          "drawn": 0,
           "lost": 0,
-          "gf": 3,
+          "gf": 6,
           "ga": 0,
-          "gd": 3,
-          "points": 7
+          "gd": 6,
+          "points": 9
+        },
+        {
+          "id": "RSA",
+          "name": "África do Sul",
+          "flag": "za",
+          "played": 3,
+          "won": 1,
+          "drawn": 1,
+          "lost": 1,
+          "gf": 2,
+          "ga": 3,
+          "gd": -1,
+          "points": 4
         },
         {
           "id": "KOR",
@@ -21,12 +34,12 @@
           "flag": "kr",
           "played": 3,
           "won": 1,
-          "drawn": 1,
-          "lost": 1,
+          "drawn": 0,
+          "lost": 2,
           "gf": 2,
-          "ga": 2,
-          "gd": 0,
-          "points": 4
+          "ga": 3,
+          "gd": -1,
+          "points": 3
         },
         {
           "id": "CZE",
@@ -34,25 +47,12 @@
           "flag": "cz",
           "played": 3,
           "won": 0,
-          "drawn": 2,
-          "lost": 1,
+          "drawn": 1,
+          "lost": 2,
           "gf": 2,
-          "ga": 3,
-          "gd": -1,
-          "points": 2
-        },
-        {
-          "id": "RSA",
-          "name": "África do Sul",
-          "flag": "za",
-          "played": 3,
-          "won": 0,
-          "drawn": 2,
-          "lost": 1,
-          "gf": 1,
-          "ga": 3,
-          "gd": -2,
-          "points": 2
+          "ga": 6,
+          "gd": -4,
+          "points": 1
         }
       ]
     },
