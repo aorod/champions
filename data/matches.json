@@ -58,9 +58,9 @@
         "tla": "BIH",
         "flag": "ba"
       },
-      "home_score": 1,
-      "away_score": 1,
-      "winner": "draw",
+      "home_score": null,
+      "away_score": null,
+      "winner": null,
       "date": "2026-06-12T19:00:00Z",
       "venue": "BMO Field",
       "city": "Toronto, ON",
@@ -1120,7 +1120,7 @@
       "date": "2026-06-24T22:00:00Z",
       "venue": "Mercedes-Benz Stadium",
       "city": "Atlanta, GA",
-      "status": "live"
+      "status": "finished"
     },
     {
       "id": 537343,
@@ -1142,7 +1142,7 @@
       "date": "2026-06-24T22:00:00Z",
       "venue": "Hard Rock Stadium",
       "city": "Miami, FL",
-      "status": "pending"
+      "status": "finished"
     },
     {
       "id": 537331,
@@ -1158,9 +1158,9 @@
         "tla": "MEX",
         "flag": "mx"
       },
-      "home_score": null,
-      "away_score": null,
-      "winner": null,
+      "home_score": 0,
+      "away_score": 0,
+      "winner": "draw",
       "date": "2026-06-25T01:00:00Z",
       "venue": "Estadio Banorte",
       "city": "Cidade do México",
@@ -1180,9 +1180,9 @@
         "tla": "KOR",
         "flag": "kr"
       },
-      "home_score": null,
-      "away_score": null,
-      "winner": null,
+      "home_score": 0,
+      "away_score": 0,
+      "winner": "draw",
       "date": "2026-06-25T01:00:00Z",
       "venue": "Estadio BBVA",
       "city": "Monterrey",
