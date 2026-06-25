@@ -25,11 +25,7 @@
         },
         {
           "id": 537415,
-          "home": {
-            "name": "Alemanha",
-            "tla": "GER",
-            "flag": "de"
-          },
+          "home": null,
           "away": null,
           "home_score": null,
           "away_score": null,
@@ -69,11 +65,7 @@
         },
         {
           "id": 537425,
-          "home": {
-            "name": "México",
-            "tla": "MEX",
-            "flag": "mx"
-          },
+          "home": null,
           "away": null,
           "home_score": null,
           "away_score": null,
@@ -103,11 +95,7 @@
         },
         {
           "id": 537421,
-          "home": {
-            "name": "Estados Unidos",
-            "tla": "USA",
-            "flag": "us"
-          },
+          "home": null,
           "away": null,
           "home_score": null,
           "away_score": null,
@@ -157,11 +145,7 @@
         },
         {
           "id": 537427,
-          "home": {
-            "name": "Argentina",
-            "tla": "ARG",
-            "flag": "ar"
-          },
+          "home": null,
           "away": null,
           "home_score": null,
           "away_score": null,

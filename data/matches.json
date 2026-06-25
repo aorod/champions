@@ -1246,13 +1246,13 @@
         "tla": "NED",
         "flag": "nl"
       },
-      "home_score": null,
-      "away_score": null,
-      "winner": null,
+      "home_score": 0,
+      "away_score": 2,
+      "winner": "away",
       "date": "2026-06-25T23:00:00Z",
       "venue": "GEHA Field at Arrowhead Stadium",
       "city": "Kansas City, MO",
-      "status": "pending"
+      "status": "live"
     },
     {
       "id": 537362,
@@ -1268,13 +1268,13 @@
         "tla": "SWE",
         "flag": "se"
       },
-      "home_score": null,
-      "away_score": null,
-      "winner": null,
+      "home_score": 0,
+      "away_score": 0,
+      "winner": "draw",
       "date": "2026-06-25T23:00:00Z",
       "venue": "AT&T Stadium",
       "city": "Dallas, TX",
-      "status": "pending"
+      "status": "live"
     },
     {
       "id": 537349,

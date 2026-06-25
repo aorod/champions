@@ -82,6 +82,15 @@
       "matches": 3
     },
     {
+      "player": "Brian Brobbey",
+      "team": "NED",
+      "team_name": "Países Baixos",
+      "flag_code": "nl",
+      "goals": 3,
+      "assists": 0,
+      "matches": 3
+    },
+    {
       "player": "Julián Quiñones",
       "team": "MEX",
       "team_name": "México",
@@ -124,7 +133,7 @@
       "flag_code": "nl",
       "goals": 2,
       "assists": 1,
-      "matches": 2
+      "matches": 3
     },
     {
       "player": "Daichi Kamada",
@@ -199,22 +208,13 @@
       "matches": 3
     },
     {
-      "player": "Brian Brobbey",
-      "team": "NED",
-      "team_name": "Países Baixos",
-      "flag_code": "nl",
-      "goals": 2,
-      "assists": 0,
-      "matches": 2
-    },
-    {
       "player": "Cody Gakpo",
       "team": "NED",
       "team_name": "Países Baixos",
       "flag_code": "nl",
       "goals": 2,
       "assists": 1,
-      "matches": 2
+      "matches": 3
     },
     {
       "player": "Ayase Ueda",
@@ -306,7 +306,7 @@
       "flag_code": "nl",
       "goals": 2,
       "assists": 1,
-      "matches": 2
+      "matches": 3
     },
     {
       "player": "Maximiliano Araújo",
@@ -333,7 +333,7 @@
       "flag_code": "nl",
       "goals": 2,
       "assists": 1,
-      "matches": 2
+      "matches": 3
     },
     {
       "player": "Ayase Ueda",
