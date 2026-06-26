@@ -24,7 +24,7 @@
       "team_name": "França",
       "flag_code": "fr",
       "goals": 4,
-      "assists": 0,
+      "assists": 2,
       "matches": 3
     },
     {
@@ -34,6 +34,15 @@
       "flag_code": "no",
       "goals": 4,
       "assists": 0,
+      "matches": 3
+    },
+    {
+      "player": "Ousmane Dembélé",
+      "team": "FRA",
+      "team_name": "França",
+      "flag_code": "fr",
+      "goals": 4,
+      "assists": 1,
       "matches": 3
     },
     {
@@ -260,18 +269,18 @@
       "goals": 2,
       "assists": 0,
       "matches": 2
-    },
-    {
-      "player": "Nicolas Pépé",
-      "team": "CIV",
-      "team_name": "Costa do Marfim",
-      "flag_code": "ci",
-      "goals": 2,
-      "assists": 0,
-      "matches": 2
     }
   ],
   "assists": [
+    {
+      "player": "Kylian Mbappé",
+      "team": "FRA",
+      "team_name": "França",
+      "flag_code": "fr",
+      "goals": 4,
+      "assists": 2,
+      "matches": 3
+    },
     {
       "player": "Deniz Undav",
       "team": "GER",
@@ -286,6 +295,15 @@
       "team": "BRA",
       "team_name": "Brasil",
       "flag_code": "br",
+      "goals": 4,
+      "assists": 1,
+      "matches": 3
+    },
+    {
+      "player": "Ousmane Dembélé",
+      "team": "FRA",
+      "team_name": "França",
+      "flag_code": "fr",
       "goals": 4,
       "assists": 1,
       "matches": 3
