@@ -1290,13 +1290,13 @@
         "tla": "USA",
         "flag": "us"
       },
-      "home_score": null,
-      "away_score": null,
-      "winner": null,
+      "home_score": 3,
+      "away_score": 2,
+      "winner": "home",
       "date": "2026-06-26T02:00:00Z",
       "venue": "SoFi Stadium",
       "city": "Los Angeles, CA",
-      "status": "pending"
+      "status": "finished"
     },
     {
       "id": 537350,
@@ -1312,13 +1312,13 @@
         "tla": "AUS",
         "flag": "au"
       },
-      "home_score": null,
-      "away_score": null,
-      "winner": null,
+      "home_score": 0,
+      "away_score": 0,
+      "winner": "draw",
       "date": "2026-06-26T02:00:00Z",
       "venue": "Levi's Stadium",
       "city": "San Jose / Bay Area, CA",
-      "status": "pending"
+      "status": "finished"
     },
     {
       "id": 537395,
