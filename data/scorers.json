@@ -100,6 +100,15 @@
       "matches": 3
     },
     {
+      "player": "Ismaïla Sarr",
+      "team": "SEN",
+      "team_name": "Senegal",
+      "flag_code": "sn",
+      "goals": 3,
+      "assists": 1,
+      "matches": 3
+    },
+    {
       "player": "Julián Quiñones",
       "team": "MEX",
       "team_name": "México",
@@ -253,15 +262,6 @@
       "matches": 2
     },
     {
-      "player": "Ismaïla Sarr",
-      "team": "SEN",
-      "team_name": "Senegal",
-      "flag_code": "sn",
-      "goals": 2,
-      "assists": 0,
-      "matches": 3
-    },
-    {
       "player": "Cristiano Ronaldo",
       "team": "POR",
       "team_name": "Portugal",
@@ -313,6 +313,15 @@
       "team": "SUI",
       "team_name": "Suíça",
       "flag_code": "ch",
+      "goals": 3,
+      "assists": 1,
+      "matches": 3
+    },
+    {
+      "player": "Ismaïla Sarr",
+      "team": "SEN",
+      "team_name": "Senegal",
+      "flag_code": "sn",
       "goals": 3,
       "assists": 1,
       "matches": 3

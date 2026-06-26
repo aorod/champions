@@ -1335,12 +1335,12 @@
         "flag": "fr"
       },
       "home_score": 1,
-      "away_score": 3,
+      "away_score": 4,
       "winner": "away",
       "date": "2026-06-26T19:00:00Z",
       "venue": "Gillette Stadium",
       "city": "Boston, MA",
-      "status": "pending"
+      "status": "finished"
     },
     {
       "id": 537396,
@@ -1356,13 +1356,13 @@
         "tla": "IRQ",
         "flag": "iq"
       },
-      "home_score": 1,
+      "home_score": 5,
       "away_score": 0,
       "winner": "home",
       "date": "2026-06-26T19:00:00Z",
       "venue": "BMO Field",
       "city": "Toronto, ON",
-      "status": "pending"
+      "status": "finished"
     },
     {
       "id": 537373,
