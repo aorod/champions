@@ -64,6 +64,15 @@
       "matches": 3
     },
     {
+      "player": "Elijah Just",
+      "team": "NZL",
+      "team_name": "Nova Zelândia",
+      "flag_code": "nz",
+      "goals": 3,
+      "assists": 0,
+      "matches": 3
+    },
+    {
       "player": "Johan Manzambi",
       "team": "SUI",
       "team_name": "Suíça",
@@ -181,13 +190,13 @@
       "matches": 3
     },
     {
-      "player": "Elijah Just",
-      "team": "NZL",
-      "team_name": "Nova Zelândia",
-      "flag_code": "nz",
+      "player": "Ramin Rezaeian",
+      "team": "IRN",
+      "team_name": "Irã",
+      "flag_code": "ir",
       "goals": 2,
-      "assists": 0,
-      "matches": 2
+      "assists": 1,
+      "matches": 3
     },
     {
       "player": "Harry Kane",
@@ -260,15 +269,6 @@
       "goals": 2,
       "assists": 1,
       "matches": 3
-    },
-    {
-      "player": "Cristiano Ronaldo",
-      "team": "POR",
-      "team_name": "Portugal",
-      "flag_code": "pt",
-      "goals": 2,
-      "assists": 0,
-      "matches": 2
     }
   ],
   "assists": [
@@ -340,6 +340,15 @@
       "team": "URU",
       "team_name": "Uruguai",
       "flag_code": "uy",
+      "goals": 2,
+      "assists": 1,
+      "matches": 3
+    },
+    {
+      "player": "Ramin Rezaeian",
+      "team": "IRN",
+      "team_name": "Irã",
+      "flag_code": "ir",
       "goals": 2,
       "assists": 1,
       "matches": 3

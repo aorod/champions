@@ -1384,7 +1384,7 @@
       "date": "2026-06-27T00:00:00Z",
       "venue": "Estadio Akron",
       "city": "Guadalajara",
-      "status": "live"
+      "status": "finished"
     },
     {
       "id": 537374,
@@ -1406,7 +1406,7 @@
       "date": "2026-06-27T00:00:00Z",
       "venue": "NRG Stadium",
       "city": "Houston, TX",
-      "status": "live"
+      "status": "finished"
     },
     {
       "id": 537367,
@@ -1422,13 +1422,13 @@
         "tla": "BEL",
         "flag": "be"
       },
-      "home_score": null,
-      "away_score": null,
-      "winner": null,
+      "home_score": 1,
+      "away_score": 5,
+      "winner": "away",
       "date": "2026-06-27T03:00:00Z",
       "venue": "BC Place",
       "city": "Vancouver, BC",
-      "status": "pending"
+      "status": "finished"
     },
     {
       "id": 537368,
@@ -1444,13 +1444,13 @@
         "tla": "IRN",
         "flag": "ir"
       },
-      "home_score": null,
-      "away_score": null,
-      "winner": null,
+      "home_score": 1,
+      "away_score": 1,
+      "winner": "draw",
       "date": "2026-06-27T03:00:00Z",
       "venue": "Lumen Field",
       "city": "Seattle, WA",
-      "status": "pending"
+      "status": "finished"
     },
     {
       "id": 537413,
