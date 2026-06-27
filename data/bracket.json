@@ -5,16 +5,8 @@
       "matches": [
         {
           "id": 537417,
-          "home": {
-            "name": "África do Sul",
-            "tla": "RSA",
-            "flag": "za"
-          },
-          "away": {
-            "name": "Canadá",
-            "tla": "CAN",
-            "flag": "ca"
-          },
+          "home": null,
+          "away": null,
           "home_score": null,
           "away_score": null,
           "winner": null,
@@ -23,16 +15,8 @@
         },
         {
           "id": 537423,
-          "home": {
-            "name": "Brasil",
-            "tla": "BRA",
-            "flag": "br"
-          },
-          "away": {
-            "name": "Japão",
-            "tla": "JPN",
-            "flag": "jp"
-          },
+          "home": null,
+          "away": null,
           "home_score": null,
           "away_score": null,
           "winner": null,
@@ -41,11 +25,7 @@
         },
         {
           "id": 537415,
-          "home": {
-            "name": "Alemanha",
-            "tla": "GER",
-            "flag": "de"
-          },
+          "home": null,
           "away": null,
           "home_score": null,
           "away_score": null,
@@ -55,16 +35,8 @@
         },
         {
           "id": 537418,
-          "home": {
-            "name": "Países Baixos",
-            "tla": "NED",
-            "flag": "nl"
-          },
-          "away": {
-            "name": "Marrocos",
-            "tla": "MAR",
-            "flag": "ma"
-          },
+          "home": null,
+          "away": null,
           "home_score": null,
           "away_score": null,
           "winner": null,
@@ -73,11 +45,7 @@
         },
         {
           "id": 537424,
-          "home": {
-            "name": "Costa do Marfim",
-            "tla": "CIV",
-            "flag": "ci"
-          },
+          "home": null,
           "away": null,
           "home_score": null,
           "away_score": null,
@@ -97,11 +65,7 @@
         },
         {
           "id": 537425,
-          "home": {
-            "name": "México",
-            "tla": "MEX",
-            "flag": "mx"
-          },
+          "home": null,
           "away": null,
           "home_score": null,
           "away_score": null,
@@ -131,16 +95,8 @@
         },
         {
           "id": 537421,
-          "home": {
-            "name": "Estados Unidos",
-            "tla": "USA",
-            "flag": "us"
-          },
-          "away": {
-            "name": "Bósnia e Herzegovina",
-            "tla": "BIH",
-            "flag": "ba"
-          },
+          "home": null,
+          "away": null,
           "home_score": null,
           "away_score": null,
           "winner": null,
@@ -169,11 +125,7 @@
         },
         {
           "id": 537429,
-          "home": {
-            "name": "Suíça",
-            "tla": "SUI",
-            "flag": "ch"
-          },
+          "home": null,
           "away": null,
           "home_score": null,
           "away_score": null,
@@ -183,11 +135,7 @@
         },
         {
           "id": 537428,
-          "home": {
-            "name": "Austrália",
-            "tla": "AUS",
-            "flag": "au"
-          },
+          "home": null,
           "away": null,
           "home_score": null,
           "away_score": null,
@@ -197,11 +145,7 @@
         },
         {
           "id": 537427,
-          "home": {
-            "name": "Argentina",
-            "tla": "ARG",
-            "flag": "ar"
-          },
+          "home": null,
           "away": null,
           "home_score": null,
           "away_score": null,

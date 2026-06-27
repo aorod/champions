@@ -1467,8 +1467,8 @@
         "flag": "gb-eng"
       },
       "home_score": 0,
-      "away_score": 0,
-      "winner": "draw",
+      "away_score": 2,
+      "winner": "away",
       "date": "2026-06-27T21:00:00Z",
       "venue": "MetLife Stadium",
       "city": "Nova York / Nova Jersey",
@@ -1489,12 +1489,12 @@
         "flag": "gh"
       },
       "home_score": 1,
-      "away_score": 0,
-      "winner": "home",
+      "away_score": 1,
+      "winner": "draw",
       "date": "2026-06-27T21:00:00Z",
       "venue": "Lincoln Financial Field",
       "city": "Filadélfia, PA",
-      "status": "pending"
+      "status": "live"
     },
     {
       "id": 537407,
