@@ -318,16 +318,16 @@
         "flag": "sa"
       },
       "away": {
-        "name": "Uruguay",
-        "tla": "URY",
-        "flag": null
+        "name": "Uruguai",
+        "tla": "URU",
+        "flag": "uy"
       },
       "home_score": 1,
       "away_score": 1,
       "winner": "draw",
       "date": "2026-06-15T22:00:00Z",
-      "venue": null,
-      "city": null,
+      "venue": "Hard Rock Stadium",
+      "city": "Miami, FL",
       "status": "finished"
     },
     {
@@ -841,9 +841,9 @@
       "group": "H",
       "matchday": 2,
       "home": {
-        "name": "Uruguay",
-        "tla": "URY",
-        "flag": null
+        "name": "Uruguai",
+        "tla": "URU",
+        "flag": "uy"
       },
       "away": {
         "name": "Cabo Verde",
@@ -854,8 +854,8 @@
       "away_score": 2,
       "winner": "draw",
       "date": "2026-06-21T22:00:00Z",
-      "venue": null,
-      "city": null,
+      "venue": "Hard Rock Stadium",
+      "city": "Miami, FL",
       "status": "finished"
     },
     {
@@ -1369,22 +1369,22 @@
       "group": "H",
       "matchday": 3,
       "home": {
-        "name": "Uruguay",
-        "tla": "URY",
-        "flag": null
+        "name": "Uruguai",
+        "tla": "URU",
+        "flag": "uy"
       },
       "away": {
         "name": "Espanha",
         "tla": "ESP",
         "flag": "es"
       },
-      "home_score": null,
-      "away_score": null,
-      "winner": null,
+      "home_score": 0,
+      "away_score": 1,
+      "winner": "away",
       "date": "2026-06-27T00:00:00Z",
-      "venue": null,
-      "city": null,
-      "status": "pending"
+      "venue": "Estadio Akron",
+      "city": "Guadalajara",
+      "status": "live"
     },
     {
       "id": 537374,
@@ -1400,13 +1400,13 @@
         "tla": "KSA",
         "flag": "sa"
       },
-      "home_score": null,
-      "away_score": null,
-      "winner": null,
+      "home_score": 0,
+      "away_score": 0,
+      "winner": "draw",
       "date": "2026-06-27T00:00:00Z",
       "venue": "NRG Stadium",
       "city": "Houston, TX",
-      "status": "pending"
+      "status": "live"
     },
     {
       "id": 537367,
