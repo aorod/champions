@@ -1472,7 +1472,7 @@
       "date": "2026-06-27T21:00:00Z",
       "venue": "MetLife Stadium",
       "city": "Nova York / Nova Jersey",
-      "status": "live"
+      "status": "finished"
     },
     {
       "id": 537414,
@@ -1488,13 +1488,13 @@
         "tla": "GHA",
         "flag": "gh"
       },
-      "home_score": 1,
+      "home_score": 2,
       "away_score": 1,
-      "winner": "draw",
+      "winner": "home",
       "date": "2026-06-27T21:00:00Z",
       "venue": "Lincoln Financial Field",
       "city": "Filadélfia, PA",
-      "status": "live"
+      "status": "finished"
     },
     {
       "id": 537407,
@@ -1510,9 +1510,9 @@
         "tla": "POR",
         "flag": "pt"
       },
-      "home_score": null,
-      "away_score": null,
-      "winner": null,
+      "home_score": 0,
+      "away_score": 0,
+      "winner": "draw",
       "date": "2026-06-27T23:30:00Z",
       "venue": "Hard Rock Stadium",
       "city": "Miami, FL",
@@ -1532,9 +1532,9 @@
         "tla": "UZB",
         "flag": "uz"
       },
-      "home_score": null,
-      "away_score": null,
-      "winner": null,
+      "home_score": 0,
+      "away_score": 0,
+      "winner": "draw",
       "date": "2026-06-27T23:30:00Z",
       "venue": "Mercedes-Benz Stadium",
       "city": "Atlanta, GA",
