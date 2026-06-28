@@ -593,13 +593,13 @@
           "name": "RD Congo",
           "flag": "cd",
           "played": 3,
-          "won": 0,
-          "drawn": 2,
+          "won": 1,
+          "drawn": 1,
           "lost": 1,
-          "gf": 1,
-          "ga": 2,
-          "gd": -1,
-          "points": 2
+          "gf": 4,
+          "ga": 3,
+          "gd": 1,
+          "points": 4
         },
         {
           "id": "UZB",
@@ -607,12 +607,12 @@
           "flag": "uz",
           "played": 3,
           "won": 0,
-          "drawn": 1,
-          "lost": 2,
-          "gf": 1,
-          "ga": 8,
-          "gd": -7,
-          "points": 1
+          "drawn": 0,
+          "lost": 3,
+          "gf": 2,
+          "ga": 11,
+          "gd": -9,
+          "points": 0
         }
       ]
     },

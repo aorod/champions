@@ -7,7 +7,7 @@
       "flag_code": "ar",
       "goals": 5,
       "assists": 0,
-      "matches": 2
+      "matches": 3
     },
     {
       "player": "Vinicius Junior",
@@ -71,6 +71,15 @@
       "goals": 3,
       "assists": 0,
       "matches": 3
+    },
+    {
+      "player": "Yoane Wissa",
+      "team": "COD",
+      "team_name": "RD Congo",
+      "flag_code": "cd",
+      "goals": 3,
+      "assists": 0,
+      "matches": 2
     },
     {
       "player": "Harry Kane",
@@ -260,15 +269,6 @@
       "goals": 2,
       "assists": 0,
       "matches": 3
-    },
-    {
-      "player": "Ayase Ueda",
-      "team": "JPN",
-      "team_name": "Japão",
-      "flag_code": "jp",
-      "goals": 2,
-      "assists": 1,
-      "matches": 3
     }
   ],
   "assists": [
@@ -376,15 +376,6 @@
       "team": "NED",
       "team_name": "Países Baixos",
       "flag_code": "nl",
-      "goals": 2,
-      "assists": 1,
-      "matches": 3
-    },
-    {
-      "player": "Ayase Ueda",
-      "team": "JPN",
-      "team_name": "Japão",
-      "flag_code": "jp",
       "goals": 2,
       "assists": 1,
       "matches": 3

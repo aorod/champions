@@ -1516,7 +1516,7 @@
       "date": "2026-06-27T23:30:00Z",
       "venue": "Hard Rock Stadium",
       "city": "Miami, FL",
-      "status": "pending"
+      "status": "finished"
     },
     {
       "id": 537408,
@@ -1532,13 +1532,13 @@
         "tla": "UZB",
         "flag": "uz"
       },
-      "home_score": 0,
-      "away_score": 0,
-      "winner": "draw",
+      "home_score": 3,
+      "away_score": 1,
+      "winner": "home",
       "date": "2026-06-27T23:30:00Z",
       "venue": "Mercedes-Benz Stadium",
       "city": "Atlanta, GA",
-      "status": "pending"
+      "status": "finished"
     },
     {
       "id": 537401,
