@@ -510,53 +510,53 @@
           "id": "ARG",
           "name": "Argentina",
           "flag": "ar",
-          "played": 2,
+          "played": 3,
           "won": 2,
-          "drawn": 0,
+          "drawn": 1,
           "lost": 0,
           "gf": 5,
           "ga": 0,
           "gd": 5,
-          "points": 6
+          "points": 7
         },
         {
           "id": "AUT",
           "name": "Áustria",
           "flag": "at",
-          "played": 2,
+          "played": 3,
           "won": 1,
-          "drawn": 0,
+          "drawn": 1,
           "lost": 1,
           "gf": 3,
           "ga": 3,
           "gd": 0,
-          "points": 3
+          "points": 4
         },
         {
           "id": "ALG",
           "name": "Argélia",
           "flag": "dz",
-          "played": 2,
+          "played": 3,
           "won": 1,
-          "drawn": 0,
+          "drawn": 1,
           "lost": 1,
           "gf": 2,
           "ga": 4,
           "gd": -2,
-          "points": 3
+          "points": 4
         },
         {
           "id": "JOR",
           "name": "Jordânia",
           "flag": "jo",
-          "played": 2,
+          "played": 3,
           "won": 0,
-          "drawn": 0,
+          "drawn": 1,
           "lost": 2,
           "gf": 2,
           "ga": 5,
           "gd": -3,
-          "points": 0
+          "points": 1
         }
       ]
     },
