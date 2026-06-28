@@ -46,7 +46,11 @@
             "tla": "GER",
             "flag": "de"
           },
-          "away": null,
+          "away": {
+            "name": "Paraguai",
+            "tla": "PAR",
+            "flag": "py"
+          },
           "home_score": null,
           "away_score": null,
           "winner": null,
@@ -78,7 +82,11 @@
             "tla": "CIV",
             "flag": "ci"
           },
-          "away": null,
+          "away": {
+            "name": "Noruega",
+            "tla": "NOR",
+            "flag": "no"
+          },
           "home_score": null,
           "away_score": null,
           "winner": null,
@@ -87,8 +95,16 @@
         },
         {
           "id": 537416,
-          "home": null,
-          "away": null,
+          "home": {
+            "name": "França",
+            "tla": "FRA",
+            "flag": "fr"
+          },
+          "away": {
+            "name": "Suécia",
+            "tla": "SWE",
+            "flag": "se"
+          },
           "home_score": null,
           "away_score": null,
           "winner": null,
@@ -102,7 +118,11 @@
             "tla": "MEX",
             "flag": "mx"
           },
-          "away": null,
+          "away": {
+            "name": "Equador",
+            "tla": "ECU",
+            "flag": "ec"
+          },
           "home_score": null,
           "away_score": null,
           "winner": null,
@@ -111,8 +131,16 @@
         },
         {
           "id": 537426,
-          "home": null,
-          "away": null,
+          "home": {
+            "name": "Inglaterra",
+            "tla": "ENG",
+            "flag": "gb-eng"
+          },
+          "away": {
+            "name": "RD Congo",
+            "tla": "COD",
+            "flag": "cd"
+          },
           "home_score": null,
           "away_score": null,
           "winner": null,
@@ -121,8 +149,16 @@
         },
         {
           "id": 537422,
-          "home": null,
-          "away": null,
+          "home": {
+            "name": "Bélgica",
+            "tla": "BEL",
+            "flag": "be"
+          },
+          "away": {
+            "name": "Senegal",
+            "tla": "SEN",
+            "flag": "sn"
+          },
           "home_score": null,
           "away_score": null,
           "winner": null,
@@ -149,8 +185,16 @@
         },
         {
           "id": 537420,
-          "home": null,
-          "away": null,
+          "home": {
+            "name": "Espanha",
+            "tla": "ESP",
+            "flag": "es"
+          },
+          "away": {
+            "name": "Áustria",
+            "tla": "AUT",
+            "flag": "at"
+          },
           "home_score": null,
           "away_score": null,
           "winner": null,
@@ -159,8 +203,16 @@
         },
         {
           "id": 537419,
-          "home": null,
-          "away": null,
+          "home": {
+            "name": "Portugal",
+            "tla": "POR",
+            "flag": "pt"
+          },
+          "away": {
+            "name": "Croácia",
+            "tla": "CRO",
+            "flag": "hr"
+          },
           "home_score": null,
           "away_score": null,
           "winner": null,
@@ -174,7 +226,11 @@
             "tla": "SUI",
             "flag": "ch"
           },
-          "away": null,
+          "away": {
+            "name": "Argélia",
+            "tla": "ALG",
+            "flag": "dz"
+          },
           "home_score": null,
           "away_score": null,
           "winner": null,
@@ -188,7 +244,11 @@
             "tla": "AUS",
             "flag": "au"
           },
-          "away": null,
+          "away": {
+            "name": "Egito",
+            "tla": "EGY",
+            "flag": "eg"
+          },
           "home_score": null,
           "away_score": null,
           "winner": null,
@@ -202,7 +262,11 @@
             "tla": "ARG",
             "flag": "ar"
           },
-          "away": null,
+          "away": {
+            "name": "Cabo Verde",
+            "tla": "CPV",
+            "flag": "cv"
+          },
           "home_score": null,
           "away_score": null,
           "winner": null,
@@ -211,8 +275,16 @@
         },
         {
           "id": 537430,
-          "home": null,
-          "away": null,
+          "home": {
+            "name": "Colômbia",
+            "tla": "COL",
+            "flag": "co"
+          },
+          "away": {
+            "name": "Gana",
+            "tla": "GHA",
+            "flag": "gh"
+          },
           "home_score": null,
           "away_score": null,
           "winner": null,
