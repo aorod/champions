@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-28T14:58:34.924Z",
+  "updated": "2026-06-29T07:01:50.290Z",
   "squads": {
     "RSA": [
       {
@@ -48,7 +48,7 @@
         "yellowCards": 2,
         "redCards": 0,
         "appearances": 2,
-        "lastMatchStarter": null
+        "lastMatchStarter": true
       },
       {
         "espnId": "301321",
@@ -60,7 +60,7 @@
         "yellowCards": 1,
         "redCards": 0,
         "appearances": 3,
-        "lastMatchStarter": true
+        "lastMatchStarter": false
       },
       {
         "espnId": "223818",
@@ -3466,7 +3466,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 0,
-        "lastMatchStarter": null
+        "lastMatchStarter": false
       },
       {
         "espnId": "365345",
@@ -3478,7 +3478,7 @@
         "yellowCards": 1,
         "redCards": 0,
         "appearances": 3,
-        "lastMatchStarter": true
+        "lastMatchStarter": false
       },
       {
         "espnId": "236890",
@@ -3502,7 +3502,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 1,
-        "lastMatchStarter": true
+        "lastMatchStarter": false
       },
       {
         "espnId": "270505",
@@ -3514,7 +3514,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 3,
-        "lastMatchStarter": false
+        "lastMatchStarter": true
       },
       {
         "espnId": "325001",
@@ -3538,7 +3538,7 @@
         "yellowCards": 1,
         "redCards": 0,
         "appearances": 3,
-        "lastMatchStarter": true
+        "lastMatchStarter": false
       },
       {
         "espnId": "273499",
@@ -3562,7 +3562,7 @@
         "yellowCards": 1,
         "redCards": 0,
         "appearances": 2,
-        "lastMatchStarter": false
+        "lastMatchStarter": true
       },
       {
         "espnId": "294039",
@@ -3574,7 +3574,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 3,
-        "lastMatchStarter": false
+        "lastMatchStarter": true
       },
       {
         "espnId": "238712",
@@ -3610,7 +3610,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 1,
-        "lastMatchStarter": false
+        "lastMatchStarter": true
       },
       {
         "espnId": "159382",
@@ -3670,7 +3670,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 3,
-        "lastMatchStarter": true
+        "lastMatchStarter": false
       },
       {
         "espnId": "184221",
@@ -12176,7 +12176,7 @@
       },
       {
         "espnId": "288897",
-        "name": "Vitinha ",
+        "name": "Vitinha",
         "jersey": 23,
         "position": "M",
         "goals": 0,
