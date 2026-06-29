@@ -55,6 +55,15 @@
       "matches": 3
     },
     {
+      "player": "Kai Havertz",
+      "team": "GER",
+      "team_name": "Alemanha",
+      "flag_code": "de",
+      "goals": 3,
+      "assists": 0,
+      "matches": 4
+    },
+    {
       "player": "Deniz Undav",
       "team": "GER",
       "team_name": "Alemanha",
@@ -161,15 +170,6 @@
       "goals": 2,
       "assists": 0,
       "matches": 3
-    },
-    {
-      "player": "Kai Havertz",
-      "team": "GER",
-      "team_name": "Alemanha",
-      "flag_code": "de",
-      "goals": 2,
-      "assists": 0,
-      "matches": 4
     },
     {
       "player": "Crysencio Summerville",

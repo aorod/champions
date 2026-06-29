@@ -51,9 +51,9 @@
             "tla": "PAR",
             "flag": "py"
           },
-          "home_score": 0,
+          "home_score": 1,
           "away_score": 1,
-          "winner": "away",
+          "winner": null,
           "date": "2026-06-29T20:30:00Z",
           "status": "pending"
         },
