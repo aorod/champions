@@ -10,6 +10,15 @@
       "matches": 3
     },
     {
+      "player": "Erling Haaland",
+      "team": "NOR",
+      "team_name": "Noruega",
+      "flag_code": "no",
+      "goals": 5,
+      "assists": 0,
+      "matches": 4
+    },
+    {
       "player": "Vinicius Junior",
       "team": "BRA",
       "team_name": "Brasil",
@@ -25,15 +34,6 @@
       "flag_code": "fr",
       "goals": 4,
       "assists": 2,
-      "matches": 3
-    },
-    {
-      "player": "Erling Haaland",
-      "team": "NOR",
-      "team_name": "Noruega",
-      "flag_code": "no",
-      "goals": 4,
-      "assists": 0,
       "matches": 4
     },
     {
@@ -43,7 +43,7 @@
       "flag_code": "fr",
       "goals": 4,
       "assists": 1,
-      "matches": 3
+      "matches": 4
     },
     {
       "player": "Ismael Saibari",
@@ -199,13 +199,22 @@
       "matches": 4
     },
     {
+      "player": "Amad Diallo",
+      "team": "CIV",
+      "team_name": "Costa do Marfim",
+      "flag_code": "ci",
+      "goals": 2,
+      "assists": 0,
+      "matches": 3
+    },
+    {
       "player": "Yasin Ayari",
       "team": "SWE",
       "team_name": "Suécia",
       "flag_code": "se",
       "goals": 2,
       "assists": 0,
-      "matches": 3
+      "matches": 4
     },
     {
       "player": "Maximiliano Araújo",
@@ -260,15 +269,6 @@
       "goals": 2,
       "assists": 1,
       "matches": 3
-    },
-    {
-      "player": "Ermin Mahmic",
-      "team": "BIH",
-      "team_name": "Bósnia e Herzegovina",
-      "flag_code": "ba",
-      "goals": 2,
-      "assists": 0,
-      "matches": 3
     }
   ],
   "assists": [
@@ -279,7 +279,7 @@
       "flag_code": "fr",
       "goals": 4,
       "assists": 2,
-      "matches": 3
+      "matches": 4
     },
     {
       "player": "Deniz Undav",
@@ -315,7 +315,7 @@
       "flag_code": "fr",
       "goals": 4,
       "assists": 1,
-      "matches": 3
+      "matches": 4
     },
     {
       "player": "Johan Manzambi",

@@ -87,11 +87,11 @@
             "tla": "NOR",
             "flag": "no"
           },
-          "home_score": 0,
-          "away_score": 1,
+          "home_score": 1,
+          "away_score": 2,
           "winner": "away",
           "date": "2026-06-30T17:00:00Z",
-          "status": "live"
+          "status": "finished"
         },
         {
           "id": 537416,
