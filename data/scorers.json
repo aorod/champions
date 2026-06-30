@@ -136,6 +136,15 @@
       "matches": 4
     },
     {
+      "player": "Cody Gakpo",
+      "team": "NED",
+      "team_name": "Países Baixos",
+      "flag_code": "nl",
+      "goals": 3,
+      "assists": 1,
+      "matches": 4
+    },
+    {
       "player": "Ismaïla Sarr",
       "team": "SEN",
       "team_name": "Senegal",
@@ -177,7 +186,7 @@
       "team_name": "Países Baixos",
       "flag_code": "nl",
       "goals": 2,
-      "assists": 1,
+      "assists": 2,
       "matches": 4
     },
     {
@@ -260,15 +269,6 @@
       "goals": 2,
       "assists": 0,
       "matches": 3
-    },
-    {
-      "player": "Cody Gakpo",
-      "team": "NED",
-      "team_name": "Países Baixos",
-      "flag_code": "nl",
-      "goals": 2,
-      "assists": 1,
-      "matches": 4
     }
   ],
   "assists": [
@@ -287,6 +287,15 @@
       "team_name": "Alemanha",
       "flag_code": "de",
       "goals": 3,
+      "assists": 2,
+      "matches": 4
+    },
+    {
+      "player": "Crysencio Summerville",
+      "team": "NED",
+      "team_name": "Países Baixos",
+      "flag_code": "nl",
+      "goals": 2,
       "assists": 2,
       "matches": 4
     },
@@ -318,6 +327,15 @@
       "matches": 3
     },
     {
+      "player": "Cody Gakpo",
+      "team": "NED",
+      "team_name": "Países Baixos",
+      "flag_code": "nl",
+      "goals": 3,
+      "assists": 1,
+      "matches": 4
+    },
+    {
       "player": "Ismaïla Sarr",
       "team": "SEN",
       "team_name": "Senegal",
@@ -325,15 +343,6 @@
       "goals": 3,
       "assists": 1,
       "matches": 3
-    },
-    {
-      "player": "Crysencio Summerville",
-      "team": "NED",
-      "team_name": "Países Baixos",
-      "flag_code": "nl",
-      "goals": 2,
-      "assists": 1,
-      "matches": 4
     },
     {
       "player": "Maximiliano Araújo",
@@ -370,15 +379,6 @@
       "goals": 2,
       "assists": 1,
       "matches": 3
-    },
-    {
-      "player": "Cody Gakpo",
-      "team": "NED",
-      "team_name": "Países Baixos",
-      "flag_code": "nl",
-      "goals": 2,
-      "assists": 1,
-      "matches": 4
     }
   ]
 }
