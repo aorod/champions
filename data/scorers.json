@@ -52,7 +52,7 @@
       "flag_code": "ma",
       "goals": 3,
       "assists": 0,
-      "matches": 3
+      "matches": 4
     },
     {
       "player": "Kai Havertz",
@@ -133,7 +133,7 @@
       "flag_code": "nl",
       "goals": 3,
       "assists": 0,
-      "matches": 3
+      "matches": 4
     },
     {
       "player": "Ismaïla Sarr",
@@ -178,7 +178,7 @@
       "flag_code": "nl",
       "goals": 2,
       "assists": 1,
-      "matches": 3
+      "matches": 4
     },
     {
       "player": "Daichi Kamada",
@@ -268,7 +268,7 @@
       "flag_code": "nl",
       "goals": 2,
       "assists": 1,
-      "matches": 3
+      "matches": 4
     }
   ],
   "assists": [
@@ -333,7 +333,7 @@
       "flag_code": "nl",
       "goals": 2,
       "assists": 1,
-      "matches": 3
+      "matches": 4
     },
     {
       "player": "Maximiliano Araújo",
@@ -378,7 +378,7 @@
       "flag_code": "nl",
       "goals": 2,
       "assists": 1,
-      "matches": 3
+      "matches": 4
     }
   ]
 }
