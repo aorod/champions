@@ -53,7 +53,7 @@
           },
           "home_score": 4,
           "away_score": 5,
-          "winner": null,
+          "winner": "away",
           "date": "2026-06-29T20:30:00Z",
           "status": "finished"
         },
@@ -69,9 +69,9 @@
             "tla": "MAR",
             "flag": "ma"
           },
-          "home_score": 4,
+          "home_score": 3,
           "away_score": 4,
-          "winner": null,
+          "winner": "away",
           "date": "2026-06-30T01:00:00Z",
           "status": "finished"
         },
