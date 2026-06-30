@@ -1,6 +1,15 @@
 {
   "scorers": [
     {
+      "player": "Kylian Mbappé",
+      "team": "FRA",
+      "team_name": "França",
+      "flag_code": "fr",
+      "goals": 6,
+      "assists": 2,
+      "matches": 4
+    },
+    {
       "player": "Lionel Messi",
       "team": "ARG",
       "team_name": "Argentina",
@@ -28,21 +37,12 @@
       "matches": 4
     },
     {
-      "player": "Kylian Mbappé",
-      "team": "FRA",
-      "team_name": "França",
-      "flag_code": "fr",
-      "goals": 4,
-      "assists": 2,
-      "matches": 4
-    },
-    {
       "player": "Ousmane Dembélé",
       "team": "FRA",
       "team_name": "França",
       "flag_code": "fr",
       "goals": 4,
-      "assists": 1,
+      "assists": 2,
       "matches": 4
     },
     {
@@ -235,6 +235,15 @@
       "matches": 3
     },
     {
+      "player": "Bradley Barcola",
+      "team": "FRA",
+      "team_name": "França",
+      "flag_code": "fr",
+      "goals": 2,
+      "assists": 1,
+      "matches": 4
+    },
+    {
       "player": "Marko Arnautovic",
       "team": "AUT",
       "team_name": "Áustria",
@@ -260,20 +269,20 @@
       "goals": 2,
       "assists": 0,
       "matches": 2
-    },
-    {
-      "player": "Ruben Vargas",
-      "team": "SUI",
-      "team_name": "Suíça",
-      "flag_code": "ch",
-      "goals": 2,
-      "assists": 1,
-      "matches": 3
     }
   ],
   "assists": [
     {
       "player": "Kylian Mbappé",
+      "team": "FRA",
+      "team_name": "França",
+      "flag_code": "fr",
+      "goals": 6,
+      "assists": 2,
+      "matches": 4
+    },
+    {
+      "player": "Ousmane Dembélé",
       "team": "FRA",
       "team_name": "França",
       "flag_code": "fr",
@@ -304,15 +313,6 @@
       "team": "BRA",
       "team_name": "Brasil",
       "flag_code": "br",
-      "goals": 4,
-      "assists": 1,
-      "matches": 4
-    },
-    {
-      "player": "Ousmane Dembélé",
-      "team": "FRA",
-      "team_name": "França",
-      "flag_code": "fr",
       "goals": 4,
       "assists": 1,
       "matches": 4
@@ -363,19 +363,19 @@
       "matches": 3
     },
     {
+      "player": "Bradley Barcola",
+      "team": "FRA",
+      "team_name": "França",
+      "flag_code": "fr",
+      "goals": 2,
+      "assists": 1,
+      "matches": 4
+    },
+    {
       "player": "Jude Bellingham",
       "team": "ENG",
       "team_name": "Inglaterra",
       "flag_code": "gb-eng",
-      "goals": 2,
-      "assists": 1,
-      "matches": 3
-    },
-    {
-      "player": "Ruben Vargas",
-      "team": "SUI",
-      "team_name": "Suíça",
-      "flag_code": "ch",
       "goals": 2,
       "assists": 1,
       "matches": 3

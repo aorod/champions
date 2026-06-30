@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-30T09:57:59.975Z",
+  "updated": "2026-06-30T23:03:33.428Z",
   "squads": {
     "RSA": [
       {
@@ -2240,7 +2240,7 @@
         "espnId": "164895",
         "name": "Axel Witsel",
         "jersey": 6,
-        "position": "M",
+        "position": "D",
         "goals": 0,
         "assists": 0,
         "yellowCards": 0,
@@ -4160,7 +4160,7 @@
         "espnId": "176058",
         "name": "Jhon Córdoba",
         "jersey": 9,
-        "position": "M",
+        "position": "F",
         "goals": 0,
         "assists": 0,
         "yellowCards": 0,
@@ -4710,7 +4710,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 1,
-        "lastMatchStarter": true
+        "lastMatchStarter": false
       },
       {
         "espnId": "250888",
@@ -4722,7 +4722,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 2,
-        "lastMatchStarter": false
+        "lastMatchStarter": true
       },
       {
         "espnId": "193539",
@@ -4842,7 +4842,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 1,
-        "lastMatchStarter": true
+        "lastMatchStarter": false
       },
       {
         "espnId": "329483",
@@ -4860,13 +4860,13 @@
         "espnId": "291630",
         "name": "Amad Diallo",
         "jersey": 15,
-        "position": "M",
+        "position": "F",
         "goals": 1,
         "assists": 0,
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 3,
-        "lastMatchStarter": true
+        "lastMatchStarter": false
       },
       {
         "espnId": "323997",
@@ -4926,7 +4926,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 2,
-        "lastMatchStarter": false
+        "lastMatchStarter": true
       },
       {
         "espnId": "242593",
@@ -4944,7 +4944,7 @@
         "espnId": "288924",
         "name": "Evann Guessand",
         "jersey": 22,
-        "position": "M",
+        "position": "F",
         "goals": 0,
         "assists": 0,
         "yellowCards": 0,
@@ -4998,7 +4998,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 3,
-        "lastMatchStarter": false
+        "lastMatchStarter": true
       }
     ],
     "CRO": [
@@ -10330,7 +10330,7 @@
         "espnId": "303577",
         "name": "Brian Gutiérrez",
         "jersey": 26,
-        "position": "M",
+        "position": "D",
         "goals": 0,
         "assists": 0,
         "yellowCards": 1,
@@ -10350,7 +10350,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 2,
-        "lastMatchStarter": false
+        "lastMatchStarter": true
       },
       {
         "espnId": "202686",
@@ -10374,7 +10374,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 2,
-        "lastMatchStarter": false
+        "lastMatchStarter": true
       },
       {
         "espnId": "281736",
@@ -10386,7 +10386,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 3,
-        "lastMatchStarter": true
+        "lastMatchStarter": false
       },
       {
         "espnId": "313361",
@@ -10398,7 +10398,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 2,
-        "lastMatchStarter": false
+        "lastMatchStarter": true
       },
       {
         "espnId": "205924",
@@ -10422,7 +10422,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 2,
-        "lastMatchStarter": false
+        "lastMatchStarter": true
       },
       {
         "espnId": "218998",
@@ -10434,7 +10434,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 2,
-        "lastMatchStarter": false
+        "lastMatchStarter": true
       },
       {
         "espnId": "253989",
@@ -10446,7 +10446,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 2,
-        "lastMatchStarter": false
+        "lastMatchStarter": true
       },
       {
         "espnId": "203669",
@@ -10458,7 +10458,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 2,
-        "lastMatchStarter": false
+        "lastMatchStarter": true
       },
       {
         "espnId": "252747",
@@ -10470,7 +10470,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 1,
-        "lastMatchStarter": true
+        "lastMatchStarter": false
       },
       {
         "espnId": "304258",
@@ -10494,7 +10494,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 1,
-        "lastMatchStarter": true
+        "lastMatchStarter": false
       },
       {
         "espnId": "212900",
@@ -10506,7 +10506,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 3,
-        "lastMatchStarter": true
+        "lastMatchStarter": false
       },
       {
         "espnId": "238088",
@@ -10518,7 +10518,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 1,
-        "lastMatchStarter": true
+        "lastMatchStarter": false
       },
       {
         "espnId": "129285",
@@ -10530,7 +10530,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 2,
-        "lastMatchStarter": false
+        "lastMatchStarter": true
       },
       {
         "espnId": "272867",
@@ -10542,7 +10542,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 2,
-        "lastMatchStarter": false
+        "lastMatchStarter": true
       },
       {
         "espnId": "284212",
@@ -10554,7 +10554,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 2,
-        "lastMatchStarter": true
+        "lastMatchStarter": false
       },
       {
         "espnId": "307477",
@@ -10566,7 +10566,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 1,
-        "lastMatchStarter": true
+        "lastMatchStarter": false
       },
       {
         "espnId": "319368",
@@ -10578,7 +10578,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 3,
-        "lastMatchStarter": false
+        "lastMatchStarter": true
       },
       {
         "espnId": "313415",
@@ -10590,7 +10590,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 3,
-        "lastMatchStarter": true
+        "lastMatchStarter": false
       },
       {
         "espnId": "307111",
@@ -10602,7 +10602,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 3,
-        "lastMatchStarter": true
+        "lastMatchStarter": false
       },
       {
         "espnId": "235789",
@@ -10638,7 +10638,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 1,
-        "lastMatchStarter": true
+        "lastMatchStarter": false
       },
       {
         "espnId": "222991",
@@ -11382,7 +11382,7 @@
         "espnId": "288563",
         "name": "Tomás Rodríguez",
         "jersey": 9,
-        "position": "M",
+        "position": "F",
         "goals": 0,
         "assists": 0,
         "yellowCards": 0,

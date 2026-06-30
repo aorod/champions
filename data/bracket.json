@@ -87,11 +87,11 @@
             "tla": "NOR",
             "flag": "no"
           },
-          "home_score": 1,
-          "away_score": 2,
-          "winner": "away",
+          "home_score": null,
+          "away_score": null,
+          "winner": null,
           "date": "2026-06-30T17:00:00Z",
-          "status": "finished"
+          "status": "pending"
         },
         {
           "id": 537416,
@@ -105,11 +105,11 @@
             "tla": "SWE",
             "flag": "se"
           },
-          "home_score": 1,
+          "home_score": 3,
           "away_score": 0,
           "winner": "home",
           "date": "2026-06-30T21:00:00Z",
-          "status": "live"
+          "status": "finished"
         },
         {
           "id": 537425,
