@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-01T11:19:21.567Z",
+  "updated": "2026-07-01T23:52:25.018Z",
   "squads": {
     "RSA": [
       {
@@ -2474,7 +2474,7 @@
         "yellowCards": 0,
         "redCards": 1,
         "appearances": 2,
-        "lastMatchStarter": null
+        "lastMatchStarter": false
       },
       {
         "espnId": "359651",
@@ -4160,7 +4160,7 @@
         "espnId": "176058",
         "name": "Jhon Córdoba",
         "jersey": 9,
-        "position": "M",
+        "position": "F",
         "goals": 0,
         "assists": 0,
         "yellowCards": 0,
@@ -8188,7 +8188,7 @@
         "yellowCards": 1,
         "redCards": 0,
         "appearances": 2,
-        "lastMatchStarter": false
+        "lastMatchStarter": true
       },
       {
         "espnId": "157974",
@@ -8224,7 +8224,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 3,
-        "lastMatchStarter": true
+        "lastMatchStarter": false
       },
       {
         "espnId": "238472",
@@ -8344,7 +8344,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 3,
-        "lastMatchStarter": true
+        "lastMatchStarter": false
       },
       {
         "espnId": "268782",
@@ -8380,7 +8380,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 3,
-        "lastMatchStarter": false
+        "lastMatchStarter": true
       },
       {
         "espnId": "251400",
@@ -8428,7 +8428,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 2,
-        "lastMatchStarter": null
+        "lastMatchStarter": false
       },
       {
         "espnId": "267711",
@@ -8440,7 +8440,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 3,
-        "lastMatchStarter": false
+        "lastMatchStarter": true
       },
       {
         "espnId": "298524",
@@ -8452,7 +8452,7 @@
         "yellowCards": 1,
         "redCards": 0,
         "appearances": 1,
-        "lastMatchStarter": true
+        "lastMatchStarter": false
       }
     ],
     "IRN": [
@@ -12294,7 +12294,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 3,
-        "lastMatchStarter": false
+        "lastMatchStarter": true
       },
       {
         "espnId": "291750",
@@ -12426,7 +12426,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 3,
-        "lastMatchStarter": true
+        "lastMatchStarter": false
       },
       {
         "espnId": "235875",
@@ -12898,7 +12898,7 @@
         "yellowCards": 1,
         "redCards": 0,
         "appearances": 1,
-        "lastMatchStarter": true
+        "lastMatchStarter": false
       },
       {
         "espnId": "144517",
@@ -12922,7 +12922,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 3,
-        "lastMatchStarter": false
+        "lastMatchStarter": true
       },
       {
         "espnId": "364742",
@@ -12946,7 +12946,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 3,
-        "lastMatchStarter": true
+        "lastMatchStarter": false
       },
       {
         "espnId": "313889",
@@ -13006,7 +13006,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 2,
-        "lastMatchStarter": false
+        "lastMatchStarter": true
       },
       {
         "espnId": "268796",
@@ -13090,7 +13090,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 3,
-        "lastMatchStarter": true
+        "lastMatchStarter": false
       },
       {
         "espnId": "324991",
@@ -13162,7 +13162,7 @@
         "yellowCards": 1,
         "redCards": 0,
         "appearances": 3,
-        "lastMatchStarter": false
+        "lastMatchStarter": true
       }
     ],
     "SWE": [
