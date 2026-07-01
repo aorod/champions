@@ -123,11 +123,11 @@
             "tla": "ECU",
             "flag": "ec"
           },
-          "home_score": null,
-          "away_score": null,
-          "winner": null,
+          "home_score": 2,
+          "away_score": 0,
+          "winner": "home",
           "date": "2026-07-01T01:00:00Z",
-          "status": "pending"
+          "status": "finished"
         },
         {
           "id": 537426,

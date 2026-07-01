@@ -46,6 +46,15 @@
       "matches": 4
     },
     {
+      "player": "Julián Quiñones",
+      "team": "MEX",
+      "team_name": "México",
+      "flag_code": "mx",
+      "goals": 3,
+      "assists": 1,
+      "matches": 4
+    },
+    {
       "player": "Ismael Saibari",
       "team": "MAR",
       "team_name": "Marrocos",
@@ -154,7 +163,7 @@
       "matches": 3
     },
     {
-      "player": "Julián Quiñones",
+      "player": "Raúl Jiménez",
       "team": "MEX",
       "team_name": "México",
       "flag_code": "mx",
@@ -260,15 +269,6 @@
       "goals": 2,
       "assists": 1,
       "matches": 3
-    },
-    {
-      "player": "Daniel Muñoz",
-      "team": "COL",
-      "team_name": "Colômbia",
-      "flag_code": "co",
-      "goals": 2,
-      "assists": 0,
-      "matches": 2
     }
   ],
   "assists": [
@@ -314,6 +314,15 @@
       "team_name": "Brasil",
       "flag_code": "br",
       "goals": 4,
+      "assists": 1,
+      "matches": 4
+    },
+    {
+      "player": "Julián Quiñones",
+      "team": "MEX",
+      "team_name": "México",
+      "flag_code": "mx",
+      "goals": 3,
       "assists": 1,
       "matches": 4
     },
