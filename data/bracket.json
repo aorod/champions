@@ -141,9 +141,9 @@
             "tla": "COD",
             "flag": "cd"
           },
-          "home_score": null,
-          "away_score": null,
-          "winner": null,
+          "home_score": 0,
+          "away_score": 1,
+          "winner": "away",
           "date": "2026-07-01T16:00:00Z",
           "status": "pending"
         },
