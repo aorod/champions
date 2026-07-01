@@ -28,6 +28,15 @@
       "matches": 4
     },
     {
+      "player": "Harry Kane",
+      "team": "ENG",
+      "team_name": "Inglaterra",
+      "flag_code": "gb-eng",
+      "goals": 5,
+      "assists": 0,
+      "matches": 4
+    },
+    {
       "player": "Vinicius Junior",
       "team": "BRA",
       "team_name": "Brasil",
@@ -100,15 +109,6 @@
       "matches": 3
     },
     {
-      "player": "Harry Kane",
-      "team": "ENG",
-      "team_name": "Inglaterra",
-      "flag_code": "gb-eng",
-      "goals": 3,
-      "assists": 0,
-      "matches": 4
-    },
-    {
       "player": "Johan Manzambi",
       "team": "SUI",
       "team_name": "Suíça",
@@ -160,7 +160,7 @@
       "flag_code": "sn",
       "goals": 3,
       "assists": 1,
-      "matches": 3
+      "matches": 4
     },
     {
       "player": "Raúl Jiménez",
@@ -351,7 +351,7 @@
       "flag_code": "sn",
       "goals": 3,
       "assists": 1,
-      "matches": 3
+      "matches": 4
     },
     {
       "player": "Maximiliano Araújo",

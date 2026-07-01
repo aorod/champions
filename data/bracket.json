@@ -141,11 +141,11 @@
             "tla": "COD",
             "flag": "cd"
           },
-          "home_score": 0,
+          "home_score": 2,
           "away_score": 1,
-          "winner": "away",
+          "winner": "home",
           "date": "2026-07-01T16:00:00Z",
-          "status": "pending"
+          "status": "finished"
         },
         {
           "id": 537422,
