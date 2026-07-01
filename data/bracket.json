@@ -159,9 +159,9 @@
             "tla": "SEN",
             "flag": "sn"
           },
-          "home_score": 0,
-          "away_score": 1,
-          "winner": "away",
+          "home_score": 2,
+          "away_score": 2,
+          "winner": null,
           "date": "2026-07-01T20:00:00Z",
           "status": "live"
         },

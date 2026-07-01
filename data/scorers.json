@@ -55,6 +55,15 @@
       "matches": 4
     },
     {
+      "player": "Ismaïla Sarr",
+      "team": "SEN",
+      "team_name": "Senegal",
+      "flag_code": "sn",
+      "goals": 4,
+      "assists": 1,
+      "matches": 4
+    },
+    {
       "player": "Julián Quiñones",
       "team": "MEX",
       "team_name": "México",
@@ -149,15 +158,6 @@
       "team": "NED",
       "team_name": "Países Baixos",
       "flag_code": "nl",
-      "goals": 3,
-      "assists": 1,
-      "matches": 4
-    },
-    {
-      "player": "Ismaïla Sarr",
-      "team": "SEN",
-      "team_name": "Senegal",
-      "flag_code": "sn",
       "goals": 3,
       "assists": 1,
       "matches": 4
@@ -318,6 +318,15 @@
       "matches": 4
     },
     {
+      "player": "Ismaïla Sarr",
+      "team": "SEN",
+      "team_name": "Senegal",
+      "flag_code": "sn",
+      "goals": 4,
+      "assists": 1,
+      "matches": 4
+    },
+    {
       "player": "Julián Quiñones",
       "team": "MEX",
       "team_name": "México",
@@ -340,15 +349,6 @@
       "team": "NED",
       "team_name": "Países Baixos",
       "flag_code": "nl",
-      "goals": 3,
-      "assists": 1,
-      "matches": 4
-    },
-    {
-      "player": "Ismaïla Sarr",
-      "team": "SEN",
-      "team_name": "Senegal",
-      "flag_code": "sn",
       "goals": 3,
       "assists": 1,
       "matches": 4
