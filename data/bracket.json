@@ -195,9 +195,9 @@
             "tla": "AUT",
             "flag": "at"
           },
-          "home_score": null,
-          "away_score": null,
-          "winner": null,
+          "home_score": 1,
+          "away_score": 0,
+          "winner": "home",
           "date": "2026-07-02T19:00:00Z",
           "status": "pending"
         },
