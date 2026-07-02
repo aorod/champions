@@ -73,6 +73,15 @@
       "matches": 4
     },
     {
+      "player": "Folarin Balogun",
+      "team": "USA",
+      "team_name": "Estados Unidos",
+      "flag_code": "us",
+      "goals": 3,
+      "assists": 0,
+      "matches": 4
+    },
+    {
       "player": "Ismael Saibari",
       "team": "MAR",
       "team_name": "Marrocos",
@@ -176,15 +185,6 @@
       "team": "CAN",
       "team_name": "Canadá",
       "flag_code": "ca",
-      "goals": 2,
-      "assists": 0,
-      "matches": 4
-    },
-    {
-      "player": "Folarin Balogun",
-      "team": "USA",
-      "team_name": "Estados Unidos",
-      "flag_code": "us",
       "goals": 2,
       "assists": 0,
       "matches": 4
