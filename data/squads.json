@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-02T14:11:55.098Z",
+  "updated": "2026-07-03T03:58:36.545Z",
   "squads": {
     "RSA": [
       {
@@ -1908,7 +1908,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 3,
-        "lastMatchStarter": false
+        "lastMatchStarter": true
       },
       {
         "espnId": "238886",
@@ -1956,7 +1956,7 @@
         "yellowCards": 1,
         "redCards": 0,
         "appearances": 3,
-        "lastMatchStarter": true
+        "lastMatchStarter": false
       },
       {
         "espnId": "118444",
@@ -2004,7 +2004,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 2,
-        "lastMatchStarter": false
+        "lastMatchStarter": true
       },
       {
         "espnId": "387869",
@@ -2052,7 +2052,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 2,
-        "lastMatchStarter": true
+        "lastMatchStarter": false
       },
       {
         "espnId": "239574",
@@ -2064,7 +2064,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 2,
-        "lastMatchStarter": true
+        "lastMatchStarter": false
       },
       {
         "espnId": "294317",
@@ -2148,7 +2148,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 3,
-        "lastMatchStarter": false
+        "lastMatchStarter": true
       },
       {
         "espnId": "289942",
@@ -6068,7 +6068,7 @@
         "espnId": "281316",
         "name": "Kevin Rodríguez",
         "jersey": 11,
-        "position": "F",
+        "position": "D",
         "goals": 0,
         "assists": 1,
         "yellowCards": 0,
@@ -6630,7 +6630,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 2,
-        "lastMatchStarter": true
+        "lastMatchStarter": false
       },
       {
         "espnId": "209581",
@@ -6642,7 +6642,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 3,
-        "lastMatchStarter": true
+        "lastMatchStarter": false
       },
       {
         "espnId": "265869",
@@ -6690,7 +6690,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 3,
-        "lastMatchStarter": false
+        "lastMatchStarter": true
       },
       {
         "espnId": "297370",
@@ -6714,7 +6714,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 1,
-        "lastMatchStarter": false
+        "lastMatchStarter": true
       },
       {
         "espnId": "297362",
@@ -11248,7 +11248,7 @@
         "espnId": "284792",
         "name": "Crysencio Summerville",
         "jersey": 24,
-        "position": "F",
+        "position": "M",
         "goals": 2,
         "assists": 2,
         "yellowCards": 1,
@@ -12040,7 +12040,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 2,
-        "lastMatchStarter": true
+        "lastMatchStarter": false
       },
       {
         "espnId": "181278",
@@ -12088,7 +12088,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 3,
-        "lastMatchStarter": false
+        "lastMatchStarter": true
       },
       {
         "espnId": "274159",
@@ -12112,7 +12112,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 3,
-        "lastMatchStarter": false
+        "lastMatchStarter": true
       },
       {
         "espnId": "256115",
@@ -12160,7 +12160,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 1,
-        "lastMatchStarter": true
+        "lastMatchStarter": false
       },
       {
         "espnId": "177898",

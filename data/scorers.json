@@ -141,8 +141,8 @@
       "team_name": "Suíça",
       "flag_code": "ch",
       "goals": 3,
-      "assists": 1,
-      "matches": 3
+      "assists": 2,
+      "matches": 4
     },
     {
       "player": "Jonathan David",
@@ -208,6 +208,15 @@
       "matches": 4
     },
     {
+      "player": "Breel Embolo",
+      "team": "SUI",
+      "team_name": "Suíça",
+      "flag_code": "ch",
+      "goals": 2,
+      "assists": 2,
+      "matches": 4
+    },
+    {
       "player": "Crysencio Summerville",
       "team": "NED",
       "team_name": "Países Baixos",
@@ -260,15 +269,6 @@
       "goals": 2,
       "assists": 1,
       "matches": 3
-    },
-    {
-      "player": "Bradley Barcola",
-      "team": "FRA",
-      "team_name": "França",
-      "flag_code": "fr",
-      "goals": 2,
-      "assists": 1,
-      "matches": 4
     }
   ],
   "assists": [
@@ -296,6 +296,24 @@
       "team_name": "Alemanha",
       "flag_code": "de",
       "goals": 3,
+      "assists": 2,
+      "matches": 4
+    },
+    {
+      "player": "Johan Manzambi",
+      "team": "SUI",
+      "team_name": "Suíça",
+      "flag_code": "ch",
+      "goals": 3,
+      "assists": 2,
+      "matches": 4
+    },
+    {
+      "player": "Breel Embolo",
+      "team": "SUI",
+      "team_name": "Suíça",
+      "flag_code": "ch",
+      "goals": 2,
       "assists": 2,
       "matches": 4
     },
@@ -345,15 +363,6 @@
       "matches": 4
     },
     {
-      "player": "Johan Manzambi",
-      "team": "SUI",
-      "team_name": "Suíça",
-      "flag_code": "ch",
-      "goals": 3,
-      "assists": 1,
-      "matches": 3
-    },
-    {
       "player": "Cody Gakpo",
       "team": "NED",
       "team_name": "Países Baixos",
@@ -379,15 +388,6 @@
       "goals": 2,
       "assists": 1,
       "matches": 3
-    },
-    {
-      "player": "Bradley Barcola",
-      "team": "FRA",
-      "team_name": "França",
-      "flag_code": "fr",
-      "goals": 2,
-      "assists": 1,
-      "matches": 4
     }
   ]
 }
