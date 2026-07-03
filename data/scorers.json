@@ -253,19 +253,19 @@
       "matches": 4
     },
     {
+      "player": "Emam Ashour",
+      "team": "EGY",
+      "team_name": "Egito",
+      "flag_code": "eg",
+      "goals": 2,
+      "assists": 0,
+      "matches": 4
+    },
+    {
       "player": "Maximiliano Araújo",
       "team": "URU",
       "team_name": "Uruguai",
       "flag_code": "uy",
-      "goals": 2,
-      "assists": 1,
-      "matches": 3
-    },
-    {
-      "player": "Ramin Rezaeian",
-      "team": "IRN",
-      "team_name": "Irã",
-      "flag_code": "ir",
       "goals": 2,
       "assists": 1,
       "matches": 3
@@ -376,15 +376,6 @@
       "team": "URU",
       "team_name": "Uruguai",
       "flag_code": "uy",
-      "goals": 2,
-      "assists": 1,
-      "matches": 3
-    },
-    {
-      "player": "Ramin Rezaeian",
-      "team": "IRN",
-      "team_name": "Irã",
-      "flag_code": "ir",
       "goals": 2,
       "assists": 1,
       "matches": 3
