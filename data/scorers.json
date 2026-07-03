@@ -181,6 +181,15 @@
       "matches": 4
     },
     {
+      "player": "Cristiano Ronaldo",
+      "team": "POR",
+      "team_name": "Portugal",
+      "flag_code": "pt",
+      "goals": 3,
+      "assists": 0,
+      "matches": 4
+    },
+    {
       "player": "Raúl Jiménez",
       "team": "MEX",
       "team_name": "México",
@@ -259,15 +268,6 @@
       "flag_code": "fr",
       "goals": 2,
       "assists": 1,
-      "matches": 4
-    },
-    {
-      "player": "Marko Arnautovic",
-      "team": "AUT",
-      "team_name": "Áustria",
-      "flag_code": "at",
-      "goals": 2,
-      "assists": 0,
       "matches": 4
     }
   ],
