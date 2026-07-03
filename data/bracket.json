@@ -267,11 +267,11 @@
             "tla": "CPV",
             "flag": "cv"
           },
-          "home_score": null,
-          "away_score": null,
-          "winner": null,
+          "home_score": 1,
+          "away_score": 0,
+          "winner": "home",
           "date": "2026-07-03T22:00:00Z",
-          "status": "pending"
+          "status": "live"
         },
         {
           "id": 537430,
