@@ -10,6 +10,15 @@
       "matches": 5
     },
     {
+      "player": "Erling Haaland",
+      "team": "NOR",
+      "team_name": "Noruega",
+      "flag_code": "no",
+      "goals": 7,
+      "assists": 0,
+      "matches": 5
+    },
+    {
       "player": "Lionel Messi",
       "team": "ARG",
       "team_name": "Argentina",
@@ -17,15 +26,6 @@
       "goals": 7,
       "assists": 0,
       "matches": 4
-    },
-    {
-      "player": "Erling Haaland",
-      "team": "NOR",
-      "team_name": "Noruega",
-      "flag_code": "no",
-      "goals": 5,
-      "assists": 0,
-      "matches": 5
     },
     {
       "player": "Harry Kane",

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-05T10:06:28.106Z",
+  "updated": "2026-07-05T22:27:25.487Z",
   "squads": {
     "RSA": [
       {
@@ -2934,7 +2934,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 2,
-        "lastMatchStarter": null
+        "lastMatchStarter": false
       },
       {
         "espnId": "198983",
@@ -3042,7 +3042,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 4,
-        "lastMatchStarter": true
+        "lastMatchStarter": null
       },
       {
         "espnId": "304215",
@@ -3066,7 +3066,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 3,
-        "lastMatchStarter": false
+        "lastMatchStarter": true
       },
       {
         "espnId": "176948",
@@ -10530,7 +10530,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 3,
-        "lastMatchStarter": true
+        "lastMatchStarter": null
       },
       {
         "espnId": "272867",
@@ -10650,7 +10650,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 2,
-        "lastMatchStarter": false
+        "lastMatchStarter": true
       }
     ],
     "NZL": [
