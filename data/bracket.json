@@ -302,8 +302,16 @@
       "matches": [
         {
           "id": 537383,
-          "home": null,
-          "away": null,
+          "home": {
+            "name": "França",
+            "tla": "FRA",
+            "flag": "fr"
+          },
+          "away": {
+            "name": "Marrocos",
+            "tla": "MAR",
+            "flag": "ma"
+          },
           "home_score": null,
           "away_score": null,
           "winner": null,
