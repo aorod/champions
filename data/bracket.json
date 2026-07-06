@@ -330,8 +330,16 @@
         },
         {
           "id": 537385,
-          "home": null,
-          "away": null,
+          "home": {
+            "name": "Noruega",
+            "tla": "NOR",
+            "flag": "no"
+          },
+          "away": {
+            "name": "Inglaterra",
+            "tla": "ENG",
+            "flag": "gb-eng"
+          },
           "home_score": null,
           "away_score": null,
           "winner": null,
