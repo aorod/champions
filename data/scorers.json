@@ -1,6 +1,15 @@
 {
   "scorers": [
     {
+      "player": "Lionel Messi",
+      "team": "ARG",
+      "team_name": "Argentina",
+      "flag_code": "ar",
+      "goals": 8,
+      "assists": 1,
+      "matches": 5
+    },
+    {
       "player": "Kylian Mbappé",
       "team": "FRA",
       "team_name": "França",
@@ -14,15 +23,6 @@
       "team": "NOR",
       "team_name": "Noruega",
       "flag_code": "no",
-      "goals": 7,
-      "assists": 0,
-      "matches": 5
-    },
-    {
-      "player": "Lionel Messi",
-      "team": "ARG",
-      "team_name": "Argentina",
-      "flag_code": "ar",
       "goals": 7,
       "assists": 0,
       "matches": 5
@@ -232,7 +232,7 @@
       "flag_code": "ch",
       "goals": 2,
       "assists": 2,
-      "matches": 4
+      "matches": 5
     },
     {
       "player": "Crysencio Summerville",
@@ -315,7 +315,7 @@
       "flag_code": "ch",
       "goals": 2,
       "assists": 2,
-      "matches": 4
+      "matches": 5
     },
     {
       "player": "Crysencio Summerville",
@@ -325,6 +325,15 @@
       "goals": 2,
       "assists": 2,
       "matches": 4
+    },
+    {
+      "player": "Lionel Messi",
+      "team": "ARG",
+      "team_name": "Argentina",
+      "flag_code": "ar",
+      "goals": 8,
+      "assists": 1,
+      "matches": 5
     },
     {
       "player": "Harry Kane",
