@@ -320,8 +320,16 @@
         },
         {
           "id": 537384,
-          "home": null,
-          "away": null,
+          "home": {
+            "name": "Espanha",
+            "tla": "ESP",
+            "flag": "es"
+          },
+          "away": {
+            "name": "Bélgica",
+            "tla": "BEL",
+            "flag": "be"
+          },
           "home_score": null,
           "away_score": null,
           "winner": null,
