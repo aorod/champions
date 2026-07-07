@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-06T11:58:48.782Z",
+  "updated": "2026-07-07T01:11:28.464Z",
   "squads": {
     "RSA": [
       {
@@ -12040,7 +12040,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 2,
-        "lastMatchStarter": false
+        "lastMatchStarter": true
       },
       {
         "espnId": "181278",
@@ -12112,7 +12112,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 4,
-        "lastMatchStarter": true
+        "lastMatchStarter": false
       },
       {
         "espnId": "256115",
