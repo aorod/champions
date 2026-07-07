@@ -208,6 +208,15 @@
       "matches": 5
     },
     {
+      "player": "Romelu Lukaku",
+      "team": "BEL",
+      "team_name": "Bélgica",
+      "flag_code": "be",
+      "goals": 3,
+      "assists": 1,
+      "matches": 5
+    },
+    {
       "player": "Cyle Larin",
       "team": "CAN",
       "team_name": "Canadá",
@@ -257,15 +266,6 @@
       "team": "SWE",
       "team_name": "Suécia",
       "flag_code": "se",
-      "goals": 2,
-      "assists": 0,
-      "matches": 4
-    },
-    {
-      "player": "Emam Ashour",
-      "team": "EGY",
-      "team_name": "Egito",
-      "flag_code": "eg",
       "goals": 2,
       "assists": 0,
       "matches": 4
@@ -388,6 +388,15 @@
       "goals": 3,
       "assists": 1,
       "matches": 4
+    },
+    {
+      "player": "Romelu Lukaku",
+      "team": "BEL",
+      "team_name": "Bélgica",
+      "flag_code": "be",
+      "goals": 3,
+      "assists": 1,
+      "matches": 5
     }
   ]
 }
