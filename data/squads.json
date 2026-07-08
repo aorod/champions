@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-08T03:32:52.137Z",
+  "updated": "2026-07-08T16:15:17.890Z",
   "squads": {
     "RSA": [
       {
@@ -1279,7 +1279,7 @@
         "assists": 0,
         "yellowCards": 0,
         "redCards": 0,
-        "appearances": 3,
+        "appearances": 4,
         "lastMatchStarter": true
       },
       {
@@ -1288,10 +1288,10 @@
         "jersey": 4,
         "position": "D",
         "goals": 0,
-        "assists": 0,
+        "assists": 1,
         "yellowCards": 1,
         "redCards": 0,
-        "appearances": 2,
+        "appearances": 3,
         "lastMatchStarter": false
       },
       {
@@ -1303,7 +1303,7 @@
         "assists": 0,
         "yellowCards": 1,
         "redCards": 0,
-        "appearances": 3,
+        "appearances": 4,
         "lastMatchStarter": true
       },
       {
@@ -1315,7 +1315,7 @@
         "assists": 1,
         "yellowCards": 0,
         "redCards": 0,
-        "appearances": 3,
+        "appearances": 4,
         "lastMatchStarter": true
       },
       {
@@ -1327,7 +1327,7 @@
         "assists": 1,
         "yellowCards": 0,
         "redCards": 0,
-        "appearances": 3,
+        "appearances": 4,
         "lastMatchStarter": true
       },
       {
@@ -1351,7 +1351,7 @@
         "assists": 0,
         "yellowCards": 0,
         "redCards": 0,
-        "appearances": 4,
+        "appearances": 5,
         "lastMatchStarter": true
       },
       {
@@ -1359,11 +1359,11 @@
         "name": "Lionel Messi",
         "jersey": 10,
         "position": "F",
-        "goals": 7,
-        "assists": 0,
+        "goals": 8,
+        "assists": 1,
         "yellowCards": 0,
         "redCards": 0,
-        "appearances": 4,
+        "appearances": 5,
         "lastMatchStarter": true
       },
       {
@@ -1395,11 +1395,11 @@
         "name": "Cristian Romero",
         "jersey": 13,
         "position": "D",
-        "goals": 0,
+        "goals": 1,
         "assists": 0,
         "yellowCards": 0,
         "redCards": 0,
-        "appearances": 3,
+        "appearances": 4,
         "lastMatchStarter": true
       },
       {
@@ -1423,7 +1423,7 @@
         "assists": 1,
         "yellowCards": 0,
         "redCards": 0,
-        "appearances": 3,
+        "appearances": 4,
         "lastMatchStarter": false
       },
       {
@@ -1471,7 +1471,7 @@
         "assists": 0,
         "yellowCards": 0,
         "redCards": 0,
-        "appearances": 3,
+        "appearances": 4,
         "lastMatchStarter": false
       },
       {
@@ -1483,7 +1483,7 @@
         "assists": 1,
         "yellowCards": 0,
         "redCards": 0,
-        "appearances": 4,
+        "appearances": 5,
         "lastMatchStarter": true
       },
       {
@@ -1504,10 +1504,10 @@
         "jersey": 22,
         "position": "F",
         "goals": 1,
-        "assists": 0,
+        "assists": 1,
         "yellowCards": 0,
         "redCards": 0,
-        "appearances": 4,
+        "appearances": 5,
         "lastMatchStarter": false
       },
       {
@@ -1519,7 +1519,7 @@
         "assists": 0,
         "yellowCards": 0,
         "redCards": 0,
-        "appearances": 4,
+        "appearances": 5,
         "lastMatchStarter": true
       },
       {
@@ -1527,11 +1527,11 @@
         "name": "Enzo Fernández",
         "jersey": 24,
         "position": "M",
-        "goals": 0,
+        "goals": 1,
         "assists": 0,
         "yellowCards": 0,
         "redCards": 0,
-        "appearances": 3,
+        "appearances": 4,
         "lastMatchStarter": true
       },
       {
@@ -1543,7 +1543,7 @@
         "assists": 1,
         "yellowCards": 1,
         "redCards": 0,
-        "appearances": 3,
+        "appearances": 4,
         "lastMatchStarter": false
       },
       {
@@ -1555,7 +1555,7 @@
         "assists": 0,
         "yellowCards": 0,
         "redCards": 0,
-        "appearances": 3,
+        "appearances": 4,
         "lastMatchStarter": true
       }
     ],
@@ -4081,7 +4081,7 @@
         "assists": 0,
         "yellowCards": 0,
         "redCards": 0,
-        "appearances": 4,
+        "appearances": 5,
         "lastMatchStarter": true
       },
       {
@@ -4093,7 +4093,7 @@
         "assists": 0,
         "yellowCards": 1,
         "redCards": 0,
-        "appearances": 4,
+        "appearances": 5,
         "lastMatchStarter": true
       },
       {
@@ -4129,7 +4129,7 @@
         "assists": 0,
         "yellowCards": 1,
         "redCards": 0,
-        "appearances": 4,
+        "appearances": 5,
         "lastMatchStarter": false
       },
       {
@@ -4141,7 +4141,7 @@
         "assists": 1,
         "yellowCards": 0,
         "redCards": 0,
-        "appearances": 4,
+        "appearances": 5,
         "lastMatchStarter": true
       },
       {
@@ -4177,7 +4177,7 @@
         "assists": 0,
         "yellowCards": 0,
         "redCards": 0,
-        "appearances": 4,
+        "appearances": 5,
         "lastMatchStarter": true
       },
       {
@@ -4189,7 +4189,7 @@
         "assists": 0,
         "yellowCards": 1,
         "redCards": 0,
-        "appearances": 4,
+        "appearances": 5,
         "lastMatchStarter": true
       },
       {
@@ -4201,7 +4201,7 @@
         "assists": 0,
         "yellowCards": 0,
         "redCards": 0,
-        "appearances": 4,
+        "appearances": 5,
         "lastMatchStarter": true
       },
       {
@@ -4213,7 +4213,7 @@
         "assists": 0,
         "yellowCards": 0,
         "redCards": 0,
-        "appearances": 0,
+        "appearances": 1,
         "lastMatchStarter": false
       },
       {
@@ -4225,7 +4225,7 @@
         "assists": 1,
         "yellowCards": 1,
         "redCards": 0,
-        "appearances": 4,
+        "appearances": 5,
         "lastMatchStarter": true
       },
       {
@@ -4249,7 +4249,7 @@
         "assists": 0,
         "yellowCards": 1,
         "redCards": 0,
-        "appearances": 4,
+        "appearances": 5,
         "lastMatchStarter": true
       },
       {
@@ -4261,7 +4261,7 @@
         "assists": 0,
         "yellowCards": 1,
         "redCards": 0,
-        "appearances": 3,
+        "appearances": 4,
         "lastMatchStarter": true
       },
       {
@@ -4285,7 +4285,7 @@
         "assists": 1,
         "yellowCards": 0,
         "redCards": 0,
-        "appearances": 1,
+        "appearances": 2,
         "lastMatchStarter": false
       },
       {
@@ -4297,7 +4297,7 @@
         "assists": 1,
         "yellowCards": 0,
         "redCards": 0,
-        "appearances": 3,
+        "appearances": 4,
         "lastMatchStarter": false
       },
       {
@@ -4309,7 +4309,7 @@
         "assists": 0,
         "yellowCards": 0,
         "redCards": 0,
-        "appearances": 2,
+        "appearances": 3,
         "lastMatchStarter": false
       },
       {
@@ -4331,9 +4331,9 @@
         "position": "D",
         "goals": 0,
         "assists": 0,
-        "yellowCards": 0,
+        "yellowCards": 1,
         "redCards": 0,
-        "appearances": 4,
+        "appearances": 5,
         "lastMatchStarter": true
       },
       {
@@ -4355,9 +4355,9 @@
         "position": "F",
         "goals": 0,
         "assists": 1,
-        "yellowCards": 0,
+        "yellowCards": 1,
         "redCards": 0,
-        "appearances": 4,
+        "appearances": 5,
         "lastMatchStarter": true
       },
       {
@@ -5647,11 +5647,11 @@
         "name": "Yasser Ibrahim",
         "jersey": 2,
         "position": "D",
-        "goals": 0,
+        "goals": 1,
         "assists": 0,
         "yellowCards": 2,
         "redCards": 0,
-        "appearances": 4,
+        "appearances": 5,
         "lastMatchStarter": true
       },
       {
@@ -5663,7 +5663,7 @@
         "assists": 1,
         "yellowCards": 0,
         "redCards": 0,
-        "appearances": 4,
+        "appearances": 5,
         "lastMatchStarter": true
       },
       {
@@ -5687,7 +5687,7 @@
         "assists": 0,
         "yellowCards": 0,
         "redCards": 0,
-        "appearances": 4,
+        "appearances": 5,
         "lastMatchStarter": true
       },
       {
@@ -5711,7 +5711,7 @@
         "assists": 1,
         "yellowCards": 0,
         "redCards": 0,
-        "appearances": 3,
+        "appearances": 4,
         "lastMatchStarter": false
       },
       {
@@ -5723,7 +5723,7 @@
         "assists": 0,
         "yellowCards": 0,
         "redCards": 0,
-        "appearances": 4,
+        "appearances": 5,
         "lastMatchStarter": true
       },
       {
@@ -5747,7 +5747,7 @@
         "assists": 2,
         "yellowCards": 0,
         "redCards": 0,
-        "appearances": 4,
+        "appearances": 5,
         "lastMatchStarter": true
       },
       {
@@ -5755,11 +5755,11 @@
         "name": "Mostafa Zico",
         "jersey": 11,
         "position": "M",
-        "goals": 1,
+        "goals": 2,
         "assists": 1,
         "yellowCards": 0,
         "redCards": 0,
-        "appearances": 4,
+        "appearances": 5,
         "lastMatchStarter": true
       },
       {
@@ -5768,10 +5768,10 @@
         "jersey": 12,
         "position": "F",
         "goals": 0,
-        "assists": 0,
-        "yellowCards": 1,
+        "assists": 1,
+        "yellowCards": 2,
         "redCards": 0,
-        "appearances": 1,
+        "appearances": 2,
         "lastMatchStarter": true
       },
       {
@@ -5793,9 +5793,9 @@
         "position": "M",
         "goals": 0,
         "assists": 0,
-        "yellowCards": 0,
+        "yellowCards": 1,
         "redCards": 0,
-        "appearances": 3,
+        "appearances": 4,
         "lastMatchStarter": false
       },
       {
@@ -5807,7 +5807,7 @@
         "assists": 1,
         "yellowCards": 0,
         "redCards": 0,
-        "appearances": 2,
+        "appearances": 3,
         "lastMatchStarter": true
       },
       {
@@ -5831,7 +5831,7 @@
         "assists": 0,
         "yellowCards": 2,
         "redCards": 0,
-        "appearances": 3,
+        "appearances": 4,
         "lastMatchStarter": true
       },
       {
@@ -5852,10 +5852,10 @@
         "jersey": 19,
         "position": "M",
         "goals": 0,
-        "assists": 0,
-        "yellowCards": 1,
+        "assists": 1,
+        "yellowCards": 2,
         "redCards": 0,
-        "appearances": 4,
+        "appearances": 5,
         "lastMatchStarter": true
       },
       {
@@ -5891,7 +5891,7 @@
         "assists": 0,
         "yellowCards": 0,
         "redCards": 0,
-        "appearances": 4,
+        "appearances": 5,
         "lastMatchStarter": false
       },
       {
@@ -5901,9 +5901,9 @@
         "position": "G",
         "goals": 0,
         "assists": 0,
-        "yellowCards": 0,
+        "yellowCards": 1,
         "redCards": 0,
-        "appearances": 4,
+        "appearances": 5,
         "lastMatchStarter": true
       },
       {
@@ -5927,7 +5927,7 @@
         "assists": 0,
         "yellowCards": 0,
         "redCards": 0,
-        "appearances": 3,
+        "appearances": 4,
         "lastMatchStarter": false
       },
       {
@@ -13489,7 +13489,7 @@
         "assists": 0,
         "yellowCards": 0,
         "redCards": 0,
-        "appearances": 4,
+        "appearances": 5,
         "lastMatchStarter": true
       },
       {
@@ -13499,9 +13499,9 @@
         "position": "D",
         "goals": 0,
         "assists": 0,
-        "yellowCards": 0,
+        "yellowCards": 1,
         "redCards": 0,
-        "appearances": 1,
+        "appearances": 2,
         "lastMatchStarter": false
       },
       {
@@ -13513,7 +13513,7 @@
         "assists": 0,
         "yellowCards": 0,
         "redCards": 0,
-        "appearances": 3,
+        "appearances": 4,
         "lastMatchStarter": false
       },
       {
@@ -13525,7 +13525,7 @@
         "assists": 0,
         "yellowCards": 1,
         "redCards": 0,
-        "appearances": 4,
+        "appearances": 5,
         "lastMatchStarter": true
       },
       {
@@ -13537,7 +13537,7 @@
         "assists": 0,
         "yellowCards": 0,
         "redCards": 0,
-        "appearances": 4,
+        "appearances": 5,
         "lastMatchStarter": true
       },
       {
@@ -13547,9 +13547,9 @@
         "position": "M",
         "goals": 0,
         "assists": 0,
-        "yellowCards": 1,
+        "yellowCards": 2,
         "redCards": 0,
-        "appearances": 2,
+        "appearances": 3,
         "lastMatchStarter": true
       },
       {
@@ -13561,7 +13561,7 @@
         "assists": 2,
         "yellowCards": 0,
         "redCards": 0,
-        "appearances": 4,
+        "appearances": 5,
         "lastMatchStarter": true
       },
       {
@@ -13573,7 +13573,7 @@
         "assists": 0,
         "yellowCards": 0,
         "redCards": 0,
-        "appearances": 4,
+        "appearances": 5,
         "lastMatchStarter": true
       },
       {
@@ -13595,9 +13595,9 @@
         "position": "M",
         "goals": 1,
         "assists": 0,
-        "yellowCards": 1,
+        "yellowCards": 2,
         "redCards": 0,
-        "appearances": 4,
+        "appearances": 5,
         "lastMatchStarter": true
       },
       {
@@ -13609,7 +13609,7 @@
         "assists": 0,
         "yellowCards": 0,
         "redCards": 0,
-        "appearances": 4,
+        "appearances": 5,
         "lastMatchStarter": true
       },
       {
@@ -13633,7 +13633,7 @@
         "assists": 0,
         "yellowCards": 0,
         "redCards": 0,
-        "appearances": 4,
+        "appearances": 5,
         "lastMatchStarter": true
       },
       {
@@ -13645,7 +13645,7 @@
         "assists": 0,
         "yellowCards": 0,
         "redCards": 0,
-        "appearances": 1,
+        "appearances": 2,
         "lastMatchStarter": true
       },
       {
@@ -13657,7 +13657,7 @@
         "assists": 0,
         "yellowCards": 0,
         "redCards": 0,
-        "appearances": 2,
+        "appearances": 3,
         "lastMatchStarter": false
       },
       {
@@ -13681,7 +13681,7 @@
         "assists": 1,
         "yellowCards": 0,
         "redCards": 0,
-        "appearances": 4,
+        "appearances": 5,
         "lastMatchStarter": false
       },
       {
@@ -13741,7 +13741,7 @@
         "assists": 0,
         "yellowCards": 0,
         "redCards": 0,
-        "appearances": 3,
+        "appearances": 4,
         "lastMatchStarter": true
       },
       {
@@ -13753,7 +13753,7 @@
         "assists": 0,
         "yellowCards": 0,
         "redCards": 0,
-        "appearances": 2,
+        "appearances": 3,
         "lastMatchStarter": false
       },
       {
@@ -13789,7 +13789,7 @@
         "assists": 0,
         "yellowCards": 0,
         "redCards": 0,
-        "appearances": 2,
+        "appearances": 3,
         "lastMatchStarter": false
       }
     ],
