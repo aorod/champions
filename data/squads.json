@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-07T14:46:47.323Z",
+  "updated": "2026-07-08T03:32:52.137Z",
   "squads": {
     "RSA": [
       {
@@ -1280,7 +1280,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 3,
-        "lastMatchStarter": false
+        "lastMatchStarter": true
       },
       {
         "espnId": "228262",
@@ -1304,7 +1304,7 @@
         "yellowCards": 1,
         "redCards": 0,
         "appearances": 3,
-        "lastMatchStarter": false
+        "lastMatchStarter": true
       },
       {
         "espnId": "233937",
@@ -1352,7 +1352,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 4,
-        "lastMatchStarter": false
+        "lastMatchStarter": true
       },
       {
         "espnId": "45843",
@@ -1436,7 +1436,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 4,
-        "lastMatchStarter": true
+        "lastMatchStarter": false
       },
       {
         "espnId": "323838",
@@ -1508,7 +1508,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 4,
-        "lastMatchStarter": true
+        "lastMatchStarter": false
       },
       {
         "espnId": "158626",
@@ -1544,7 +1544,7 @@
         "yellowCards": 1,
         "redCards": 0,
         "appearances": 3,
-        "lastMatchStarter": true
+        "lastMatchStarter": false
       },
       {
         "espnId": "164826",
@@ -4166,7 +4166,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 3,
-        "lastMatchStarter": true
+        "lastMatchStarter": false
       },
       {
         "espnId": "82816",
@@ -4358,7 +4358,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 4,
-        "lastMatchStarter": false
+        "lastMatchStarter": true
       },
       {
         "espnId": "330924",
@@ -5772,7 +5772,7 @@
         "yellowCards": 1,
         "redCards": 0,
         "appearances": 1,
-        "lastMatchStarter": false
+        "lastMatchStarter": true
       },
       {
         "espnId": "265176",
@@ -5796,7 +5796,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 3,
-        "lastMatchStarter": true
+        "lastMatchStarter": false
       },
       {
         "espnId": "216119",
@@ -5832,7 +5832,7 @@
         "yellowCards": 2,
         "redCards": 0,
         "appearances": 3,
-        "lastMatchStarter": null
+        "lastMatchStarter": true
       },
       {
         "espnId": "287177",
@@ -5892,7 +5892,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 4,
-        "lastMatchStarter": true
+        "lastMatchStarter": false
       },
       {
         "espnId": "308915",
@@ -13586,7 +13586,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 4,
-        "lastMatchStarter": true
+        "lastMatchStarter": null
       },
       {
         "espnId": "149981",
@@ -13646,7 +13646,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 1,
-        "lastMatchStarter": false
+        "lastMatchStarter": true
       },
       {
         "espnId": "222446",
@@ -13682,7 +13682,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 4,
-        "lastMatchStarter": true
+        "lastMatchStarter": false
       },
       {
         "espnId": "231697",
@@ -13718,7 +13718,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 4,
-        "lastMatchStarter": false
+        "lastMatchStarter": null
       },
       {
         "espnId": "341948",
@@ -13742,7 +13742,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 3,
-        "lastMatchStarter": false
+        "lastMatchStarter": true
       },
       {
         "espnId": "320757",
