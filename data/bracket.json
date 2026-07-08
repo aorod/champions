@@ -356,8 +356,16 @@
         },
         {
           "id": 537386,
-          "home": null,
-          "away": null,
+          "home": {
+            "name": "Argentina",
+            "tla": "ARG",
+            "flag": "ar"
+          },
+          "away": {
+            "name": "Suíça",
+            "tla": "SUI",
+            "flag": "ch"
+          },
           "home_score": null,
           "away_score": null,
           "winner": null,
