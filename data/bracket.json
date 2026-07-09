@@ -312,8 +312,8 @@
             "tla": "MAR",
             "flag": "ma"
           },
-          "home_score": null,
-          "away_score": null,
+          "home_score": 0,
+          "away_score": 0,
           "winner": null,
           "date": "2026-07-09T20:00:00Z",
           "status": "pending"
