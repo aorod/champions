@@ -1,6 +1,15 @@
 {
   "scorers": [
     {
+      "player": "Kylian Mbappé",
+      "team": "FRA",
+      "team_name": "França",
+      "flag_code": "fr",
+      "goals": 8,
+      "assists": 2,
+      "matches": 6
+    },
+    {
       "player": "Lionel Messi",
       "team": "ARG",
       "team_name": "Argentina",
@@ -8,15 +17,6 @@
       "goals": 8,
       "assists": 1,
       "matches": 5
-    },
-    {
-      "player": "Kylian Mbappé",
-      "team": "FRA",
-      "team_name": "França",
-      "flag_code": "fr",
-      "goals": 7,
-      "assists": 2,
-      "matches": 6
     },
     {
       "player": "Erling Haaland",
@@ -35,6 +35,15 @@
       "goals": 6,
       "assists": 1,
       "matches": 5
+    },
+    {
+      "player": "Ousmane Dembélé",
+      "team": "FRA",
+      "team_name": "França",
+      "flag_code": "fr",
+      "goals": 5,
+      "assists": 2,
+      "matches": 6
     },
     {
       "player": "Julián Quiñones",
@@ -71,15 +80,6 @@
       "goals": 4,
       "assists": 1,
       "matches": 5
-    },
-    {
-      "player": "Ousmane Dembélé",
-      "team": "FRA",
-      "team_name": "França",
-      "flag_code": "fr",
-      "goals": 4,
-      "assists": 2,
-      "matches": 6
     },
     {
       "player": "Ismaïla Sarr",
@@ -277,7 +277,7 @@
       "team": "FRA",
       "team_name": "França",
       "flag_code": "fr",
-      "goals": 7,
+      "goals": 8,
       "assists": 2,
       "matches": 6
     },
@@ -286,7 +286,7 @@
       "team": "FRA",
       "team_name": "França",
       "flag_code": "fr",
-      "goals": 4,
+      "goals": 5,
       "assists": 2,
       "matches": 6
     },
