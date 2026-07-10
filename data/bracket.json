@@ -330,11 +330,11 @@
             "tla": "BEL",
             "flag": "be"
           },
-          "home_score": 1,
+          "home_score": 2,
           "away_score": 1,
-          "winner": null,
+          "winner": "home",
           "date": "2026-07-10T19:00:00Z",
-          "status": "live"
+          "status": "finished"
         },
         {
           "id": 537385,
