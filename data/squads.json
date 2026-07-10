@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-10T10:47:47.149Z",
+  "updated": "2026-07-10T23:25:46.323Z",
   "squads": {
     "RSA": [
       {
@@ -2198,7 +2198,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 0,
-        "lastMatchStarter": false
+        "lastMatchStarter": null
       },
       {
         "espnId": "304222",
@@ -2258,7 +2258,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 4,
-        "lastMatchStarter": false
+        "lastMatchStarter": true
       },
       {
         "espnId": "193297",
@@ -2270,7 +2270,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 5,
-        "lastMatchStarter": true
+        "lastMatchStarter": null
       },
       {
         "espnId": "139437",
@@ -2306,7 +2306,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 4,
-        "lastMatchStarter": false
+        "lastMatchStarter": true
       },
       {
         "espnId": "301425",
@@ -2342,7 +2342,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 3,
-        "lastMatchStarter": true
+        "lastMatchStarter": false
       },
       {
         "espnId": "166473",
@@ -2414,7 +2414,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 5,
-        "lastMatchStarter": false
+        "lastMatchStarter": true
       },
       {
         "espnId": "197163",
@@ -2462,7 +2462,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 4,
-        "lastMatchStarter": true
+        "lastMatchStarter": null
       },
       {
         "espnId": "318577",
@@ -6666,7 +6666,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 5,
-        "lastMatchStarter": false
+        "lastMatchStarter": true
       },
       {
         "espnId": "323702",
@@ -6810,7 +6810,7 @@
         "yellowCards": 1,
         "redCards": 0,
         "appearances": 5,
-        "lastMatchStarter": true
+        "lastMatchStarter": false
       },
       {
         "espnId": "229018",
