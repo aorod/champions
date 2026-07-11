@@ -384,7 +384,11 @@
             "tla": "FRA",
             "flag": "fr"
           },
-          "away": null,
+          "away": {
+            "name": "Espanha",
+            "tla": "ESP",
+            "flag": "es"
+          },
           "home_score": null,
           "away_score": null,
           "winner": null,
