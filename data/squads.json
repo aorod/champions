@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-10T23:25:46.323Z",
+  "updated": "2026-07-11T13:36:26.774Z",
   "squads": {
     "RSA": [
       {
@@ -2185,7 +2185,7 @@
         "assists": 0,
         "yellowCards": 0,
         "redCards": 0,
-        "appearances": 5,
+        "appearances": 6,
         "lastMatchStarter": true
       },
       {
@@ -2221,7 +2221,7 @@
         "assists": 0,
         "yellowCards": 1,
         "redCards": 0,
-        "appearances": 5,
+        "appearances": 6,
         "lastMatchStarter": true
       },
       {
@@ -2233,7 +2233,7 @@
         "assists": 0,
         "yellowCards": 1,
         "redCards": 0,
-        "appearances": 5,
+        "appearances": 6,
         "lastMatchStarter": true
       },
       {
@@ -2243,9 +2243,9 @@
         "position": "D",
         "goals": 0,
         "assists": 0,
-        "yellowCards": 0,
+        "yellowCards": 1,
         "redCards": 0,
-        "appearances": 1,
+        "appearances": 2,
         "lastMatchStarter": false
       },
       {
@@ -2255,9 +2255,9 @@
         "position": "M",
         "goals": 1,
         "assists": 0,
-        "yellowCards": 0,
+        "yellowCards": 1,
         "redCards": 0,
-        "appearances": 4,
+        "appearances": 5,
         "lastMatchStarter": true
       },
       {
@@ -2269,7 +2269,7 @@
         "assists": 0,
         "yellowCards": 0,
         "redCards": 0,
-        "appearances": 5,
+        "appearances": 6,
         "lastMatchStarter": null
       },
       {
@@ -2281,7 +2281,7 @@
         "assists": 1,
         "yellowCards": 1,
         "redCards": 0,
-        "appearances": 5,
+        "appearances": 6,
         "lastMatchStarter": false
       },
       {
@@ -2293,7 +2293,7 @@
         "assists": 2,
         "yellowCards": 0,
         "redCards": 0,
-        "appearances": 5,
+        "appearances": 6,
         "lastMatchStarter": true
       },
       {
@@ -2305,7 +2305,7 @@
         "assists": 0,
         "yellowCards": 0,
         "redCards": 0,
-        "appearances": 4,
+        "appearances": 5,
         "lastMatchStarter": true
       },
       {
@@ -2317,7 +2317,7 @@
         "assists": 0,
         "yellowCards": 0,
         "redCards": 0,
-        "appearances": 0,
+        "appearances": 1,
         "lastMatchStarter": false
       },
       {
@@ -2373,11 +2373,11 @@
         "name": "Charles De Ketelaere",
         "jersey": 17,
         "position": "F",
-        "goals": 2,
+        "goals": 3,
         "assists": 1,
         "yellowCards": 0,
         "redCards": 0,
-        "appearances": 4,
+        "appearances": 5,
         "lastMatchStarter": true
       },
       {
@@ -2389,7 +2389,7 @@
         "assists": 0,
         "yellowCards": 0,
         "redCards": 0,
-        "appearances": 0,
+        "appearances": 1,
         "lastMatchStarter": false
       },
       {
@@ -2413,7 +2413,7 @@
         "assists": 2,
         "yellowCards": 0,
         "redCards": 0,
-        "appearances": 5,
+        "appearances": 6,
         "lastMatchStarter": true
       },
       {
@@ -2422,10 +2422,10 @@
         "jersey": 21,
         "position": "D",
         "goals": 0,
-        "assists": 0,
+        "assists": 1,
         "yellowCards": 1,
         "redCards": 0,
-        "appearances": 5,
+        "appearances": 6,
         "lastMatchStarter": true
       },
       {
@@ -2437,7 +2437,7 @@
         "assists": 0,
         "yellowCards": 0,
         "redCards": 0,
-        "appearances": 3,
+        "appearances": 4,
         "lastMatchStarter": false
       },
       {
@@ -2449,7 +2449,7 @@
         "assists": 2,
         "yellowCards": 0,
         "redCards": 0,
-        "appearances": 5,
+        "appearances": 6,
         "lastMatchStarter": true
       },
       {
@@ -2473,7 +2473,7 @@
         "assists": 0,
         "yellowCards": 0,
         "redCards": 1,
-        "appearances": 3,
+        "appearances": 4,
         "lastMatchStarter": true
       },
       {
@@ -6637,11 +6637,11 @@
         "name": "Mikel Merino",
         "jersey": 6,
         "position": "M",
-        "goals": 1,
+        "goals": 2,
         "assists": 0,
         "yellowCards": 0,
         "redCards": 0,
-        "appearances": 5,
+        "appearances": 6,
         "lastMatchStarter": false
       },
       {
@@ -6653,7 +6653,7 @@
         "assists": 1,
         "yellowCards": 1,
         "redCards": 0,
-        "appearances": 5,
+        "appearances": 6,
         "lastMatchStarter": false
       },
       {
@@ -6661,11 +6661,11 @@
         "name": "Fabián Ruiz",
         "jersey": 8,
         "position": "M",
-        "goals": 0,
+        "goals": 1,
         "assists": 0,
         "yellowCards": 0,
         "redCards": 0,
-        "appearances": 5,
+        "appearances": 6,
         "lastMatchStarter": true
       },
       {
@@ -6689,7 +6689,7 @@
         "assists": 1,
         "yellowCards": 0,
         "redCards": 0,
-        "appearances": 5,
+        "appearances": 6,
         "lastMatchStarter": true
       },
       {
@@ -6713,7 +6713,7 @@
         "assists": 0,
         "yellowCards": 0,
         "redCards": 0,
-        "appearances": 3,
+        "appearances": 4,
         "lastMatchStarter": true
       },
       {
@@ -6735,9 +6735,9 @@
         "position": "D",
         "goals": 0,
         "assists": 1,
-        "yellowCards": 0,
+        "yellowCards": 1,
         "redCards": 0,
-        "appearances": 5,
+        "appearances": 6,
         "lastMatchStarter": true
       },
       {
@@ -6749,7 +6749,7 @@
         "assists": 1,
         "yellowCards": 1,
         "redCards": 0,
-        "appearances": 4,
+        "appearances": 5,
         "lastMatchStarter": true
       },
       {
@@ -6761,7 +6761,7 @@
         "assists": 0,
         "yellowCards": 0,
         "redCards": 0,
-        "appearances": 5,
+        "appearances": 6,
         "lastMatchStarter": true
       },
       {
@@ -6773,7 +6773,7 @@
         "assists": 0,
         "yellowCards": 0,
         "redCards": 0,
-        "appearances": 3,
+        "appearances": 4,
         "lastMatchStarter": false
       },
       {
@@ -6797,7 +6797,7 @@
         "assists": 0,
         "yellowCards": 0,
         "redCards": 0,
-        "appearances": 5,
+        "appearances": 6,
         "lastMatchStarter": true
       },
       {
@@ -6809,7 +6809,7 @@
         "assists": 0,
         "yellowCards": 1,
         "redCards": 0,
-        "appearances": 5,
+        "appearances": 6,
         "lastMatchStarter": false
       },
       {
@@ -6821,7 +6821,7 @@
         "assists": 1,
         "yellowCards": 0,
         "redCards": 0,
-        "appearances": 5,
+        "appearances": 6,
         "lastMatchStarter": true
       },
       {
@@ -6831,9 +6831,9 @@
         "position": "D",
         "goals": 0,
         "assists": 0,
-        "yellowCards": 0,
+        "yellowCards": 1,
         "redCards": 0,
-        "appearances": 5,
+        "appearances": 6,
         "lastMatchStarter": true
       },
       {
@@ -6845,7 +6845,7 @@
         "assists": 0,
         "yellowCards": 0,
         "redCards": 0,
-        "appearances": 5,
+        "appearances": 6,
         "lastMatchStarter": true
       },
       {
@@ -6857,7 +6857,7 @@
         "assists": 2,
         "yellowCards": 0,
         "redCards": 0,
-        "appearances": 5,
+        "appearances": 6,
         "lastMatchStarter": true
       },
       {
@@ -10730,7 +10730,7 @@
         "espnId": "297803",
         "name": "Matthew Garbett",
         "jersey": 7,
-        "position": "M",
+        "position": "F",
         "goals": 0,
         "assists": 0,
         "yellowCards": 0,
