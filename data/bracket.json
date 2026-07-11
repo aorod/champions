@@ -348,9 +348,9 @@
             "tla": "ENG",
             "flag": "gb-eng"
           },
-          "home_score": 1,
+          "home_score": 2,
           "away_score": 1,
-          "winner": null,
+          "winner": "home",
           "date": "2026-07-11T21:00:00Z",
           "status": "live"
         },
