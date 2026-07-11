@@ -348,11 +348,11 @@
             "tla": "ENG",
             "flag": "gb-eng"
           },
-          "home_score": null,
-          "away_score": null,
+          "home_score": 1,
+          "away_score": 1,
           "winner": null,
           "date": "2026-07-11T21:00:00Z",
-          "status": "pending"
+          "status": "live"
         },
         {
           "id": 537386,

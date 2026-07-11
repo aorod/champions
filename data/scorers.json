@@ -37,6 +37,15 @@
       "matches": 6
     },
     {
+      "player": "Jude Bellingham",
+      "team": "ENG",
+      "team_name": "Inglaterra",
+      "flag_code": "gb-eng",
+      "goals": 5,
+      "assists": 1,
+      "matches": 6
+    },
+    {
       "player": "Ousmane Dembélé",
       "team": "FRA",
       "team_name": "França",
@@ -62,15 +71,6 @@
       "goals": 4,
       "assists": 1,
       "matches": 5
-    },
-    {
-      "player": "Jude Bellingham",
-      "team": "ENG",
-      "team_name": "Inglaterra",
-      "flag_code": "gb-eng",
-      "goals": 4,
-      "assists": 1,
-      "matches": 6
     },
     {
       "player": "Mikel Oyarzabal",
@@ -345,6 +345,15 @@
       "matches": 6
     },
     {
+      "player": "Jude Bellingham",
+      "team": "ENG",
+      "team_name": "Inglaterra",
+      "flag_code": "gb-eng",
+      "goals": 5,
+      "assists": 1,
+      "matches": 6
+    },
+    {
       "player": "Julián Quiñones",
       "team": "MEX",
       "team_name": "México",
@@ -361,15 +370,6 @@
       "goals": 4,
       "assists": 1,
       "matches": 5
-    },
-    {
-      "player": "Jude Bellingham",
-      "team": "ENG",
-      "team_name": "Inglaterra",
-      "flag_code": "gb-eng",
-      "goals": 4,
-      "assists": 1,
-      "matches": 6
     },
     {
       "player": "Mikel Oyarzabal",
