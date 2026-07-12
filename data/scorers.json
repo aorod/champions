@@ -15,8 +15,8 @@
       "team_name": "Argentina",
       "flag_code": "ar",
       "goals": 8,
-      "assists": 1,
-      "matches": 5
+      "assists": 2,
+      "matches": 6
     },
     {
       "player": "Erling Haaland",
@@ -241,7 +241,7 @@
       "flag_code": "ch",
       "goals": 2,
       "assists": 2,
-      "matches": 5
+      "matches": 6
     },
     {
       "player": "Crysencio Summerville",
@@ -282,6 +282,15 @@
       "matches": 6
     },
     {
+      "player": "Lionel Messi",
+      "team": "ARG",
+      "team_name": "Argentina",
+      "flag_code": "ar",
+      "goals": 8,
+      "assists": 2,
+      "matches": 6
+    },
+    {
       "player": "Ousmane Dembélé",
       "team": "FRA",
       "team_name": "França",
@@ -315,7 +324,7 @@
       "flag_code": "ch",
       "goals": 2,
       "assists": 2,
-      "matches": 5
+      "matches": 6
     },
     {
       "player": "Crysencio Summerville",
@@ -325,15 +334,6 @@
       "goals": 2,
       "assists": 2,
       "matches": 4
-    },
-    {
-      "player": "Lionel Messi",
-      "team": "ARG",
-      "team_name": "Argentina",
-      "flag_code": "ar",
-      "goals": 8,
-      "assists": 1,
-      "matches": 5
     },
     {
       "player": "Harry Kane",

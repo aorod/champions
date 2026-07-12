@@ -366,11 +366,11 @@
             "tla": "SUI",
             "flag": "ch"
           },
-          "home_score": null,
-          "away_score": null,
-          "winner": null,
+          "home_score": 2,
+          "away_score": 1,
+          "winner": "home",
           "date": "2026-07-12T01:00:00Z",
-          "status": "pending"
+          "status": "live"
         }
       ]
     },
