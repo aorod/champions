@@ -366,11 +366,11 @@
             "tla": "SUI",
             "flag": "ch"
           },
-          "home_score": 2,
+          "home_score": 3,
           "away_score": 1,
           "winner": "home",
           "date": "2026-07-12T01:00:00Z",
-          "status": "live"
+          "status": "finished"
         }
       ]
     },
@@ -397,8 +397,16 @@
         },
         {
           "id": 537388,
-          "home": null,
-          "away": null,
+          "home": {
+            "name": "Inglaterra",
+            "tla": "ENG",
+            "flag": "gb-eng"
+          },
+          "away": {
+            "name": "Argentina",
+            "tla": "ARG",
+            "flag": "ar"
+          },
           "home_score": null,
           "away_score": null,
           "winner": null,
