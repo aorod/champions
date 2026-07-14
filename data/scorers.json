@@ -7,7 +7,7 @@
       "flag_code": "fr",
       "goals": 8,
       "assists": 2,
-      "matches": 6
+      "matches": 7
     },
     {
       "player": "Lionel Messi",
@@ -46,13 +46,22 @@
       "matches": 6
     },
     {
+      "player": "Mikel Oyarzabal",
+      "team": "ESP",
+      "team_name": "Espanha",
+      "flag_code": "es",
+      "goals": 5,
+      "assists": 1,
+      "matches": 7
+    },
+    {
       "player": "Ousmane Dembélé",
       "team": "FRA",
       "team_name": "França",
       "flag_code": "fr",
       "goals": 5,
       "assists": 2,
-      "matches": 6
+      "matches": 7
     },
     {
       "player": "Julián Quiñones",
@@ -71,15 +80,6 @@
       "goals": 4,
       "assists": 1,
       "matches": 5
-    },
-    {
-      "player": "Mikel Oyarzabal",
-      "team": "ESP",
-      "team_name": "Espanha",
-      "flag_code": "es",
-      "goals": 4,
-      "assists": 1,
-      "matches": 6
     },
     {
       "player": "Ismaïla Sarr",
@@ -279,7 +279,7 @@
       "flag_code": "fr",
       "goals": 8,
       "assists": 2,
-      "matches": 6
+      "matches": 7
     },
     {
       "player": "Lionel Messi",
@@ -297,7 +297,7 @@
       "flag_code": "fr",
       "goals": 5,
       "assists": 2,
-      "matches": 6
+      "matches": 7
     },
     {
       "player": "Deniz Undav",
@@ -354,6 +354,15 @@
       "matches": 6
     },
     {
+      "player": "Mikel Oyarzabal",
+      "team": "ESP",
+      "team_name": "Espanha",
+      "flag_code": "es",
+      "goals": 5,
+      "assists": 1,
+      "matches": 7
+    },
+    {
       "player": "Julián Quiñones",
       "team": "MEX",
       "team_name": "México",
@@ -370,15 +379,6 @@
       "goals": 4,
       "assists": 1,
       "matches": 5
-    },
-    {
-      "player": "Mikel Oyarzabal",
-      "team": "ESP",
-      "team_name": "Espanha",
-      "flag_code": "es",
-      "goals": 4,
-      "assists": 1,
-      "matches": 6
     },
     {
       "player": "Ismaïla Sarr",
