@@ -15,7 +15,7 @@
       "team_name": "Argentina",
       "flag_code": "ar",
       "goals": 8,
-      "assists": 2,
+      "assists": 4,
       "matches": 7
     },
     {
@@ -217,6 +217,15 @@
       "matches": 6
     },
     {
+      "player": "Lautaro Martínez",
+      "team": "ARG",
+      "team_name": "Argentina",
+      "flag_code": "ar",
+      "goals": 3,
+      "assists": 1,
+      "matches": 7
+    },
+    {
       "player": "Charles De Ketelaere",
       "team": "BEL",
       "team_name": "Bélgica",
@@ -260,32 +269,23 @@
       "goals": 2,
       "assists": 0,
       "matches": 4
-    },
-    {
-      "player": "Amad Diallo",
-      "team": "CIV",
-      "team_name": "Costa do Marfim",
-      "flag_code": "ci",
-      "goals": 2,
-      "assists": 0,
-      "matches": 3
     }
   ],
   "assists": [
-    {
-      "player": "Kylian Mbappé",
-      "team": "FRA",
-      "team_name": "França",
-      "flag_code": "fr",
-      "goals": 8,
-      "assists": 2,
-      "matches": 7
-    },
     {
       "player": "Lionel Messi",
       "team": "ARG",
       "team_name": "Argentina",
       "flag_code": "ar",
+      "goals": 8,
+      "assists": 4,
+      "matches": 7
+    },
+    {
+      "player": "Kylian Mbappé",
+      "team": "FRA",
+      "team_name": "França",
+      "flag_code": "fr",
       "goals": 8,
       "assists": 2,
       "matches": 7
@@ -406,6 +406,15 @@
       "goals": 3,
       "assists": 1,
       "matches": 6
+    },
+    {
+      "player": "Lautaro Martínez",
+      "team": "ARG",
+      "team_name": "Argentina",
+      "flag_code": "ar",
+      "goals": 3,
+      "assists": 1,
+      "matches": 7
     },
     {
       "player": "Charles De Ketelaere",
