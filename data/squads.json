@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-14T20:39:53.863Z",
+  "updated": "2026-07-15T09:56:06.442Z",
   "squads": {
     "RSA": [
       {
@@ -6629,7 +6629,7 @@
         "assists": 1,
         "yellowCards": 0,
         "redCards": 0,
-        "appearances": 2,
+        "appearances": 3,
         "lastMatchStarter": false
       },
       {
@@ -6641,7 +6641,7 @@
         "assists": 0,
         "yellowCards": 0,
         "redCards": 0,
-        "appearances": 6,
+        "appearances": 7,
         "lastMatchStarter": false
       },
       {
@@ -6653,7 +6653,7 @@
         "assists": 1,
         "yellowCards": 1,
         "redCards": 0,
-        "appearances": 6,
+        "appearances": 7,
         "lastMatchStarter": false
       },
       {
@@ -6665,7 +6665,7 @@
         "assists": 0,
         "yellowCards": 0,
         "redCards": 0,
-        "appearances": 6,
+        "appearances": 7,
         "lastMatchStarter": true
       },
       {
@@ -6686,10 +6686,10 @@
         "jersey": 10,
         "position": "M",
         "goals": 0,
-        "assists": 1,
+        "assists": 2,
         "yellowCards": 0,
         "redCards": 0,
-        "appearances": 6,
+        "appearances": 7,
         "lastMatchStarter": true
       },
       {
@@ -6709,11 +6709,11 @@
         "name": "Pedro Porro",
         "jersey": 12,
         "position": "D",
-        "goals": 1,
+        "goals": 2,
         "assists": 0,
         "yellowCards": 0,
         "redCards": 0,
-        "appearances": 4,
+        "appearances": 5,
         "lastMatchStarter": true
       },
       {
@@ -6737,7 +6737,7 @@
         "assists": 1,
         "yellowCards": 1,
         "redCards": 0,
-        "appearances": 6,
+        "appearances": 7,
         "lastMatchStarter": true
       },
       {
@@ -6749,7 +6749,7 @@
         "assists": 1,
         "yellowCards": 1,
         "redCards": 0,
-        "appearances": 5,
+        "appearances": 6,
         "lastMatchStarter": true
       },
       {
@@ -6761,7 +6761,7 @@
         "assists": 0,
         "yellowCards": 0,
         "redCards": 0,
-        "appearances": 6,
+        "appearances": 7,
         "lastMatchStarter": true
       },
       {
@@ -6773,7 +6773,7 @@
         "assists": 0,
         "yellowCards": 0,
         "redCards": 0,
-        "appearances": 4,
+        "appearances": 5,
         "lastMatchStarter": false
       },
       {
@@ -6797,7 +6797,7 @@
         "assists": 0,
         "yellowCards": 0,
         "redCards": 0,
-        "appearances": 6,
+        "appearances": 7,
         "lastMatchStarter": true
       },
       {
@@ -6809,7 +6809,7 @@
         "assists": 0,
         "yellowCards": 1,
         "redCards": 0,
-        "appearances": 6,
+        "appearances": 7,
         "lastMatchStarter": false
       },
       {
@@ -6817,11 +6817,11 @@
         "name": "Mikel Oyarzabal",
         "jersey": 21,
         "position": "F",
-        "goals": 4,
+        "goals": 5,
         "assists": 1,
         "yellowCards": 0,
         "redCards": 0,
-        "appearances": 6,
+        "appearances": 7,
         "lastMatchStarter": true
       },
       {
@@ -6833,7 +6833,7 @@
         "assists": 0,
         "yellowCards": 1,
         "redCards": 0,
-        "appearances": 6,
+        "appearances": 7,
         "lastMatchStarter": true
       },
       {
@@ -6845,7 +6845,7 @@
         "assists": 0,
         "yellowCards": 0,
         "redCards": 0,
-        "appearances": 6,
+        "appearances": 7,
         "lastMatchStarter": true
       },
       {
@@ -6855,9 +6855,9 @@
         "position": "D",
         "goals": 0,
         "assists": 2,
-        "yellowCards": 0,
+        "yellowCards": 1,
         "redCards": 0,
-        "appearances": 6,
+        "appearances": 7,
         "lastMatchStarter": true
       },
       {
@@ -7233,7 +7233,7 @@
         "assists": 0,
         "yellowCards": 0,
         "redCards": 0,
-        "appearances": 4,
+        "appearances": 5,
         "lastMatchStarter": true
       },
       {
@@ -7245,7 +7245,7 @@
         "assists": 0,
         "yellowCards": 0,
         "redCards": 0,
-        "appearances": 6,
+        "appearances": 7,
         "lastMatchStarter": true
       },
       {
@@ -7257,7 +7257,7 @@
         "assists": 0,
         "yellowCards": 0,
         "redCards": 0,
-        "appearances": 6,
+        "appearances": 7,
         "lastMatchStarter": true
       },
       {
@@ -7269,8 +7269,8 @@
         "assists": 0,
         "yellowCards": 1,
         "redCards": 0,
-        "appearances": 4,
-        "lastMatchStarter": true
+        "appearances": 5,
+        "lastMatchStarter": false
       },
       {
         "espnId": "229744",
@@ -7281,7 +7281,7 @@
         "assists": 2,
         "yellowCards": 0,
         "redCards": 0,
-        "appearances": 6,
+        "appearances": 7,
         "lastMatchStarter": true
       },
       {
@@ -7293,8 +7293,8 @@
         "assists": 1,
         "yellowCards": 1,
         "redCards": 0,
-        "appearances": 3,
-        "lastMatchStarter": false
+        "appearances": 4,
+        "lastMatchStarter": true
       },
       {
         "espnId": "217331",
@@ -7315,9 +7315,9 @@
         "position": "F",
         "goals": 8,
         "assists": 3,
-        "yellowCards": 0,
+        "yellowCards": 1,
         "redCards": 0,
-        "appearances": 6,
+        "appearances": 7,
         "lastMatchStarter": true
       },
       {
@@ -7329,7 +7329,7 @@
         "assists": 5,
         "yellowCards": 1,
         "redCards": 0,
-        "appearances": 6,
+        "appearances": 7,
         "lastMatchStarter": true
       },
       {
@@ -7341,8 +7341,8 @@
         "assists": 1,
         "yellowCards": 1,
         "redCards": 0,
-        "appearances": 6,
-        "lastMatchStarter": false
+        "appearances": 7,
+        "lastMatchStarter": true
       },
       {
         "espnId": "173556",
@@ -7363,9 +7363,9 @@
         "position": "M",
         "goals": 0,
         "assists": 1,
-        "yellowCards": 0,
+        "yellowCards": 1,
         "redCards": 0,
-        "appearances": 5,
+        "appearances": 6,
         "lastMatchStarter": true
       },
       {
@@ -7389,7 +7389,7 @@
         "assists": 0,
         "yellowCards": 0,
         "redCards": 0,
-        "appearances": 6,
+        "appearances": 7,
         "lastMatchStarter": true
       },
       {
@@ -7401,7 +7401,7 @@
         "assists": 0,
         "yellowCards": 0,
         "redCards": 0,
-        "appearances": 5,
+        "appearances": 6,
         "lastMatchStarter": true
       },
       {
@@ -7425,7 +7425,7 @@
         "assists": 0,
         "yellowCards": 0,
         "redCards": 0,
-        "appearances": 3,
+        "appearances": 4,
         "lastMatchStarter": false
       },
       {
@@ -7437,8 +7437,8 @@
         "assists": 1,
         "yellowCards": 0,
         "redCards": 0,
-        "appearances": 6,
-        "lastMatchStarter": true
+        "appearances": 7,
+        "lastMatchStarter": false
       },
       {
         "espnId": "196200",
@@ -7485,7 +7485,7 @@
         "assists": 0,
         "yellowCards": 0,
         "redCards": 0,
-        "appearances": 5,
+        "appearances": 6,
         "lastMatchStarter": false
       },
       {
@@ -7509,7 +7509,7 @@
         "assists": 0,
         "yellowCards": 0,
         "redCards": 0,
-        "appearances": 1,
+        "appearances": 2,
         "lastMatchStarter": false
       }
     ],
