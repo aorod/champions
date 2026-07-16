@@ -425,7 +425,11 @@
             "tla": "FRA",
             "flag": "fr"
           },
-          "away": null,
+          "away": {
+            "name": "Inglaterra",
+            "tla": "ENG",
+            "flag": "gb-eng"
+          },
           "home_score": null,
           "away_score": null,
           "winner": null,
@@ -444,7 +448,11 @@
             "tla": "ESP",
             "flag": "es"
           },
-          "away": null,
+          "away": {
+            "name": "Argentina",
+            "tla": "ARG",
+            "flag": "ar"
+          },
           "home_score": null,
           "away_score": null,
           "winner": null,
