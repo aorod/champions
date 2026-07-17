@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-16T14:03:06.209Z",
+  "updated": "2026-07-17T03:26:44.935Z",
   "squads": {
     "RSA": [
       {
@@ -4112,7 +4112,7 @@
         "espnId": "164756",
         "name": "Santiago Arias",
         "jersey": 4,
-        "position": "M",
+        "position": "D",
         "goals": 0,
         "assists": 0,
         "yellowCards": 0,
@@ -6080,7 +6080,7 @@
         "espnId": "281316",
         "name": "Kevin Rodríguez",
         "jersey": 11,
-        "position": "F",
+        "position": "D",
         "goals": 0,
         "assists": 1,
         "yellowCards": 0,
@@ -10342,7 +10342,7 @@
         "espnId": "303577",
         "name": "Brian Gutiérrez",
         "jersey": 26,
-        "position": "M",
+        "position": "D",
         "goals": 0,
         "assists": 0,
         "yellowCards": 1,
