@@ -5,8 +5,8 @@
       "team": "FRA",
       "team_name": "França",
       "flag_code": "fr",
-      "goals": 8,
-      "assists": 3,
+      "goals": 10,
+      "assists": 4,
       "matches": 8
     },
     {
@@ -145,6 +145,15 @@
       "matches": 3
     },
     {
+      "player": "Bradley Barcola",
+      "team": "FRA",
+      "team_name": "França",
+      "flag_code": "fr",
+      "goals": 3,
+      "assists": 1,
+      "matches": 8
+    },
+    {
       "player": "Yoane Wissa",
       "team": "COD",
       "team_name": "RD Congo",
@@ -235,6 +244,15 @@
       "matches": 6
     },
     {
+      "player": "Bukayo Saka",
+      "team": "ENG",
+      "team_name": "Inglaterra",
+      "flag_code": "gb-eng",
+      "goals": 3,
+      "assists": 3,
+      "matches": 8
+    },
+    {
       "player": "Cyle Larin",
       "team": "CAN",
       "team_name": "Canadá",
@@ -251,27 +269,18 @@
       "goals": 2,
       "assists": 2,
       "matches": 6
-    },
-    {
-      "player": "Crysencio Summerville",
-      "team": "NED",
-      "team_name": "Países Baixos",
-      "flag_code": "nl",
-      "goals": 2,
-      "assists": 2,
-      "matches": 4
-    },
-    {
-      "player": "Daichi Kamada",
-      "team": "JPN",
-      "team_name": "Japão",
-      "flag_code": "jp",
-      "goals": 2,
-      "assists": 0,
-      "matches": 4
     }
   ],
   "assists": [
+    {
+      "player": "Kylian Mbappé",
+      "team": "FRA",
+      "team_name": "França",
+      "flag_code": "fr",
+      "goals": 10,
+      "assists": 4,
+      "matches": 8
+    },
     {
       "player": "Lionel Messi",
       "team": "ARG",
@@ -282,11 +291,11 @@
       "matches": 7
     },
     {
-      "player": "Kylian Mbappé",
-      "team": "FRA",
-      "team_name": "França",
-      "flag_code": "fr",
-      "goals": 8,
+      "player": "Bukayo Saka",
+      "team": "ENG",
+      "team_name": "Inglaterra",
+      "flag_code": "gb-eng",
+      "goals": 3,
       "assists": 3,
       "matches": 8
     },
@@ -325,15 +334,6 @@
       "goals": 2,
       "assists": 2,
       "matches": 6
-    },
-    {
-      "player": "Crysencio Summerville",
-      "team": "NED",
-      "team_name": "Países Baixos",
-      "flag_code": "nl",
-      "goals": 2,
-      "assists": 2,
-      "matches": 4
     },
     {
       "player": "Harry Kane",
@@ -388,6 +388,15 @@
       "goals": 4,
       "assists": 1,
       "matches": 4
+    },
+    {
+      "player": "Bradley Barcola",
+      "team": "FRA",
+      "team_name": "França",
+      "flag_code": "fr",
+      "goals": 3,
+      "assists": 1,
+      "matches": 8
     },
     {
       "player": "Cody Gakpo",
