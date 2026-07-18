@@ -430,11 +430,11 @@
             "tla": "ENG",
             "flag": "gb-eng"
           },
-          "home_score": null,
-          "away_score": null,
-          "winner": null,
+          "home_score": 0,
+          "away_score": 4,
+          "winner": "away",
           "date": "2026-07-18T21:00:00Z",
-          "status": "pending"
+          "status": "live"
         }
       ]
     },
