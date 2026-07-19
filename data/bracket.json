@@ -453,11 +453,11 @@
             "tla": "ARG",
             "flag": "ar"
           },
-          "home_score": 0,
+          "home_score": 1,
           "away_score": 0,
-          "winner": null,
+          "winner": "home",
           "date": "2026-07-19T19:00:00Z",
-          "status": "live"
+          "status": "pending"
         }
       ]
     }
