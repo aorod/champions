@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-20T23:37:54.679Z",
+  "updated": "2026-07-22T10:20:22.180Z",
   "squads": {
     "RSA": [
       {
@@ -1466,7 +1466,7 @@
         "espnId": "337970",
         "name": "Nico Paz",
         "jersey": 18,
-        "position": "M",
+        "position": "F",
         "goals": 0,
         "assists": 0,
         "yellowCards": 0,
@@ -10910,7 +10910,7 @@
         "espnId": "297794",
         "name": "Jesse Randall",
         "jersey": 21,
-        "position": "M",
+        "position": "F",
         "goals": 0,
         "assists": 0,
         "yellowCards": 0,
@@ -10946,7 +10946,7 @@
         "espnId": "282239",
         "name": "Callan Elliot",
         "jersey": 24,
-        "position": "M",
+        "position": "D",
         "goals": 0,
         "assists": 0,
         "yellowCards": 0,
@@ -11322,7 +11322,7 @@
         "espnId": "286667",
         "name": "José Córdoba",
         "jersey": 3,
-        "position": "D",
+        "position": "F",
         "goals": 0,
         "assists": 0,
         "yellowCards": 0,
@@ -11394,7 +11394,7 @@
         "espnId": "288563",
         "name": "Tomás Rodríguez",
         "jersey": 9,
-        "position": "M",
+        "position": "F",
         "goals": 0,
         "assists": 0,
         "yellowCards": 0,
