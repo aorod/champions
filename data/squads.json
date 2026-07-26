@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-25T09:42:11.714Z",
+  "updated": "2026-07-26T09:53:54.442Z",
   "squads": {
     "RSA": [
       {
@@ -5766,7 +5766,7 @@
         "espnId": "378495",
         "name": "Mostafa Zico",
         "jersey": 11,
-        "position": "M",
+        "position": "F",
         "goals": 2,
         "assists": 1,
         "yellowCards": 0,
@@ -8070,7 +8070,7 @@
       },
       {
         "espnId": "250241",
-        "name": "Frantzdy Pierrot",
+        "name": "Frantz Pierrot",
         "jersey": 20,
         "position": "F",
         "goals": 0,
@@ -11394,7 +11394,7 @@
         "espnId": "288563",
         "name": "Tomás Rodríguez",
         "jersey": 9,
-        "position": "F",
+        "position": "M",
         "goals": 0,
         "assists": 0,
         "yellowCards": 0,
@@ -11478,7 +11478,7 @@
         "espnId": "189775",
         "name": "Andrés Andrade",
         "jersey": 16,
-        "position": "M",
+        "position": "D",
         "goals": 0,
         "assists": 0,
         "yellowCards": 1,
@@ -13482,7 +13482,7 @@
         "espnId": "314164",
         "name": "Taha Ali",
         "jersey": 26,
-        "position": "F",
+        "position": "M",
         "goals": 0,
         "assists": 0,
         "yellowCards": 0,
