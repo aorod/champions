@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-26T09:53:54.442Z",
+  "updated": "2026-07-27T11:14:16.422Z",
   "squads": {
     "RSA": [
       {
@@ -5934,7 +5934,7 @@
         "espnId": "195154",
         "name": "Zizo",
         "jersey": 25,
-        "position": "F",
+        "position": "M",
         "goals": 0,
         "assists": 0,
         "yellowCards": 0,
@@ -11478,7 +11478,7 @@
         "espnId": "189775",
         "name": "Andrés Andrade",
         "jersey": 16,
-        "position": "D",
+        "position": "M",
         "goals": 0,
         "assists": 0,
         "yellowCards": 1,
