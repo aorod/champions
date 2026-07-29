@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-28T10:29:04.708Z",
+  "updated": "2026-07-29T10:33:13.991Z",
   "squads": {
     "RSA": [
       {
@@ -6080,7 +6080,7 @@
         "espnId": "281316",
         "name": "Kevin Rodríguez",
         "jersey": 11,
-        "position": "D",
+        "position": "F",
         "goals": 0,
         "assists": 1,
         "yellowCards": 0,
@@ -8070,7 +8070,7 @@
       },
       {
         "espnId": "250241",
-        "name": "Frantz Pierrot",
+        "name": "Frantzdy Pierrot",
         "jersey": 20,
         "position": "F",
         "goals": 0,
@@ -8544,7 +8544,7 @@
         "espnId": "188055",
         "name": "Alireza Jahanbakhsh",
         "jersey": 7,
-        "position": "M",
+        "position": "F",
         "goals": 0,
         "assists": 0,
         "yellowCards": 0,
@@ -10136,7 +10136,7 @@
       },
       {
         "espnId": "167060",
-        "name": "Raúl Jiménez",
+        "name": "Ra��l Jiménez",
         "jersey": 9,
         "position": "F",
         "goals": 3,
@@ -11478,7 +11478,7 @@
         "espnId": "189775",
         "name": "Andrés Andrade",
         "jersey": 16,
-        "position": "M",
+        "position": "D",
         "goals": 0,
         "assists": 0,
         "yellowCards": 1,
