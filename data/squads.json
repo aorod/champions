@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-29T10:33:13.991Z",
+  "updated": "2026-07-30T10:19:01.455Z",
   "squads": {
     "RSA": [
       {
@@ -8060,7 +8060,7 @@
         "espnId": "275007",
         "name": "Yassin Fortuné",
         "jersey": 19,
-        "position": "F",
+        "position": "M",
         "goals": 0,
         "assists": 0,
         "yellowCards": 0,
@@ -10136,7 +10136,7 @@
       },
       {
         "espnId": "167060",
-        "name": "Ra��l Jiménez",
+        "name": "Raúl Jiménez",
         "jersey": 9,
         "position": "F",
         "goals": 3,
@@ -11322,7 +11322,7 @@
         "espnId": "286667",
         "name": "José Córdoba",
         "jersey": 3,
-        "position": "F",
+        "position": "D",
         "goals": 0,
         "assists": 0,
         "yellowCards": 0,
@@ -11394,7 +11394,7 @@
         "espnId": "288563",
         "name": "Tomás Rodríguez",
         "jersey": 9,
-        "position": "M",
+        "position": "F",
         "goals": 0,
         "assists": 0,
         "yellowCards": 0,
@@ -12880,7 +12880,7 @@
         "espnId": "355433",
         "name": "Mamadou Sarr",
         "jersey": 2,
-        "position": "D",
+        "position": "F",
         "goals": 0,
         "assists": 0,
         "yellowCards": 0,
@@ -14872,7 +14872,7 @@
         "espnId": "288949",
         "name": "Oston Urunov",
         "jersey": 11,
-        "position": "F",
+        "position": "M",
         "goals": 0,
         "assists": 0,
         "yellowCards": 0,
