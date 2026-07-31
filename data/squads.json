@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-30T10:19:01.455Z",
+  "updated": "2026-07-31T10:31:51.717Z",
   "squads": {
     "RSA": [
       {
@@ -8060,7 +8060,7 @@
         "espnId": "275007",
         "name": "Yassin Fortuné",
         "jersey": 19,
-        "position": "M",
+        "position": "F",
         "goals": 0,
         "assists": 0,
         "yellowCards": 0,
@@ -10136,7 +10136,7 @@
       },
       {
         "espnId": "167060",
-        "name": "Raúl Jiménez",
+        "name": "Ra��l Jiménez",
         "jersey": 9,
         "position": "F",
         "goals": 3,
@@ -11478,7 +11478,7 @@
         "espnId": "189775",
         "name": "Andrés Andrade",
         "jersey": 16,
-        "position": "D",
+        "position": "M",
         "goals": 0,
         "assists": 0,
         "yellowCards": 1,
@@ -11646,7 +11646,7 @@
       },
       {
         "espnId": "84295",
-        "name": "Juan Cáceres",
+        "name": "Juan Jose Cáceres",
         "jersey": 4,
         "position": "D",
         "goals": 0,
@@ -12880,7 +12880,7 @@
         "espnId": "355433",
         "name": "Mamadou Sarr",
         "jersey": 2,
-        "position": "F",
+        "position": "D",
         "goals": 0,
         "assists": 0,
         "yellowCards": 0,
@@ -13930,7 +13930,7 @@
         "espnId": "317473",
         "name": "Ismaël Gharbi",
         "jersey": 11,
-        "position": "F",
+        "position": "M",
         "goals": 0,
         "assists": 0,
         "yellowCards": 0,
