@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-31T10:31:51.717Z",
+  "updated": "2026-08-01T09:52:46.295Z",
   "squads": {
     "RSA": [
       {
@@ -4172,7 +4172,7 @@
         "espnId": "176058",
         "name": "Jhon Córdoba",
         "jersey": 9,
-        "position": "M",
+        "position": "F",
         "goals": 0,
         "assists": 0,
         "yellowCards": 0,
@@ -6080,7 +6080,7 @@
         "espnId": "281316",
         "name": "Kevin Rodríguez",
         "jersey": 11,
-        "position": "F",
+        "position": "D",
         "goals": 0,
         "assists": 1,
         "yellowCards": 0,
@@ -10342,7 +10342,7 @@
         "espnId": "303577",
         "name": "Brian Gutiérrez",
         "jersey": 26,
-        "position": "D",
+        "position": "M",
         "goals": 0,
         "assists": 0,
         "yellowCards": 1,
@@ -11478,7 +11478,7 @@
         "espnId": "189775",
         "name": "Andrés Andrade",
         "jersey": 16,
-        "position": "M",
+        "position": "D",
         "goals": 0,
         "assists": 0,
         "yellowCards": 1,
