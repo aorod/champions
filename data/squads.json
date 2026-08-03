@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-02T09:50:52.401Z",
+  "updated": "2026-08-03T11:17:33.640Z",
   "squads": {
     "RSA": [
       {
@@ -8070,7 +8070,7 @@
       },
       {
         "espnId": "250241",
-        "name": "Frantzdy Pierrot",
+        "name": "Frantz Pierrot",
         "jersey": 20,
         "position": "F",
         "goals": 0,
@@ -10136,7 +10136,7 @@
       },
       {
         "espnId": "167060",
-        "name": "Ra��l Jiménez",
+        "name": "Raúl Jiménez",
         "jersey": 9,
         "position": "F",
         "goals": 3,
@@ -13930,7 +13930,7 @@
         "espnId": "317473",
         "name": "Ismaël Gharbi",
         "jersey": 11,
-        "position": "M",
+        "position": "F",
         "goals": 0,
         "assists": 0,
         "yellowCards": 0,
