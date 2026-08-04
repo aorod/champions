@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-03T11:17:33.640Z",
+  "updated": "2026-08-04T10:31:10.206Z",
   "squads": {
     "RSA": [
       {
@@ -10342,7 +10342,7 @@
         "espnId": "303577",
         "name": "Brian Gutiérrez",
         "jersey": 26,
-        "position": "M",
+        "position": "D",
         "goals": 0,
         "assists": 0,
         "yellowCards": 1,
@@ -11322,7 +11322,7 @@
         "espnId": "286667",
         "name": "José Córdoba",
         "jersey": 3,
-        "position": "D",
+        "position": "F",
         "goals": 0,
         "assists": 0,
         "yellowCards": 0,
@@ -12348,7 +12348,7 @@
         "espnId": "182337",
         "name": "Théo Bongonda",
         "jersey": 10,
-        "position": "M",
+        "position": "F",
         "goals": 0,
         "assists": 0,
         "yellowCards": 0,
